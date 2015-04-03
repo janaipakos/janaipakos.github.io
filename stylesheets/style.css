@@ -204,10 +204,15 @@ font-weight: 300;
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    text-align: left;
 }
 
 .centered {
     text-align: center;
+}
+
+.left-align {
+  text-align: left;
 }
 
 .paragraph-lead {
