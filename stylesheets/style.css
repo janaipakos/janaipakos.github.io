@@ -221,10 +221,6 @@ p {
     color: #000000;
 }
 
-p, a {
-  text-decoration: underline;
-}
-
 strong {
     font-weight: 700;
 }
@@ -308,7 +304,9 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
+a.paper {
+  text-decoration: underline;
+}
 
 /* ==========================================================================
    Wrap Sections
