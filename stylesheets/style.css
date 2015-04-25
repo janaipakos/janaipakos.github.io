@@ -290,7 +290,6 @@ a {
 a:hover,
 a:focus {
     color: #c0392b;
-    text-decoration: none;
     outline: 0;
 }
 
