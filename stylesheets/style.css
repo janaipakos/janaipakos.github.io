@@ -182,9 +182,6 @@ font-weight: 300;
     line-height: 1.25em;
 }
 
-h2, p, a {
-  text-decoration: underline;
-}
 
 h3, h6 {
    font-family: 'Source Sans Pro', sans-serif;
@@ -222,6 +219,10 @@ p {
 .paragraph-lead {
     font-size: 20px;
     color: #000000;
+}
+
+p, a {
+  text-decoration: underline;
 }
 
 strong {
