@@ -317,7 +317,8 @@ a.link {
    ========================================================================== */
 
 #headerwrap {
-  background-color:#fff;
+  /*background-color:#fff;*/
+  background-image: url(/images/banner.jpg) no-repeat top center;
   /*: url(../img/header_bg.jpg) no-repeat center top;*/
   margin-top: -50px;
   padding-top: 120px;
