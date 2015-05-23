@@ -1,2 +1,3 @@
 # janaipakos.github.io
-James Anaipakos
+www.jamesanaipakos.com
+James Anaipakos personal / portfolio website
