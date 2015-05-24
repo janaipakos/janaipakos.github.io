@@ -343,11 +343,17 @@ a.link {
   color: white;
 }
 
-#about, #videos, #works, #resume, #quantflaunt, #contact {
+#about, #videos, #works, #resume, #quantflaunt {
     background: #fff;
     text-align: center;
     width: 100%;
     padding 50px 0
+}
+
+#contact {
+  background: #fff;
+  width: 100%;
+  padding: 50px 0 200px 0;
 }
 
 
