@@ -1,0 +1,522 @@
+/* Mixins */
+.Background-size {
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Ease-transition {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+ img {
+    vertical-align: middle;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #000000;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+ textarea {
+    resize: vertical;
+}
+
+#tumblr_controls, .controls {
+    display: none !important;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+  font-family: 'Varela', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.75px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.col-md-4 {
+  padding-bottom: 20px;
+}
+
+.row {
+margin-right: 0px;
+margin-left: -15px;
+}
+
+.modal-body, .modal-body  a {
+    color:#000000;
+}
+.modal-header {
+  background: #000000;
+}
+
+.modal-header h4 {
+  color: white;
+}
+
+.modal-footer {
+  background: #000000;
+}
+
+
+.navbar-default {
+border-color: transparent;
+background-color: #fff;
+}
+
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+ {
+  background-color: #000000;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus
+ {
+  background-color: #C0392B;
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+    color:#000000;
+}
+
+hr {
+    position: relative;
+    border: none;
+}
+
+hr:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: #000000;
+}
+
+a img {
+    background: white;
+}
+
+.odd a img {
+    background: #f5f5f5;
+}
+
+/* Titles */
+h1, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+    color: #000000;
+    line-height: 1.25em;
+}
+
+
+h3, h6 {
+   font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+    color: #000000;
+    line-height: 1.25em;
+    font-size: 200%;
+}
+
+h4, h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+     line-height: 1em;
+     letter-spacing: 0.75px;
+     color:#000000;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.paragraph-lead {
+    font-size: 20px;
+    color: #000000;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-weight: 300;
+}
+
+pre {
+    background: #ebebeb;
+    border: none;
+    font-size: 16px;
+    color: #666;
+    padding: 20px;
+    line-height: 28px;
+}
+
+small {
+    font-size: 12px;
+}
+
+/* Images */
+.overflow-image {
+    margin-top: -65px;
+}
+
+/* Links */
+a {
+  .Ease-transition;
+    color: #000000;
+    word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+    color: #c0392b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+  .Ease-transition;
+}
+
+a.paper {
+  text-decoration: underline;
+}
+
+a.link {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  .Background-size;
+  margin-top: -50px;
+  padding-top: 120px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+}
+
+#headerwrap h1 {
+  color:#000000;
+  margin-top: 90px;
+  line-height: 1.2em;
+  padding-bottom: 0px;
+  letter-spacing: .8px;
+  font-size: 71px;
+  font-weight: 300;
+  text-shadow: 0px 0px 0px #000;
+}
+
+#headerwrap p {
+  color:#000000;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-left: 15px;
+  text-shadow: 0px 0px 0px #000;
+  padding: 20px;
+}
+
+#footerwrap {
+  background: #fff;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#footerwrap h4 {
+  color: white;
+}
+
+#about, #videos, #works, #resume, #quantflaunt {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#contact {
+  background: #fff;
+  width: 100%;
+  padding: 50px 0 200px 0;
+}
+
+
+/* ==========================================================================
+   Box Sections
+   ========================================================================== */
+
+.white h1 {
+  padding-top: 35px;
+}
+
+.white p {
+  padding-top: 25px;
+}
+
+/* Section Dividers */
+.section-divider {
+  .Background-size;
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 450px;
+    border-bottom: 2px solid #E6EAED;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-top: 45px;
+    background: #41434A;
+
+
+    background-position: center center;
+
+    background-attachment: relative;
+
+    text-align: center;
+}
+
+.textdivider h1 {
+  padding-top: 70px;
+  color: #41434A;
+  font-size: 40px;
+}
+
+.textdivider p {
+  color: #41434A;
+  font-size: 25px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-section.short {
+    width: 100%;
+    min-height: 100px;
+    padding: 50px 0px;
+}
+
+
+/* ==========================================================================
+   Image Mask
+   ========================================================================== */
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  background: #000000;
+}
+
+.grid figcaption h5 {
+  margin: 0;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 2px;
+
+}
+
+.grid figcaption a {
+  text-align: left;
+  padding: 5px 10px;
+  margin-left: 20px;
+  display: inline-block;
+  background: #fff;
+  color: #000000;
+  font-size: 13px;
+}
+
+/* Caption Style */
+.mask figure {
+  overflow: hidden;
+}
+
+.mask figure img {
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .mask figure:hover img,
+.mask figure.cs-hover img {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+}
+
+.mask figcaption {
+  height: 50px;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .mask figure:hover figcaption,
+.mask figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+.mask figcaption a {
+  position: absolute;
+  top:10px;
+  bottom: 10px;
+  right: 30px;
+}
+
