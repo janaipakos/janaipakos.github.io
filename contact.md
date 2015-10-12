@@ -2,6 +2,9 @@
 layout: minimal
 js: "/js/contact.js"
 css: "/stylesheets/style.css"
+googlefonts: "Source Sans Pro"
+googlefonts: "Varela"
+
 ---
 
 <div class="page-section short" id="contact" name="contact">
