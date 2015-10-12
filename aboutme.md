@@ -3,7 +3,12 @@ layout: page
 title: About me
 subtitle: Subtitle
 js: "/js/contact.js"
+css:"/stylesheets/normalize.css"
 css: "/stylesheets/style.css"
+css:"/stylesheets/bootstrap.min.css"
+css:"/stylesheets/animate-custom.css"
+googlefonts: "Source Sans Pro"
+googlefonts: "Varela"
 ---
 
  <div class="page-section short" id="about" name="about">

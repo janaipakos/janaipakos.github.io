@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: page
 js: "/js/contact.js"
 css: "/stylesheets/style.css"
 googlefonts: "Source Sans Pro"
