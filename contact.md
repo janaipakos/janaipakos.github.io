@@ -12,7 +12,7 @@ layout: default
       <div class="col-md-offset-1 col-xs-12 col-sm-3 col-md-4 col-lg-4">
         <h2>Email</h2>
           <a href="mailto:janaipakos@gmail.com" class="mail" title="Email"><i class="fa fa-send fa-fw"></i>  janaipakos@gmail.com</a>
-      </div><!-- col-lg-3 -->
+      </div>
 
       <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
         <h2>Social</h2>
@@ -23,10 +23,10 @@ layout: default
           <a alt="letterboxd" href="http://letterboxd.com/cityhunter" class="mail" title="Letterboxd- James Anaipakos"><i class="fa fa-film fa-fw"></i>  Letterboxd</a> <br><br>
           <a alt="bootstrap" href="http://getbootstrap.com/" class="mail" title="Bootstrap"><i class="fa fa-gears fa-fw"></i>  Handmade in Bootstrap</a> <br><br>
         </h4>
-      </div><!-- col-lg-3 -->
+      </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <img class="img-thumbnail" src="images/headshot.jpg" alt="james anaipakos">
       </div>
-    </div><!-- row -->
+    </div>
     </div>
   </div>
