@@ -6,7 +6,7 @@ layout: page
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl/blog }}">
     <h2 class="post-title">{{ post.title }}</h2>
 
     {% if post.subtitle %}
@@ -22,7 +22,7 @@ layout: page
 
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html}}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+    <a href="{{ post.url | prepend: site.baseurl/blog }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
 
    </article>
@@ -33,12 +33,12 @@ layout: page
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl/blog | replace: '//', '/' }}">&larr; Newer Posts</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl/blog | replace: '//', '/' }}">Older Posts &rarr;</a>
   </li>
   {% endif %}
 </ul>
