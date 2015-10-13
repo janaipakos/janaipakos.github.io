@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-subtitle: Web design and development projects
 ---
 
 <div class="page-section short" id="works" name="works">
