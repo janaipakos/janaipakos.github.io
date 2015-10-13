@@ -18,6 +18,7 @@ layout: default
         <h2>Social</h2>
         <h4 style="color:#FBFCFC;">
           <a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="mail" title="LinkedIn- James Anaipakos"><i class="fa fa-briefcase fa-fw"></i>  LinkedIn </a> <br><br>
+          <a alt="linkedin" href="https://github.com/janaipakos" class="mail" title="GitHub- James Anaipakos"><i class="fa fa-github fa-stack-1x fa-inverse fa-fw"></i>  GitHub </a> <br><br>
           <a alt="goodreads" href="https://www.goodreads.com/user/show/2530435-james-anaipakos" class="mail" title="Goodreads- James Anaipakos"><i class="fa fa-bookmark fa-fw"></i>  Goodreads</a> <br><br>
           <a alt="letterboxd" href="http://letterboxd.com/cityhunter" class="mail" title="Letterboxd- James Anaipakos"><i class="fa fa-film fa-fw"></i>  Letterboxd</a> <br><br>
           <a alt="bootstrap" href="http://getbootstrap.com/" class="mail" title="Bootstrap"><i class="fa fa-gears fa-fw"></i>  Handmade in Bootstrap</a> <br><br>
