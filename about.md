@@ -30,7 +30,7 @@ layout: default
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
           <i style="color:#C0392B" class="fa fa-desktop fa-4x"></i>
          <h2>Web Development</h2>
-        <p>I focus on design and process automation rather than the latest framework or tool. With a Build First mindset and an emphasis on clean code, I try to develop applications that are scalable and collaboration-friendly.
+        <p>I focus on design and process automation rather than the latest framework or tool. With a Build First mindset and an emphasis on clean code, I try to develop applications that are scalable and collaboration-friendly.</p>
       </div>
 
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
