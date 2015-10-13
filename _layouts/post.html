@@ -26,14 +26,14 @@ layout: default
 
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <ul>
+    <ul class="pager blog-pager">
       {% if page.previous.url %}
-      <li class="previous" style="text-decoration:none">
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" style="color:white; text-decoration:none" role="button" class="btn btn-default">&larr; Previous Post</a>
+      <li class="previous">
+        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}" style="color:white" role="button" class="btn btn-default">&larr; Previous Post</a>
       </li>
       {% endif %}
       {% if page.next.url %}
-      <li class="next" style="text-decoration:none">
+      <li class="next">
         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}" style="color:white" role="button" class="btn btn-default">Next Post &rarr;</a>
       </li>
       {% endif %}
