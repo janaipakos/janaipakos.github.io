@@ -26,7 +26,7 @@ layout: default
 
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <a style="color:white" role="button" class="btn btn-default">
+    <ul style="color:white" role="button" class="btn btn-default">
       {% if page.previous.url %}
       <li class="previous">
         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
@@ -37,7 +37,7 @@ layout: default
         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
       </li>
       {% endif %}
-    </a>
+    </ul>
   </div>
 </div>
 
