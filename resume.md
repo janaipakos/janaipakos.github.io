@@ -1,15 +1,13 @@
  --
-layout: page
-title: Resume
-subtitle: James Anaipakos Resume
+layout: default
 ---
 
-<div class="page-section short" id="resume" name="resume">
-    <div class="container">
-    <h1 class="centered">Résumé</h1>
-    <hr>
-    <div class="row">
 
+<div class="page-section short" id="resume" name="resume">
+  <div class="container">
+    <h1>Résumé</h1>
+      <hr>
+    <div class="row">
       <div class="col-md-offset-1 col-xs-12 col-sm-3 col-md-4 col-lg-4">
         <h2>Skills and Workflow</h2>
           <p><strong>Front-end:</strong> HTML5, CSS3, Javascript (D3, jQuery, Node.js), Bootstrap, Wordpress</p>
@@ -25,6 +23,12 @@ subtitle: James Anaipakos Resume
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <br><br><a style="color:white" href="images/james_anaipakos_resume.pdf" role="button" class="btn btn-default" title="Resume" target="_blank">Download Résumé</a>
       </div>
-      </div>
-      </div>
+    </div>
   </div>
+</div>
+
+
+
+
+
+
