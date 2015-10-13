@@ -28,7 +28,7 @@ avatar: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: ""
-  Blog: "blog"
+  Blog: "post.html"
   Projects: "projects"
   QuantFlaunt: "quantflaunt"
   Resume: "cv"
