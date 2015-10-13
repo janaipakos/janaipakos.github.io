@@ -39,4 +39,5 @@ layout: default
         <p>I've interviewed hundreds of users and clients, and have experience running usability and A/B tests. Before starting a project, I create client personas and outline user journeys to focus and streamline products and applications.</p>
       </div>
 </div>
+</div>
 
