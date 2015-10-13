@@ -21,7 +21,7 @@ layout: default
           <p>Pratt Institute, Capco Digital, Commerzbank, Banco Popular, Freedie Mac, RezBiz, Talent Inc., Barfly, Complex Magazine, Foxy Digitalis, Chicville USA, Department of Homeland Security, Department of Commerce</p>
       </div>
 
-      <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <br><br><a style="color:white" href="images/james_anaipakos_resume.pdf" role="button" class="btn btn-default" title="Resume" target="_blank">Download Résumé</a>
       </div>
 
