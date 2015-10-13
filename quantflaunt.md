@@ -31,7 +31,7 @@ layout: default
           <h2>Final Site</h2>
             <p>QuantFlaunt went live in 2014. Users can input and track their tangible and intangible thoughts and activities, and compare their representative number to others. How big is your number?</p>
             <a style="color:white" href="http://quantflaunt.github.io" role="button" class="btn btn-default" title="QuantFlaunt">Visit QuantFlaunt</a>
-      </div><!-- col-lg-4 -->
-      </div><!-- row -->
-    </div>
+      </div>
+
+
   </div>
