@@ -4,7 +4,7 @@ layout: default
 
 <div class="page-section short" id="quantflaunt" name="quantflaunt">
     <div class="container">
-      <h1>QUANTFLAUNT</h1>
+      <h1>QuantFlaunt</h1>
       <hr>
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
