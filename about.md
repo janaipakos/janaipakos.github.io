@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page-section short" id="about" name="about">
+<div class="page-section short" id="works" name="works">
   <div class="container">
     <h1>James Anaipakos</h1>
       <hr>

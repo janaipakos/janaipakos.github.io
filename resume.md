@@ -9,7 +9,7 @@ layout: default
       <hr>
     <div class="row">
 
-      <div class="col-md-offset-1 col-xs-12 col-sm-3 col-md-4 col-lg-4">
+      <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
         <h2>Skills and Workflow</h2>
           <p><strong>Front-end:</strong> HTML5, CSS3, Javascript (D3, jQuery, Node.js), Bootstrap, Wordpress</p>
           <p><strong>Back-end:</strong> PHP, Python, NoSQL (MongoDB)</p>
