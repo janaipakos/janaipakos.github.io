@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="page-section short" id="about" name="about">
-  <div class="container">
 
 <div class="posts-list">
   {% for post in paginator.posts %}
@@ -45,6 +43,3 @@ layout: default
   {% endif %}
 </ul>
 {% endif %}
-
-</div>
-</div>
