@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <div class="page-section short" id="works" name="works">
