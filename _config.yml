@@ -28,10 +28,10 @@ avatar: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: ""
-  Blog: "post.html"
+  Blog: "blog"
   Projects: "projects"
   QuantFlaunt: "quantflaunt"
-  Resume: "cv"
+  Resume: "resume"
   Contact: "contact"
 
 # --- Footer options --- #
