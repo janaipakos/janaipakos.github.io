@@ -1,7 +1,5 @@
 ---
-layout: page
-title: Contact me
-subtitle: My contact information
+layout: default
 ---
 
 

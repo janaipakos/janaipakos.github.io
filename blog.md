@@ -1,7 +1,5 @@
 ---
-layout: page
-title: blog
-subtitle: James Anaipakos blog
+layout: default
 ---
 
 

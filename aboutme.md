@@ -1,6 +1,5 @@
 ---
-layout: page
-title: About me
+layout: default
 ---
 
 Hi, welcome to the personal website of James Anaipakos. I'm a front-end developer, UI designer, and author in NYC. I sporadically speak in public about the history of software and data quantification, and write about Eastern European technology, open source projects, and social theory. Currently I'm an associate consultant for Capco, where I improve the documentation and workflow of anti-money laundering applications.

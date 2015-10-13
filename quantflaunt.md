@@ -1,7 +1,5 @@
 ---
-layout: page
-title: QuantFlaunt
-subtitle: A project about quantification
+layout: default
 ---
 
 <div class="page-section short" id="quantflaunt" name="quantflaunt">
