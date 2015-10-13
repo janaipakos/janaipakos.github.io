@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post!
+title: Monetizing Twitch, Kickstarter, and the Imaged­Image
 ---
 
 ## Monetizing Twitch, Kickstarter, and the Imaged­Image
