@@ -44,6 +44,7 @@ Papers, Please touches on many topics regarding control via game systems and nar
 
   Papers, Please sets an example of combining not only the player and the systems within the game, but from the context in which the game is played. According to game designer and theorist Katie Salen, this is where meaningful play emerges. (Salen 32). Dialogue trees are no longer physical manifestations, but diagetic player action, player’s map their game-world and past experiences on a physical field, and a tradition of interactive narrative is integrated into a modern medium. With these elements, Papers, Please demonstrates the systems of control traditionally found within the world of the game's narrative, in the creation of video game narratives, and as represented by video games themselves.
 
+
 ## Works Cited
 - Flusser, V. The Shape of Things. London: Reaktion, 1999. Print.
 
