@@ -4,6 +4,7 @@ title: Monetizing Twitch, Kickstarter, and the Imaged­Image
 date: 2014-05-14
 ---
 
+
 My projects this semester use video games to show theories such as the rhizome, spectatorship and viewer separation, and detournement. Since its introduction early on in Mediologies II, the concept of a rhizome as not only a decentered, anti­genealogical mode of operation, but also as a representation of function over content and origin, has influenced projects relating to ludology and crowdsourcing. One conclusion during this work was that the underexplored functioning of video games gives an alternative glimpse at the mentioned topics from a perspective of computation and digitization, as well as an impressive, malleable totalization. Furthermore, a video game can subsume any type of media or artistic influence in its content as well as its presentation. As I demonstrated throughout the semester in my projects, the method of the game’s play is less important than its formation and presentation.
 
 
