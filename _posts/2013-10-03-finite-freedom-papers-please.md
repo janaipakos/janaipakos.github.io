@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Finite Freedom: Papers, Please and Systems of Control
+title: Finite Freedom, Papers, Please and Systems of Control
 date: 2013-10-03
 ---
+
 
 Systems of control hide in plain sight within modern video games. Whereas in the past, games were satisfied to display and even flaunt heir linearity, such as the scrolling world map in Ghosts and Goblins (1985), present day games advertise freedom of choice, branching player- controlled narratives, and interactive decision-making. In short, the player is no longer on rails, but can determine their own ending. In this essay, I will illustrate the paradox of systems of control in video games, focusing specifically on a recent game that reveals the more freedom from linearity and systems of control a video game seems to offer, not only do these systems become harder to detect, but also the marketing of dynamic narrative becomes another
 manipulation and limitation of play in itself.
@@ -46,6 +47,7 @@ Papers, Please touches on many topics regarding control via game systems and nar
 
 
 ## Works Cited
+
 - Flusser, V. The Shape of Things. London: Reaktion, 1999. Print.
 
 
