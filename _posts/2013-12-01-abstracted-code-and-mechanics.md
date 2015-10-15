@@ -70,7 +70,6 @@ The example of *Fez*, neither procedurally generated nor classified as IF, nonet
 [^11]: von Borries 220
 [^12]: Montfort 16
 [^13]: Galloway, Alexander R. *Gaming: Essays On Algorithmic Culture*. MIT Press 2006.
-[^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” *The New Media Reader*.
-Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
+[^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” *The New Media Reader*. Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
 [^15]: Harney, Stefano, and Fred Moten. *The Undercommons: Fugitive Planning & Black Study*. Minor Compositions, 2013.
 [^16]: Newman, James. *Videogames*. Routledge, 2012.

@@ -62,13 +62,10 @@ Rather than position the player as an EZIC navigating the shadows the topple the
 
 
 [^1]: Galloway, A. *Gaming: Essays on Algorithmic Culture*. London: The University of Minnesota Press, 2006. Print.
-[^2]: von Borries, F. *Space Time Play. Computer Games, Architecture, and Urbanism: The Next Level*.
-Berlin: Birkhauser, 2007. Print.
-[^3]: Wardrip-Fruin, N. *Expressive Processing: Digital Fictions, Computer Games, and Software
-Studies*. London: The MIT Press, 2009. Print.
+[^2]: von Borries, F. *Space Time Play. Computer Games, Architecture, and Urbanism: The Next Level*. Berlin: Birkhauser, 2007. Print.
+[^3]: Wardrip-Fruin, N. *Expressive Processing: Digital Fictions, Computer Games, and Software Studies*. London: The MIT Press, 2009. Print.
 [^4]: Friedman, T. *Electric Dreams: Computers in American Culture*. New York: NYU Press, 2005. Print.
-[^5]: Juul, J. *A Clash Between Game and Narrative*. Bergen: Digital Arts and Culture Conference.
-2003. Online.
+[^5]: Juul, J. *A Clash Between Game and Narrative*. Bergen: Digital Arts and Culture Conference. 2003. Online.
 [^6]: Galloway 143
 [^7]: Flusser, V. *The Shape of Things*. London: Reaktion, 1999. Print.
 [^8]: Jameson, F. *Signatures of the Visible*. New York: Routledge, 1992. Print.
