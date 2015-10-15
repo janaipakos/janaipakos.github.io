@@ -7,7 +7,7 @@ date: 2015-10-13
 I started learning Node.js 100 days ago, the same day I started consulting an IT department. Learning about sanction screening and anti-money laundering during the day and Node's idiosyncractic behavior at night has been fun. I'm not entirely in love with it, and I'll see if my attitude changes at day 200, but it has helped me think about programming in a different way.
 
 
-Node.js has helped me analyze about enterprise languages. The past few months I have been surrounded by Java and .NET developers, and their lumbering, monolithic stacks. Starting a server in Node.js is done with a command line `serve`. Now, I needed to submit a ticket, and wait a week for the new environment to be recreated. Nevertheless, I think that microservices and modular programs, rather than large deployments on the Java and .NET stack, are going to change enterprise architecture and programming models.
+Node.js has helped me analyze about enterprise languages. The past few months I have been surrounded by Java and .NET developers, and their lumbering, monolithic stacks. Starting a server in Node.js is done with one command line. Now, I needed to submit a ticket, and wait a week for the new environment to be recreated. Nevertheless, I think that microservices and modular programs, rather than large deployments on the Java and .NET stack, are going to change enterprise architecture and programming models.
 
 
 I read a few books while learning Node.js. The following is a mix between review, primer, and predictions.
