@@ -22,7 +22,7 @@ These trends may be seen as too beginner-friendly or "cheating," but that's the 
 On the one hand, the freedom from informatics and rules allows writers to make a seemingly limitless number of personal narratives. Using the storylines in *Galatea* as an example, the character plays psychoanalyst to the player, like her model *ELIZA*; in yet another, the player tells her that she is an AI-created agent, and she strangles him; in still another version, a spoof of Internet romances[^3]. But as I will discuss with the instance of procedurally-generated games, the strict, almost oppressive informatics and rules can produce just as engaging a narrative as any interactive fiction, while remaining devoid of a written story. But in both cases, as Marie-Laure Ryan says, every relevant property is in the invisible code, since the proper development of the narrative depends as much on the knowledge-base of the computer as on the reader’s inferential capabilities[^4]. It is this specification in code, thought of as invisible in IF, but observable as statistics and informatics in roguelikes, that allows the player to develop a narrative. In the case of roguelikes, numerical statistics help players determine their decisions, comparable to a list of acceptable words or parsers in traditional IF. Counter-intuitively, it is this static code, which in theory would limit play, that allows differing narratives to take shape. In other words, genres seemingly completely different nonetheless use the same abstracted grammar to guide the player experience.
 
 
-In keeping with Nelson’s encyclopedic vision of hypertext, the authors using Twine and other IF programs organize complex networks of ideas. Twine creates a web or storyboard to help authors visualize and organize the connecting links. With the introduction of these tools and their systems of links, hypertext networks between author and player begin to form. Yet while previously -nhibited voices can be expressed ithrough easy-to-use programs, the strictest of conditions and most punishing of mechanics can also shape and solidify storytelling, like pressure turning carbon into glass.
+In keeping with Theodor Nelson’s encyclopedic vision of hypertext, the authors using Twine and other IF programs organize complex networks of ideas. Twine creates a web or storyboard to help authors visualize and organize the connecting links. With the introduction of these tools and their systems of links, hypertext networks between author and player begin to form. Yet while previously -nhibited voices can be expressed ithrough easy-to-use programs, the strictest of conditions and most punishing of mechanics can also shape and solidify storytelling, like pressure turning carbon into glass.
 
 
 Demonstrating this is the roguelike, a genre of procedurally generated games characterized by level randomization and permanent death. The genre is derived from the fantasy dungeon-crawler *Rogue*. With a resurgence in not only classically defined roguelikes such as *Dungeon Crawl Soup* and *Ancient Domains of Mystery*, but also games with loose roguelike elements, such as the space exploratory *FTL* and lineage-focused *Rogue Legacy*, players have demonstrated a desire for not only challenging mechanics, but a freedom to explore narrative independent from commercial design. With only minimally written storylines, the featured world-building emerges from the mechanics and battle-fought experiences. The common thread between IF and roguelikes is the interactive process generating narrative. From Montfort: “For one thing, the puzzles in a work of interactive fiction function to control the revelation of the narrative . . . the pleasure is in solving them, in learning the secret”[^5]. Roguelikes and IF facilitate the narrative through mechanics and environmental descriptions, even if they are on polar ends of an axis of visible informatics and rules. IF can craft a poignant narrative through the most basic of user interaction, while players of roguelikes consider death and defeat a richer narrator than any author.
@@ -31,7 +31,7 @@ Demonstrating this is the roguelike, a genre of procedurally generated games cha
 This hands-off approach is facilitated by the interplay of two methods of design: emergent design and progressive design. Jesper Juul writes that the challeneges in most computer games are a combination of these two methods[^6]. Emergence is a small number of rules that combine and yield large numbers of game variations; progressive design is a predefined set of actions. These definitions illustrate what makes a game such as *Everquest* so addicting: the experience constantly changes through emergent events and combines with progressive quests and obstacles that essentially never end. For the purpose of this paper, I would argue that the progressive design previously found in NPC dialogue and quest bubbles has transferred onto mechanics, "into the code." Or as Ryan says, “evoking not only a world through visible text, but also constructing a productive model of this world through computer-language statements that player never gets to see” [^7].
 
 
-The creation of narrative from the perspective of the player exemplifies what Katherine Malibu calls plasticity:
+The creation of narrative from the perspective of the player exemplifies what Katherine Malabou calls plasticity:
 ```“Plasticity designates a much more effective transformative ability . . . not an infinite modability, but a possibility of displacing or transforming the mark or the imprint, of changing determinism in some way"```[^8].
 Games seen as complex to learn, such as *Civilization* and *Dwarf Fortress*, are daunting on the algorithmic level, with their steep learning curve and necessary player knowledge of informatics. But on another level, these games intimidate players in their freedom of narrative. This is a key distinction that illustrates the necessity of progressive design. Not only is there a multitude of screens, menus, measurements, informatics, which are learnable through hours of tutorials or explanations, the absence of a goal screen or final level, this much wanted freedom of play, can alienate a player.
 
@@ -57,68 +57,24 @@ When presented with the freedom to create their own narrative, and utilize extra
 The example of *Fez*, neither procedurally generated nor classified as IF, nonetheless demonstrates a common thread in the mentioned genres and games: developers are telling a story and building a world through the medium (sometimes across several) rather than through explicitly told content. The three aforementioned characteristics, creation and dispersal, player and mechanic accessibility, and rich and radical gamespace world-building, all differ to certain degrees: the frequency of new content in IF and roguelikes dwarfs the unique *Fez*, but the extra-extradiegesis of outside tools needed to solve the QR codes, as well as the community effort to solve the most difficult of puzzles, is specific to Fish’s platformer. Despite a difference in amount with each of the mentioned genres, these three aspects all represent player agency at their most basic level, capturing a zeitgeist of social movement, and set forth a precedent for not only future titles, but open-source platforms as well. One need only look at the success and parroting of Steam. The more available the tools to create games, the more plastic a games mechanics, and the richer a game’s world, the smaller the gap between player and creator.
 
 
-[^1]: Wark 42
-[^2]: 62
-[^3]: Ryan 132
-[^4]: 129
-[^5]: 5
-[^6]: 323
-[^7]: 127
-[^8]: 16
-[^9]: von Borries 281
-[^10]: Lichtenberg
-[^11]: von Borries 220
-[^12]: 16
-[^13]: Galloway 87-88
-[^14]: 74
-[^15]: 7
-[^16]: 81
-
-
-## Works Cited
-
-- Bolter, Jay David.“Remediation and the Desire for Immediacy.” Convergence: The International
+[^1]: Wark, McKenzie. Gamer Theory. Harvard University Press, 2009.
+[^2]: Bolter, Jay David.“Remediation and the Desire for Immediacy.” Convergence: The International
 Journal of Research into New Media Technologies, 6.1 (2000): 62-71.
-
-
-- von Borries, Friederich, et al., eds. Space Time Play: Synergies Between Computer Games,
-Architecture and Urbanism: the Next Level. Birkhauser Boston, 2007.
-
-
-- Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” The New Media Reader.
-Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
-
-
-- Galloway, Alexander R. Gaming: Essays On Algorithmic Culture. MIT Press 2006.
-
-
-- Harney, Stefano, and Fred Moten. The Undercommons: Fugitive Planning & Black Study, Minor
-Compositions, 2013.
-
-
-- Juul, Jesper. The Open and the Closed: Games of Emergence and Games of Progression. CGDC
+[^3]: Ryan, Marie-Laure. Avatars of Story. Vol. 17. U of Minnesota Press, 2006.
+[^4]: Ryan 129
+[^5]: Montfort, Nick. Twisty Little Passages: An Approach to Interactive Fiction. MIT Press, 2005.
+[^6]: Juul, Jesper. The Open and the Closed: Games of Emergence and Games of Progression. CGDC
 Conf.. 2002.
-
-
-- Lichtenberg, Georg Christoph. The Waste Books. New York Review of Books, 1990.
-
-
-- Malabou, Catherine. What Should We Do With Our Brain?. Fordham Univ Press, 2009.
-
-
-- Montfort, Nick. Twisty Little Passages: An Approach to Interactive Fiction. MIT Press, 2005.
-
-
-- Nelson, Theodor Holm. Literary Machines: The Report On, and Of, Project Xanadu Concerning
-Word Processing, Electronic Publishing, Hypertext, Thinkertoys, Tomorrow’s Intellectual Revolution, and Certain Other Topics Including Knowledge, Education and Freedom. Schooley’s Mountain, NJ: distrib. by Distributors, 1987.
-
-
-- Newman, James. Videogames. Routledge, 2012.
-
-
-- Ryan, Marie-Laure. Avatars of Story. Vol. 17. U of Minnesota Press, 2006.
-
-
-- Wark, McKenzie. Gamer Theory. Harvard University Press, 2009.
-
-
+[^7]: Ryan 127
+[^8]: Malabou, Catherine. What Should We Do With Our Brain?. Fordham Univ Press, 2009.
+[^9]: von Borries, Friederich, et al., eds. Space Time Play: Synergies Between Computer Games,
+Architecture and Urbanism: the Next Level. Birkhauser Boston, 2007.
+[^10]: Lichtenberg, Georg Christoph. The Waste Books. New York Review of Books, 1990.
+[^11]: von Borries 220
+[^12]: Montfort 16
+[^13]: Galloway, Alexander R. Gaming: Essays On Algorithmic Culture. MIT Press 2006.
+[^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” The New Media Reader.
+Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
+[^15]: Harney, Stefano, and Fred Moten. The Undercommons: Fugitive Planning & Black Study, Minor
+Compositions, 2013.
+[^16]: Newman, James. Videogames. Routledge, 2012.
