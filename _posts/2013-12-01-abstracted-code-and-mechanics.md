@@ -57,24 +57,24 @@ When presented with the freedom to create their own narrative, and utilize extra
 The example of *Fez*, neither procedurally generated nor classified as IF, nonetheless demonstrates a common thread in the mentioned genres and games: developers are telling a story and building a world through the medium (sometimes across several) rather than through explicitly told content. The three aforementioned characteristics, creation and dispersal, player and mechanic accessibility, and rich and radical gamespace world-building, all differ to certain degrees: the frequency of new content in IF and roguelikes dwarfs the unique *Fez*, but the extra-extradiegesis of outside tools needed to solve the QR codes, as well as the community effort to solve the most difficult of puzzles, is specific to Fish’s platformer. Despite a difference in amount with each of the mentioned genres, these three aspects all represent player agency at their most basic level, capturing a zeitgeist of social movement, and set forth a precedent for not only future titles, but open-source platforms as well. One need only look at the success and parroting of Steam. The more available the tools to create games, the more plastic a games mechanics, and the richer a game’s world, the smaller the gap between player and creator.
 
 
-[^1]: Wark, McKenzie. Gamer Theory. Harvard University Press, 2009.
-[^2]: Bolter, Jay David.“Remediation and the Desire for Immediacy.” Convergence: The International
-Journal of Research into New Media Technologies, 6.1 (2000): 62-71.
-[^3]: Ryan, Marie-Laure. Avatars of Story. Vol. 17. U of Minnesota Press, 2006.
+[^1]: Wark, McKenzie. *Gamer Theory*. Harvard University Press, 2009.
+[^2]: Bolter, Jay David.“Remediation and the Desire for Immediacy.” *Convergence: The International
+Journal of Research into New Media Technologies*, 6.1 (2000): 62-71.
+[^3]: Ryan, Marie-Laure. *Avatars of Story*. Vol. 17. U of Minnesota Press, 2006.
 [^4]: Ryan 129
-[^5]: Montfort, Nick. Twisty Little Passages: An Approach to Interactive Fiction. MIT Press, 2005.
-[^6]: Juul, Jesper. The Open and the Closed: Games of Emergence and Games of Progression. CGDC
+[^5]: Montfort, Nick. *Twisty Little Passages: An Approach to Interactive Fiction*. MIT Press, 2005.
+[^6]: Juul, Jesper. *The Open and the Closed: Games of Emergence and Games of Progression*. CGDC
 Conf.. 2002.
 [^7]: Ryan 127
-[^8]: Malabou, Catherine. What Should We Do With Our Brain?. Fordham Univ Press, 2009.
-[^9]: von Borries, Friederich, et al., eds. Space Time Play: Synergies Between Computer Games,
-Architecture and Urbanism: the Next Level. Birkhauser Boston, 2007.
-[^10]: Lichtenberg, Georg Christoph. The Waste Books. New York Review of Books, 1990.
+[^8]: Malabou, Catherine. *What Should We Do With Our Brain?*. Fordham Univ Press, 2009.
+[^9]: von Borries, Friederich, et al., eds. *Space Time Play: Synergies Between Computer Games,
+Architecture and Urbanism: the Next Level*. Birkhauser Boston, 2007.
+[^10]: Lichtenberg, Georg Christoph. *The Waste Books*. New York Review of Books, 1990.
 [^11]: von Borries 220
 [^12]: Montfort 16
-[^13]: Galloway, Alexander R. Gaming: Essays On Algorithmic Culture. MIT Press 2006.
-[^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” The New Media Reader.
+[^13]: Galloway, Alexander R. *Gaming: Essays On Algorithmic Culture*. MIT Press 2006.
+[^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” *The New Media Reader*.
 Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
-[^15]: Harney, Stefano, and Fred Moten. The Undercommons: Fugitive Planning & Black Study, Minor
+[^15]: Harney, Stefano, and Fred Moten. *The Undercommons: Fugitive Planning & Black Study*. Minor
 Compositions, 2013.
-[^16]: Newman, James. Videogames. Routledge, 2012.
+[^16]: Newman, James. *Videogames*. Routledge, 2012.
