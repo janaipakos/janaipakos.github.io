@@ -62,18 +62,15 @@ The example of *Fez*, neither procedurally generated nor classified as IF, nonet
 [^3]: Ryan, Marie-Laure. *Avatars of Story*. Vol. 17. U of Minnesota Press, 2006.
 [^4]: Ryan 129
 [^5]: Montfort, Nick. *Twisty Little Passages: An Approach to Interactive Fiction*. MIT Press, 2005.
-[^6]: Juul, Jesper. *The Open and the Closed: Games of Emergence and Games of Progression*. CGDC
-Conf.. 2002.
+[^6]: Juul, Jesper. *The Open and the Closed: Games of Emergence and Games of Progression*. CGDC Conf.. 2002.
 [^7]: Ryan 127
 [^8]: Malabou, Catherine. *What Should We Do With Our Brain?*. Fordham Univ Press, 2009.
-[^9]: von Borries, Friederich, et al., eds. *Space Time Play: Synergies Between Computer Games,
-Architecture and Urbanism: the Next Level*. Birkhauser Boston, 2007.
+[^9]: von Borries, Friederich, et al., eds. *Space Time Play: Synergies Between Computer Games, Architecture and Urbanism: the Next Level*. Birkhauser Boston, 2007.
 [^10]: Lichtenberg, Georg Christoph. *The Waste Books*. New York Review of Books, 1990.
 [^11]: von Borries 220
 [^12]: Montfort 16
 [^13]: Galloway, Alexander R. *Gaming: Essays On Algorithmic Culture*. MIT Press 2006.
 [^14]: Enzensberger, Hans Magnus.“Constituents of a Theory of the Media,” *The New Media Reader*.
 Ed. Noah Wardrip Fruin & Nick Montfort. MIT Press, 2008. 261-281.
-[^15]: Harney, Stefano, and Fred Moten. *The Undercommons: Fugitive Planning & Black Study*. Minor
-Compositions, 2013.
+[^15]: Harney, Stefano, and Fred Moten. *The Undercommons: Fugitive Planning & Black Study*. Minor Compositions, 2013.
 [^16]: Newman, James. *Videogames*. Routledge, 2012.

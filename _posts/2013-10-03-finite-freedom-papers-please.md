@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finite Freedom, *Papers, Please* and Systems of Control
+title: Finite Freedom, Papers, Please and Systems of Control
 date: 2013-10-03
 ---
 
