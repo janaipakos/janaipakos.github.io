@@ -58,8 +58,7 @@ The example of *Fez*, neither procedurally generated nor classified as IF, nonet
 
 
 [^1]: Wark, McKenzie. *Gamer Theory*. Harvard University Press, 2009.
-[^2]: Bolter, Jay David.“Remediation and the Desire for Immediacy.” *Convergence: The International
-Journal of Research into New Media Technologies*, 6.1 (2000): 62-71.
+[^2]: Bolter, Jay David.“Remediation and the Desire for Immediacy.” *Convergence: The International Journal of Research into New Media Technologies*, 6.1 (2000): 62-71.
 [^3]: Ryan, Marie-Laure. *Avatars of Story*. Vol. 17. U of Minnesota Press, 2006.
 [^4]: Ryan 129
 [^5]: Montfort, Nick. *Twisty Little Passages: An Approach to Interactive Fiction*. MIT Press, 2005.
