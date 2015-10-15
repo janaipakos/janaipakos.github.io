@@ -21,7 +21,7 @@ layout: default
           <a alt="linkedin" href="https://github.com/janaipakos" class="mail" title="GitHub- James Anaipakos"><i class="fa fa-github fa-fw"></i>  GitHub </a> <br><br>
           <a alt="goodreads" href="https://www.goodreads.com/user/show/2530435-james-anaipakos" class="mail" title="Goodreads- James Anaipakos"><i class="fa fa-bookmark fa-fw"></i>  Goodreads</a> <br><br>
           <a alt="letterboxd" href="http://letterboxd.com/cityhunter" class="mail" title="Letterboxd- James Anaipakos"><i class="fa fa-film fa-fw"></i>  Letterboxd</a> <br><br>
-          <a alt="bootstrap" href="http://getbootstrap.com/" class="mail" title="Bootstrap"><i class="fa fa-gears fa-fw"></i>  Handmade in Bootstrap</a> <br><br>
+          <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="mail" title="Vimeo"><i class="fa fa-vimeo-square fa-fw"></i>  Vimeo</a> <br><br>
         </h4>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
