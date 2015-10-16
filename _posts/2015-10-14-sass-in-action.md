@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sass in Action
-date: 2015-10-13
+date: 2015-10-14
 ---
 
 I've been working with Sass for the past few months and wanted to post a few resources that I've come across that I use with every project and may help someone else.
