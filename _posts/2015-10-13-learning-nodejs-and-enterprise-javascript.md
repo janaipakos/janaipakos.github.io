@@ -46,5 +46,5 @@ There is still a lot I don't *get* with Node.js. Callbacks are a drag, and autho
 This goes back to what I love about Node.js. Some of it is magic and the answer to so many headaches in enterprise systems. Some of it is voodoo that I can't wrap my head around. Anyway, I'm sure some of this will clear up during the next 100 days.
 
 
-[^1]: [*NodeJS in Action*](https://www.manning.com/books/node-js-in-action)
-[^2]: [Forrester](https://forrester.com/home)
+[^1]: [*NodeJS in Action*](https://www.manning.com/books/node-js-in-action "NodeJS in Action")
+[^2]: [Forrester](https://forrester.com/home "Forrester Research")
