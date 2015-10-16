@@ -44,13 +44,6 @@ Mixins differ as well. SCSS uses `@mixin` and `@include` and while Sass can use 
 Comments in Sass only require one marker, such as `//`, `/*`, and `/*!`, even if the comment is multi-line. In SCSS, `//` marks a single-line comment, and must appear on each new lines.
 
 
-The two multiline comment markers must close the comment on the final line, such as this:
-
-```// One line```
-
-```// Two line```
-
-
 Both syntaxes have their pros and cons. Luckily the two syntaxes are convertable with the `sass-convert` command, and the `@import` directive allows you to use each syntax in the same project, as long as they are in different files.
 
 
