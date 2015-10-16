@@ -46,10 +46,10 @@ Comments in Sass only require one marker, such as `//`, `/*`, and `/*!`, even if
 
 The two multiline comment markers must close the comment on the final line, such as this:
 
-```// One line
+```// One line```
 
-    // Two line
-```
+```// Two line```
+
 
 Both syntaxes have their pros and cons. Luckily the two syntaxes are convertable with the `sass-convert` command, and the `@import` directive allows you to use each syntax in the same project, as long as they are in different files.
 
