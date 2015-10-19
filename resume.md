@@ -8,8 +8,8 @@ layout: default
 
 
 ## Summary
-- Fifteen months experience in front-end development, UX design, data visualization, and testing.
-- Five years of experience as project leader, from two to six members.
+- **Fifteen months** experience in front-end development, UX design, data visualization, and testing.
+- **Five years** of experience as project leader, from two to six members.
 - Graduate degree in Media Studies from Pratt Institute.
 
 ## Work Experience
@@ -19,10 +19,10 @@ Capco is a financial consulting company with a focus in technology. I work with 
 
 
 #### Associate Consultant, Technology Domain
-- Work with team of seven on front-end development on Sharepoint 2013 customer facing website with 350+ combined pages.
-- Record and produce 20-hour knowledge transfer session of technical architecture and code base as added value for client.
+- Work with team of seven on front-end development on Sharepoint 2013 customer facing website with **350+ combined pages**.
+- Record and produce **20-hour** knowledge transfer session of technical architecture and code base as added value for client.
 - Create D3.js visualization and dependency tool for two different national banks; tools were used to enrich user experience and reduce time for employees in identifying relevant tasks and relationships.
-- Create more than 600 compliance and database testing documents for international bank. Documents span five years of software use for Actimize AML applications.
+- Create **more than 600** compliance and database testing documents for international bank. Documents span five years of software use for Actimize AML applications.
 - Collaborate on presentation dashboard using Django framework.
 
 
@@ -31,7 +31,7 @@ Barfly is a secret shopper reporting service for bars, restaurants, nightclubs, 
 
 
 #### Contractor
-- Investigate and document theft, neglect, and waste in bars and restaurants; wrote more than 30 documents designed to help implement improvements to business flow, enhance user experience, and avoid loss by company owners.
+- Investigate and document theft, neglect, and waste in bars and restaurants; wrote **more than 30** documents designed to help implement improvements to business flow, enhance user experience, and avoid loss by company owners.
 
 
 ### Pratt Institute, Brooklyn, NY (2013–2015)
@@ -39,7 +39,7 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 
 
 #### Editorial Assistant
-- Strategized and wrote more than 100 articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.
+- Strategized and wrote **more than 100** articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.
 - Interviewed alumni, students, and faculty on events and exhibitions.
 
 
