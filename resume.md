@@ -61,3 +61,14 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 -- Graduate Thesis: *Hardware and Software in Post-Communist Central and Eastern Europe*
 - Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009
 - MongoDB for Node.js Developers, MongoDB, 2015
+
+
+## Technical Skills and Keywords
+- HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass),
+- JavaScript (jQuery, D3.js, Node.js, Angular.js, Express.js, Gulp), Python, PHP, Ruby
+- SQL, NoSQL, MongoDB (Mongoose)
+- GitHub, Git, vim, shell, bash
+- VitrualBox, JIRA, Basecamp
+- WordPress, Bootstrap, Jade, EJS
+- Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, SublimeText, Microsoft Excel
+- Front-End Development, MVC Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software
