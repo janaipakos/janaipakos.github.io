@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
+<div class="page-section short" id="works" name="works">
+    <div class="container">
 # Résumé
 
 
@@ -60,5 +61,6 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 - Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009
 - MongoDB for Node.js Developers, MongoDB, 2015
 
-
+</div>
+</div>
 
