@@ -3,13 +3,12 @@ layout: default
 ---
 
 
-<div class="page-section short" id="resume" name="resume">
 
 # Résumé
-<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+<!-- <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
         <br><br><a style="color:white" href="images/james_anaipakos_resume.pdf" role="button" class="btn btn-default" title="Resume" target="_blank">Download Résumé</a>
       </div>
-       <div class="row">
+       <div class="row"> -->
 ## Summary
 - Fifteen months experience in front-end development, UX design, and testing.
 - Five years of experience as project leader, from two to six members.
@@ -64,9 +63,6 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 -- Graduate Thesis: Hardware and Software in Post-Communist Central and Eastern Europe
 - Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009
 - MongoDB for Node.js Developers, MongoDB, 2015
-
-</div>
-
 
 
 
