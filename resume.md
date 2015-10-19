@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
-
-return
+<div></br></br></div>
 
 
 # Résumé
