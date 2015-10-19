@@ -52,12 +52,12 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 
 ## Presentations
 - NYC Media Lab Summit, 09/25/2015, QuantFlaunt
-- IndieCade East, 02/13/2015, Hardware and Software in Post-Communist Central and Eastern Europe
+- IndieCade East, 02/13/2015, *Hardware and Software in Post-Communist Central and Eastern Europe*
 
 
 ## Education
 - Master of Arts in Media Studies, Pratt Institute, Brooklyn, NY, 2015
--- Graduate Thesis: Hardware and Software in Post-Communist Central and Eastern Europe
+-- Graduate Thesis: *Hardware and Software in Post-Communist Central and Eastern Europe*
 - Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009
 - MongoDB for Node.js Developers, MongoDB, 2015
 
