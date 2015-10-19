@@ -65,6 +65,9 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 
 
 ## Open-Source Projects
+- MongoDB Native NodeJS Driver
+- Taiga.io -Project management web application with scrum in mind! Built on top of Django and AngularJS (Front)
+- Quantflaunt.github.io -Data quantification web application built with Bootstrap and Highcharts
 
 ## Technical Skills and Keywords
 - HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass),
