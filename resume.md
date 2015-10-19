@@ -70,7 +70,7 @@ I worked in Pratt Institute’s Editorial Department in the Office of Communicat
 - Quantflaunt.github.io -Data quantification web application built with Bootstrap and Highcharts
 
 ## Technical Skills and Keywords
-- HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass),
+- HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass)
 - JavaScript (jQuery, D3.js, Node.js, Angular.js, Express.js, Gulp), Python, PHP, Ruby
 - SQL, NoSQL, MongoDB (Mongoose)
 - GitHub, Git, vim, shell, bash
