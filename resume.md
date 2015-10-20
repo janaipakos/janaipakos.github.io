@@ -19,7 +19,7 @@ layout: default
 <li>Work with team of seven on front-end development on Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>.</li>
 <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
 <li>Create D3.js visualization and dependency tool for two different national banks; tools were used to enrich user experience and reduce time for employees in identifying relevant tasks and relationships.</li>
-<li>Create <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize AML applications.</li>
+<li>Write <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize AML applications.</li>
 <li>Collaborate on presentation dashboard using Django framework.</li>
 </ul>
 <h2>Barfly, New York, NY (2013–Present)</h2>
@@ -56,7 +56,7 @@ layout: default
 </ul>
 <h1>Open-Source Projects</h1>
 <ul>
-<li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</li>
+<li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a></li>
 <li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>-Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end)</li>
 <li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a>-Data quantification web application built with Bootstrap and Highcharts</li>
 </ul>
