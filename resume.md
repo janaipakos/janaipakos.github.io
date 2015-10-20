@@ -57,8 +57,8 @@ layout: default
 <h1>Open-Source Projects</h1>
 <ul>
 <li>MongoDB Native NodeJS Driver</li>
-<li><a href="http://taiga.io" alt="Taiga">Taiga.io</a> -Project management web application with scrum in mind! Built on top of Django and AngularJS (Front)</li>
-<li><a href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a> -Data quantification web application built with Bootstrap and Highcharts</li>
+<li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a> -Project management web application with scrum in mind! Built on top of Django and AngularJS (Front)</li>
+<li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a> -Data quantification web application built with Bootstrap and Highcharts</li>
 </ul>
 <h1>Technical Skills and Keywords</h1>
 <ul>
