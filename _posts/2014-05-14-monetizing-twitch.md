@@ -5,6 +5,9 @@ date: 2014-05-14
 ---
 
 
+*I recently completed my first year of graduate school in the Media Studies program at Pratt Institute. What follows is a paper I wrote describing the projects I worked on.*
+
+
 My projects this semester use video games to explore concepts such as the rhizome, spectatorship and viewer separation, and detournement. Since its introduction early on in Mediologies II, the concept of a rhizome as not only a decentered, anti­genealogical mode of operation, but also as a representation of function over content and origin, has influenced my projects relating to ludology and crowdsourcing. One conclusion during this work was that the underexplored functioning of video games gives an alternative glimpse at the mentioned topics from a perspective of computation and digitization, as well as an impressive, malleable totalization. Furthermore, the conclusion that a video game can subsume any type of media or artistic influence in its content as well as in its presentation. As I demonstrated throughout the semester in my projects, the method of the game’s play is less important than its formation and presentation.
 
 
