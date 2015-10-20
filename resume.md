@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div role="resume" class="resume">
+<div div class="page-section short"  id="resume" class="resume">
 <h1>Résumé</h1>
 <h2>Summary</h2>
 <ul>
