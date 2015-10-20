@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<div div class="page-section short"  id="resume" class="resume">
-<h1>Résumé</h1>
+<div class="page-section short">
+<h1 style="center">Résumé</h1>
+<hr>
 <h2>Summary</h2>
 <ul>
 <li><strong>Fifteen months</strong> experience in front-end development, UX design, data visualization, and testing.</li>
