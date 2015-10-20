@@ -22,7 +22,7 @@ layout: default
         <li>Write <strong>more than 600</strong> compliance and database testing documents for international bank.</li> <ul><li>Documents span five years of software use for Actimize anti-money laundering applications.</li></ul>
         <li>Collaborate on presentation dashboard using the Python framework Django.</li>
     </ul>
-<h2>Barfly, New York, NY (2013–Present)</h2>
+<h2>Barfly, New York, NY (2013–now)</h2>
 <h4>Contractor</h4>
     <ul>
           <li>Observe and document theft, neglect, and waste in bars and restaurants </li>
