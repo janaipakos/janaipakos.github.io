@@ -4,7 +4,7 @@ title: Sass in Action
 date: 2015-10-14
 ---
 
-I've been working with Sass for the past few months and wanted to post a few resources that I've come across that I use with every project and may help someone else.
+I've been working with Sass for the past few months and wanted to post a few resources that I've come across.
 
 
 Part of the reason for this post is the UI designer of five years who told me he does not use a preprocessor. My heart goes out to him.
