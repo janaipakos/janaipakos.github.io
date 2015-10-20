@@ -6,69 +6,69 @@ layout: default
 <h1 class="centered">Résumé</h1>
 <hr>
 <h1>Summary</h1>
-<ul>
-<li><strong>Fifteen months</strong> experience in front-end development, UX design, data visualization, and testing.</li>
-<li><strong>Five years</strong> of experience as project leader, from two to six members.</li>
-<li>Graduate degree in Media Studies from Pratt Institute.</li>
-</ul>
+    <ul>
+    <li><strong>Fifteen months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
+    <li><strong>Four years</strong> of experience as project leader, from two to six members.</li>
+    <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>.</li>
+    </ul>
 <h1>Work Experience</h1>
 <h2>Capco, New York, NY (2014–now)</h2>
 <h4>Associate Consultant, Technology Domain</h4>
-<ul>
-<li>Work with international clients on website development, data analysis and visualization, and anti-money laundering software documentation and testing.</li>
-<li>Work with team of seven on front-end development on Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>.</li>
-<li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
-<li>Create D3.js visualization and dependency tool for two different national banks; tools were used to enrich user experience and reduce time for employees in identifying relevant tasks and relationships.</li>
-<li>Write <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize AML applications.</li>
-<li>Collaborate on presentation dashboard using Django framework.</li>
-</ul>
+    <ul>
+        <li>Collaborate with team on website development, data analysis and visualization, and anti-money laundering software documentation and testing for international clients.</li>
+        <li>Work with team of seven on front-end development and QA testing for successfully-deployed Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>.</li> Markup includes Sass and Bootstrap.
+        <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
+        <li>Create D3.js visualizations and dependency tools for two different national banks. These tools helped enrich the user experience of employees by quickly identifying relevant tasks and relationships.</li>
+        <li>Write <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize anti-money laundering applications.</li>
+        <li>Collaborate on presentation dashboard using the Python framework Django.</li>
+    </ul>
 <h2>Barfly, New York, NY (2013–Present)</h2>
 <h4>Contractor</h4>
-<ul>
-<li>Compose reports for secret shopper service for bars, restaurants, nightclubs, and hotels.</li>
-<li>Train shoppers in report writing and staff behavior observation.</li>
-<li>Investigate and document theft, neglect, and waste in bars and restaurants; wrote <strong>more than 30</strong> documents designed to help implement improvements to business flow, enhance user experience, and avoid loss by company owners.</li>
-</ul>
+    <ul>
+          <li>Observe and document theft, neglect, and waste in bars and restaurants; wrote <strong>more than 30</strong> documents designed to improve business flow, enhance user experience, and avoid loss by company owners.</li>
+          <li>Train shoppers in report writing and staff behavior observation.</li>
+    </ul>
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
 <h4>Editorial Assistant, Office of Communications</h4>
-<ul>
-<li>Wrote <strong>more than 100</strong> articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.</li>
-<li>Interviewed alumni, students, and faculty on events and exhibitions.</li>
-</ul>
-<h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2015)</h2>
+    <ul>
+        <li>Independently wrote <strong>more than 100</strong> articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.</li>
+        <li>Interviewed alumni, students, and faculty on events and exhibitions.</li>
+        <li>Advised fellow writers on content style, voice, and structure.</li>
+    </ul>
+<h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
 <h4>Transportation Security Officer</h4>
-<ul>
-<li>Interviewed hundreds of airline passengers while observing behavioral cues.</li>
-<li>Identified security incidents, and practiced pattern recognition and anomaly detection.</li>
-<li>Passed three security drills designed to test officer alertness and critical thinking.</li>
-</ul>
+    <ul>
+        <li>Interviewed hundreds of airline passengers while observing behavioral cues.</li>
+        <li>Identified security incidents, recognized patterns, and detected anomalies in luggage.</li>
+        <li>Passed three security drills designed to test officer alertness and critical thinking.</li>
+    </ul>
 <h1>Presentations</h1>
-<ul>
-<li>NYC Media Lab Summit, 09/25/2015, QuantFlaunt</li>
-<li>IndieCade East, 02/13/2015, <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li>
-</ul>
+    <ul>
+        <li>NYC Media Lab Summit, 09/25/2015, QuantFlaunt</li>
+        <li>IndieCade East, 02/13/2015, <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li>
+        </ul>
 <h1>Education</h1>
-<ul>
-<li>Master of Arts in Media Studies, Pratt Institute, Brooklyn, NY, 2015</li>
-<ul><li>Graduate Thesis: <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li></ul>
-<li>Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009</li>
-<li>MongoDB for Node.js Developers, MongoDB, 2015</li>
-</ul>
+    <ul>
+        <li>Master of Arts in Media Studies, Pratt Institute, Brooklyn, NY, 2015</li>
+        <ul><li>Graduate Thesis: <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li></ul>
+        <li>Double Bachelor of Arts, English and Humanities, Florida State University, Tallahassee, FL, 2009</li>
+        <li>MongoDB for Node.js Developers, MongoDB, 2015</li>
+    </ul>
 <h1>Open-Source Projects</h1>
-<ul>
-<li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a></li>
-<li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>-Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end)</li>
-<li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a>-Data quantification web application built with Bootstrap and Highcharts</li>
-</ul>
+    <ul>
+        <li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a></li>
+        <li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>-Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end).</li>
+        <li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a>-Data quantification web application built with Bootstrap and Highcharts.</li>
+    </ul>
 <h1>Technical Skills and Keywords</h1>
-<ul>
-<li>HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass)</li>
-<li>JavaScript (jQuery, D3.js, Node.js, Angular.js, Express.js, Gulp), Python, PHP, Ruby</li>
-<li>SQL, NoSQL, MongoDB (Mongoose)</li>
-<li>GitHub, Git, vim, shell, bash</li>
-<li>VitrualBox, JIRA, Basecamp</li>
-<li>WordPress, Bootstrap, Jade, EJS</li>
-<li>Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, SublimeText, Microsoft Excel</li>
-<li>Front-End Development, MVC Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software</li>
-</ul>
+    <ul>
+        <li>HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass)</li>
+        <li>JavaScript (jQuery, D3.js, Node.js, Angular.js, Express.js, Gulp), Python (Django), PHP, Ruby</li>
+        <li>SQL, NoSQL, MongoDB (Mongoose)</li>
+        <li>GitHub, git, vim, shell, bash</li>
+        <li>VitrualBox, JIRA, Basecamp</li>
+        <li>WordPress, Bootstrap, Jade, EJS</li>
+        <li>Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, SublimeText, Microsoft Excel</li>
+        <li>Front-End Development, MVC Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software</li>
+    </ul>
 </div>
