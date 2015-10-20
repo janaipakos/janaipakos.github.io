@@ -13,9 +13,9 @@ layout: default
 </ul>
 <h1>Work Experience</h1>
 <h2>Capco, New York, NY (2014–now)</h2>
-<p>Capco is a financial consulting company with a focus in technology. I work with international clients on website development, data analysis and visualization, and anti-money laundering software documentation and testing.</p>
 <h4>Associate Consultant, Technology Domain</h4>
 <ul>
+<li>Work with international clients on website development, data analysis and visualization, and anti-money laundering software documentation and testing.</li>
 <li>Work with team of seven on front-end development on Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>.</li>
 <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
 <li>Create D3.js visualization and dependency tool for two different national banks; tools were used to enrich user experience and reduce time for employees in identifying relevant tasks and relationships.</li>
