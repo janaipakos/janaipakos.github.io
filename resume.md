@@ -23,16 +23,17 @@ layout: default
 <li>Collaborate on presentation dashboard using Django framework.</li>
 </ul>
 <h2>Barfly, New York, NY (2013–Present)</h2>
-<p>Barfly is a secret shopper reporting service for bars, restaurants, nightclubs, and hotels. I train shoppers in report writing and staff behavior observation. Reports adhere to specifications set by client.</p>
+<p></p>
 <h4>Contractor</h4>
 <ul>
+<li>Compose reports for secret shopper service for bars, restaurants, nightclubs, and hotels.</li>
+<li>Train shoppers in report writing and staff behavior observation.</li>
 <li>Investigate and document theft, neglect, and waste in bars and restaurants; wrote <strong>more than 30</strong> documents designed to help implement improvements to business flow, enhance user experience, and avoid loss by company owners.</li>
 </ul>
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
-<p>I worked in Pratt Institute’s Editorial Department in the Office of Communication.</p>
-<h4>Editorial Assistant</h4>
+<h4>Editorial Assistant, Office of Communications</h4>
 <ul>
-<li>Strategized and wrote <strong>more than 100</strong> articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.</li>
+<li>Wrote <strong>more than 100</strong> articles for two Pratt-affiliated quarterly magazines and a weekly-updated website.</li>
 <li>Interviewed alumni, students, and faculty on events and exhibitions.</li>
 </ul>
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2015)</h2>
