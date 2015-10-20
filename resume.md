@@ -23,7 +23,6 @@ layout: default
 <li>Collaborate on presentation dashboard using Django framework.</li>
 </ul>
 <h2>Barfly, New York, NY (2013–Present)</h2>
-<p></p>
 <h4>Contractor</h4>
 <ul>
 <li>Compose reports for secret shopper service for bars, restaurants, nightclubs, and hotels.</li>
