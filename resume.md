@@ -49,16 +49,16 @@ layout: default
 </ul>
 <h1>Education</h1>
 <ul>
-<li>Master of Arts in Media Studies, Pratt Institute, Brooklyn, NY, 2015
-– Graduate Thesis: <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li>
+<li>Master of Arts in Media Studies, Pratt Institute, Brooklyn, NY, 2015</li>
+<ul><li>Graduate Thesis: <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li></ul>
 <li>Bachelor of Arts in English, Florida State University, Tallahassee, FL, 2009</li>
 <li>MongoDB for Node.js Developers, MongoDB, 2015</li>
 </ul>
 <h1>Open-Source Projects</h1>
 <ul>
-<li>MongoDB Native NodeJS Driver</li>
-<li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a> -Project management web application with scrum in mind! Built on top of Django and AngularJS (Front)</li>
-<li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a> -Data quantification web application built with Bootstrap and Highcharts</li>
+<li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</li>
+<li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>-Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end)</li>
+<li><a class="link" href="http://quantflauntgithub.io" alt="QuantFlaunt">Quantflaunt.github.io</a>-Data quantification web application built with Bootstrap and Highcharts</li>
 </ul>
 <h1>Technical Skills and Keywords</h1>
 <ul>
