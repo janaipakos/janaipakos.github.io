@@ -16,10 +16,10 @@ layout: default
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
         <li>Collaborate with team on anti-money laundering software documentation and testing for international clients.</li>
-        <li>Work with team of seven on front-end development and QA testing for successfully-deployed Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>.</li> <ul><li>Markup includes Sass and Bootstrap.</li></ul>
+        <li>Work with team of seven on front-end development and QA testing for successfully-deployed Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>. Markup includes Sass and Bootstrap.</li>
         <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
-        <li>Create D3.js visualizations and dependency tools for two different national banks.</li> <ul><li>These tools helped enrich the user experience of employees by quickly identifying relevant tasks and relationships.</li></ul>
-        <li>Write <strong>more than 600</strong> compliance and database testing documents for international bank.</li> <ul><li>Documents span five years of software use for Actimize anti-money laundering applications.</li></ul>
+        <li>Create D3.js visualizations and dependency tools for two different national banks. These tools helped enrich the user experience of employees by quickly identifying relevant tasks and relationships.</li>
+        <li>Write <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize anti-money laundering applications.</li>
         <li>Collaborate on presentation dashboard using the Python framework Django.</li>
     </ul>
 <h2>Barfly, New York, NY (2013–now)</h2>
