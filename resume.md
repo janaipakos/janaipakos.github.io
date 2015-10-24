@@ -25,7 +25,7 @@ layout: default
 <h2>Barfly, New York, NY (2013–now)</h2>
 <h4>Contractor</h4>
     <ul>
-          <li>Observe and document theft, neglect, and waste in bars and restaurants </li>
+          <li>Observe and document theft, neglect, and waste in bars and restaurants. </li>
           <li>Wrote <strong>more than 30</strong> documents designed to improve business flow, enhance user experience, and avoid loss by company owners.</li>
           <li>Train shoppers in report writing and staff behavior observation.</li>
     </ul>
