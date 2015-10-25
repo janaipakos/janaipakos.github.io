@@ -60,7 +60,7 @@ layout: default
         <li><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a>--The MongoDB driver for end-users.</li>
         <li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>--Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end).</li>
         <li><a class="link" href="https://quantflaunt.github.io" alt="QuantFlaunt">Quantflaunt.github.io</a>--Data quantification web application built with Bootstrap and Highcharts.</li>
-        <li><a class="link" href="https://github.com/janaipakos/Ozymandias-Chatroom" alt="Ozymandias Chatroom">Ozymandias Chatroom</a>--A (semi)-private chatroom where anyone can join and nothing is recorded. Built with node.js. Try it <a class="link" href="https://github.com/janaipakos/Ozymandias-Chatroom">here</a>.</li>
+        <li><a class="link" href="https://github.com/janaipakos/Ozymandias-Chatroom" alt="Ozymandias Chatroom">Ozymandias Chatroom</a>--A (semi)-private chatroom where anyone can join and nothing is recorded. Built with node.js. Try it <a class="link" href="https://secretchat.herokuapp.com/">here</a>.</li>
     </ul>
 <h1>Technical Skills and Keywords</h1>
     <ul>
