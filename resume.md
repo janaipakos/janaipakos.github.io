@@ -61,7 +61,7 @@ layout: default
         <li><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>--Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end).</li>
         <li><a class="link" href="https://quantflaunt.github.io" alt="QuantFlaunt">Quantflaunt.github.io</a>--Data quantification web application built with Bootstrap and Highcharts.</li>
         <li><a class="link" href="https://github.com/janaipakos/Ozymandias-Chatroom" alt="Ozymandias Chatroom">Ozymandias Chatroom</a>--A (semi)-private chatroom where anyone can join and nothing is recorded. Built with node.js. Try it <a class="link" href="https://secretchat.herokuapp.com/">here</a>.</li>
-        <li><a class="link" href="https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics" alt="Clean Code Smells and Heuristics">Clean Code Smells and Heuristics</a>--A reference of code smells from Martin Fowler's *Refactoring* and Robert C Martin's *Clean Code*.</li>
+        <li><a class="link" href="https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics" alt="Clean Code Smells and Heuristics">Clean Code Smells and Heuristics</a>--A reference of code smells from Martin Fowler's <em>Refactoring</em> and Robert C Martin's <em>Clean Code</em>.</li>
 
     </ul>
 <h1>Technical Skills and Keywords</h1>
