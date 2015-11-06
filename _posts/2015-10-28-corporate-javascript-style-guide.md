@@ -9,14 +9,24 @@ The following is a JavaScript style guide combined from various corporate and en
 
 
 #### JavaScript (not related to Java) is a front-end language that does not interact with the database or interfaces ####
+
  ####Limit line length to 120 characters####
+
 - This is 50% longer than the suggested line length of 80 encouraged by other style guides. I attribute this to companies not using GitHub (version control is, however, encouraged).
+
 ####Use double-quotes over single-quotes####
+
 - This helps Java developers read the otherwise indecipherable JavaScript code.
+
 ####Use /* for comments, and favor block comments over single-line####
+
 - "Cover your ass" is a phrase I hear often, and over-commenting code is a failsafe against accountability when something breaks.
+
 ####Spaces over tabs, with 4-space indentation for readability####
+
 - While file's are huge and unwieldy, I appreciate the attempt at clarity.
+
 ####Use JShint to test for errors in code, and delete commented out code and outdated comments####
+
 - Two bombshells that go against the status quo of waterfall development and bloated projects.
 
