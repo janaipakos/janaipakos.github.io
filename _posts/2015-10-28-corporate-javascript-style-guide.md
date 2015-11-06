@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Learning Node.js and Enterprise JavaScript
-date: 2015-10-13
+title: Corporate JavaScript Style Guide
+date: 2015-10-29
 ---
 
 The following is a JavaScript style guide combined from various corporate and enterprise jobs. Many of these guides reference GitHub and Google style guides, and they vacillate between cold, hard, practicality and somewhat modern. The three important characteristics of good code is readability, security, and consistency. While some features are appreiated, others are overly uptight.
