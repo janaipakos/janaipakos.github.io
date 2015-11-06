@@ -8,8 +8,8 @@ date: 2015-10-29
 The following is a JavaScript style guide combined from various corporate and enterprise jobs. The corporate guide's I've read wed the cold, hard practicality of big business with modern practices such as code testing. The three important characteristics of corporate code is readability, security, and consistency, and it's no surprise that big old school businesses like to structure their code in an orderly, risk-averse manner.
 
 
-####JavaScript (not related to Java) is a front-end language that does not interact with the database or interfaces####
-####Limit line length to 120 characters####
+#### JavaScript (not related to Java) is a front-end language that does not interact with the database or interfaces ####
+ ####Limit line length to 120 characters####
 - This is 50% longer than the suggested line length of 80 encouraged by other style guides. I attribute this to companies not using GitHub (version control is, however, encouraged).
 ####Use double-quotes over single-quotes####
 - This helps Java developers read the otherwise indecipherable JavaScript code.
