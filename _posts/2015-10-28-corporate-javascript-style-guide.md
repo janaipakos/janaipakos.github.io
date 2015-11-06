@@ -3,7 +3,7 @@ layout: post
 title: Corporate JavaScript Style Guide
 date: 2015-10-29
 ---
-### Corporate JavaScript Style Guide
+## Corporate JavaScript Style Guide
 
 The following is a JavaScript style guide combined from various corporate and enterprise jobs. The corporate guide's I've read wed the cold, hard practicality of big business with modern practices such as code testing. The three important characteristics of corporate code is readability, security, and consistency, and it's no surprise that big old school businesses like to structure their code in an orderly, risk-averse manner.
 
