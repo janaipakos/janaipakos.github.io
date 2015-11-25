@@ -28,7 +28,7 @@ layout: default
         <li>Comment on writing, technical content, examples, and source code.</li>
         <li>Offer feedback on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability, and scope in order to improve quality of the book prior to publication.</li>
-        <li>Reviewed ttles include <em>Learn Nim</em> and <em>Angular 2 in Action</em></li>
+        <li>Reviewed titles include <strong><em>Learn Nim</em></strong> and <em><strong>Angular 2 in Action</strong></em></li>
     </ul>
 <h2>Barfly, New York, NY (2013–now)</h2>
 <h4>Contractor</h4>
