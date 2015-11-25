@@ -25,8 +25,8 @@ layout: default
 <h2>Manning Publications, New York, NY (2015–now)</h2>
 <h4>Manuscript Reviewer</h4>
     <ul>
-        <li>Provide feedback on chapter drafts that helps the authors and Manning improve them.<li>
-        <li>Comment on writing, technical content, examples, and source code, and offer opinions on the state of the technology and reader needs.<li>
+        <li>Provide feedback on chapter drafts that helps the authors and Manning improve them.</li>
+        <li>Comment on writing, technical content, examples, and source code, and offer opinions on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability and scope in order to improve quality of the book prior to publication.</li>
     </ul>
 <h2>Barfly, New York, NY (2013–now)</h2>
