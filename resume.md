@@ -33,9 +33,9 @@ layout: default
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>Wordpress</h4>
     <ul>
-        <li><strong>Barrel On<strong>- Design and functionality for this sustainable goods marketplace.</li>
-        <li><strong>Chicville USA<strong>- Design, layout, and plugin functionality for this portfolio.</li>
-        <li><strong> Norwegian Wild Heart<strong>- Design, layout, and plugin functionality for this portfolio.</li>
+        <li><strong>Barrel On</strong>- Design and functionality for this sustainable goods marketplace.</li>
+        <li><strong>Chicville USA</strong>- Design, layout, and plugin functionality for this portfolio.</li>
+        <li><strong> Norwegian Wild Heart</strong>- Design, layout, and plugin functionality for this portfolio.</li>
     </ul>
     <h2>Barfly, New York, NY (2013–now)</h2>
 <h4>Contractor</h4>
