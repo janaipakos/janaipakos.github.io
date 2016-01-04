@@ -19,6 +19,7 @@ layout: default
         <h4 style="color:#FBFCFC;">
           <a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="mail" title="LinkedIn- James Anaipakos"><i class="fa fa-briefcase fa-fw"></i>  LinkedIn </a> <br><br>
           <a alt="linkedin" href="https://github.com/janaipakos" class="mail" title="GitHub- James Anaipakos"><i class="fa fa-github fa-fw"></i>  GitHub </a> <br><br>
+          <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="mail" title="Vimeo"><i class="fa fa-vimeo-square fa-fw"></i>  Vimeo</a> <br><br>
         </h4>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
