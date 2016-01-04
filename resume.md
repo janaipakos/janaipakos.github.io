@@ -28,9 +28,16 @@ layout: default
         <li>Comment on writing, technical content, examples, and source code.</li>
         <li>Offer feedback on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability, and scope in order to improve quality of the book prior to publication.</li>
-        <li>Reviewed titles include <em><strong>Learn Nim</strong></em> and <em><strong>Angular 2 in Action</strong></em></li>
+        <li>Reviewed titles include <em><strong>Learn Nim</strong></em>, <em><strong>CSS in Action</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
     </ul>
-<h2>Barfly, New York, NY (2013–now)</h2>
+<h2>Freelance Web Design, New York, NY (2014–now)</h2>
+<h4>Wordpress</h4>
+    <ul>
+        <li><strong>Barrel On<strong>- Design and functionality for this sustainable goods marketplace.</li>
+        <li><strong>Chicville USA<strong>- Design, layout, and plugin functionality for this portfolio.</li>
+        <li><strong> Norwegian Wild Heart<strong>- Design, layout, and plugin functionality for this portfolio.</li>
+    </ul>
+    <h2>Barfly, New York, NY (2013–now)</h2>
 <h4>Contractor</h4>
     <ul>
           <li>Observe and document theft, neglect, and waste in bars and restaurants. </li>
