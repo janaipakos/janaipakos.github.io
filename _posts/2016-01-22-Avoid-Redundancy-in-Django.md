@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Avoid Redundancy in Django with {{ block.super }}
-date: 2015-12-20
+date: 2016-01-22
 ---
 
 Django's template inheritance shines when using different designs for different users. This is thanks to Django's `{{ block.super }}` template object, which reduces overhead and avoids the the need to create multiple base files.
