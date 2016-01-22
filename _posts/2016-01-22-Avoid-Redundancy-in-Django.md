@@ -15,7 +15,7 @@ An easy way to picture this object is a Hawthorne cocktail strainer, which has a
 Here's what it looks like:
 
 
-``` python
+```python
 {% raw %}
 {% extends "base.html" %}
 {% block stylesheets %}
