@@ -14,14 +14,13 @@ An easy way to picture this object is a Hawthorne cocktail strainer, which has a
 
 Here's what it looks like:
 
-
-```python
+```
 {% raw %}
-{% extends "base.html" %}
-{% block stylesheets %}
-  {{ block.super }}
-  <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" />
-{% endblock %}
+{% extends "base.html" %}<br>
+{% block stylesheets %}<br>
+  {{ block.super }}<br>
+  <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" /><br>
+{% endblock %}<br>
 {% endraw %}
 ```
 
