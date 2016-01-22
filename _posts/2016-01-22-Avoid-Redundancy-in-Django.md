@@ -14,12 +14,15 @@ An easy way to picture this object is a Hawthorne cocktail strainer, which has a
 
 Here's what it looks like:
 
+
 ``` python
+{% raw %}
 {% extends "base.html" %}
 {% block stylesheets %}
   {{ block.super }}
   <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" />
 {% endblock %}
+{% endraw %}
 ```
 
 The above code will bring in the css from the base file and include a custom stylesheet. No overriding or duplication.
