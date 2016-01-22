@@ -14,15 +14,13 @@ An easy way to picture this object is a Hawthorne cocktail strainer, which has a
 
 Here's what it looks like:
 
-```
-{% raw %}
-{% extends "base.html" %}<br>
-{% block stylesheets %}<br>
-  {{ block.super }}<br>
-  <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" /><br>
-{% endblock %}<br>
-{% endraw %}
-```
+    {% raw %}
+    {% extends "base.html" %}<br>
+    {% block stylesheets %}<br>
+      {{ block.super }}<br>
+      <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" /><br>
+    {% endblock %}<br>
+    {% endraw %}
 
 The above code will bring in the css from the base file and include a custom stylesheet. No overriding or duplication.
 
