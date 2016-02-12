@@ -33,7 +33,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
-gems: [jekyll-paginate]
+gems:
   - jekyll-paginate
 
   permalink: /:year-:month-:day-:title
