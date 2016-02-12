@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  Avoid Redundancy in Django with block.super
 date: 2016-01-22
 ---
