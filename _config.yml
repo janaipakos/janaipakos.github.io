@@ -101,8 +101,6 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-
----
 common-css:
   - "/css/normalize.css"
   - "/css/bootstrap.min.css"
@@ -124,4 +122,3 @@ common-js:
   - "/js/jquery-func.js"
 common-ext-js:
   - "//code.jquery.com/jquery-migrate-1.2.1.min.js"
----
