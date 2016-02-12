@@ -31,7 +31,7 @@ google_analytics: "56064805"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title
+
 paginate: 5
 defaults:
   -
