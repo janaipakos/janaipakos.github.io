@@ -1,18 +1,27 @@
 ---
-layout: default
+layout: post
 title:  Avoid Redundancy in Django with block.super
 date: 2016-01-22
 ---
 
+Django's template inheritance shines when using different designs for different users. This is thanks to Django's `block.super` template object, which reduces overhead and avoids the the need to create multiple base files.
 
-<div class="page-section short" id="works" name="works">
-  <div class="container">
-    <h1>About Me</h1>
-      <hr>
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-          <div class="section-heading">
-          <p>Hi, welcome to the personal website of James Anaipakos. I'm a front-end developer, UI designer, and author in NYC. I sporadically speak in public about the history of software and data quantification, and write about Eastern European technology, open source projects, and social theory. Currently I'm an associate consultant for Capco, where I improve the documentation and workflow of anti-money laundering applications.</p>
-</div>
-</div>
-</div>
+Say you are building a project with one design for most users, and a dashboard with a different design for administrative users. This is similar to a project I worked on at Capco. Most developers would create a `base.html` file and a `base.dashboard.html` file. However, we now have two architectures to maintain, and this can bloat quickly is there are more types of users and designs.
+
+Luckily, Django has the `block.super` object, which ensures the parent content is included in the block when it is placed in the child template's block. This means you can still override the base content with `% block %` while also ensuring the content you want is included with `block.super`.
+
+An easy way to picture this object is a Hawthorne cocktail strainer, which has a adjustable seive. The bartender, or user, can adjust how much ice, or base content, leaks into the finished prodict.
+
+Here's what it looks like:
+
+    {% raw %}
+    {% extends "base.html" %}
+    {% block stylesheets %}
+      {{ block.super }}
+      <link rel="stylesheet" type="text/css" href="{% static "css/custom" %}" />
+    {% endblock %}
+    {% endraw %}
+
+The above code will bring in the css from the base file and include a custom stylesheet. No overriding or duplication.
+
+This is a pretty easy fix to project redundancy. It came from the awesome book *Two Scoops of Django*.
