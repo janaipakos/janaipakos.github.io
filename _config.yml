@@ -35,7 +35,7 @@ kramdown:
 highlighter: rouge
 gems: [jekyll-paginate]
 
-permalink: /:year-:month-:day-:title
+permalink: /:year-:month-:day-:title/
 paginate: 5
 future: true
 defaults:
