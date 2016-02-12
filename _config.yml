@@ -54,6 +54,7 @@ exclude:
 
 prose:
   rooturl: '_posts'
+  root: /octo-5
   media: 'img'
   ignore:
     - 404.html
