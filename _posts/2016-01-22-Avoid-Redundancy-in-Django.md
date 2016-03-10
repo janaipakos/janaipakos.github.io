@@ -1,6 +1,6 @@
 ---
-layout: page
-title:  Avoid Redundancy in Django with block.super
+layout: post
+title:  Avoid Redundancy in Django
 date: 2016-01-22
 ---
 

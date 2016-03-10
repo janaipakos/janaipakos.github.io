@@ -7,12 +7,12 @@ date: 2016-03-01
 Tape is a TAP (Test Anything Protocol) producing test harness for Node.js and browsers. It interacts with testling, which runs unit tests in all the browsers and outputs TAP. Unit tests are small, automated tests that test a small piece of functionality. The suites of automated tests grow alongside the application, and warns developers of failing code or broken code as the results of introduced changes. Unit testing makes developers more confident in code refactoring, ensures the application can be changed easily as its grows more complex, and ensure code quality.
 
 
-###Test-driven development###
+### Test-driven development ###
 
 Test-driven development encourages developers to create unit tests first and then write the supporting code. This code is designed to be only minimum passing code. TDD is supposed to encourage developers to create unit tests throughout the development process. I don’t use TDD because I find it less intuitive and containing more overhead that writing tests for code that is already written. While code of course will change in future iterations, initial code will almost definitely change.
 
 
-###tape###
+### tape ###
 
 Tape is a lightweight unit testing application available through npm. I prefer tape for three reasons it is lightweight and simple too implement. It's very flexible; you can run it in the browser console or through the command line. And it is easy to write, and it does not create global objects as other testing frameworks do. I used tape for a very simple application that multiples any input that is a whole number by 666.
 
@@ -29,12 +29,12 @@ This also helps from a documentation and audit perspective: the objective of eac
 Overall, testing should be easy, and tape is lightweight, unobtrusive, and easy to write.  The following is a definition of the application and the derived test cases.
 
 
-###Application Definition###
+### Application Definition ###
 
 In this application you input a whole number and then click on a button to multiply that number by 666. The resulting number is displayed in a list. Any error, such as an invalid or decimal number, is also displayed in the list. There is also a button to clear the list. There are six derived test cases based on this functionality
 
 
-###Derived Test Cases###
+### Derived Test Cases ###
 
 - Clicking Satanize without an input should result in an error message.
 - Clicking Satanize with a decimal input should result in an error message.
