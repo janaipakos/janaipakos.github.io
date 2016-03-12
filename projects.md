@@ -38,7 +38,7 @@ layout: default
                     </div>
                     <div class="modal-body">
                       <p><img class="img-responsive" src="images/quant.png" alt=""></p>
-                      <p>QuantFlaunt is a satirical web application that explores the future of online branding and data quantification. By collecting and sharing not only everyday measureables, but also intangible thoughts and experiences, QuantFlaunt gives users a self-determined number that represents their identity and provides the 'big picture.' It's the interesction between Klout and The Onion.</p>
+                      <p>QuantFlaunt is a satirical web application that explores the future of online branding and data quantification.  By collecting and sharing not only everyday measureables, but also intangible thoughts and experiences, QuantFlaunt gives users a self-determined number that represents their identity and provides the 'big picture.' It's the interesction between Klout and The Onion.</p>
                       <p><strong><a href="http://quantflaunt.github.io" title="QuantFlaunt" class="link">Visit Site</a></strong></p>
                     </div>
                     <div class="modal-footer">
