@@ -28,7 +28,7 @@ layout: default
         <li>Comment on writing, technical content, examples, and source code.</li>
         <li>Offer feedback on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability, and scope in order to improve quality of the book prior to publication.</li>
-        <li>Reviewed titles include <em><strong>Learn Nim</strong></em>, <em><strong>CSS in Action</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
+        <li>Reviewed titles include <em><strong>Nim in Action</strong></em>, <em><strong>CSS in Action</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>Wordpress</h4>
@@ -82,9 +82,25 @@ layout: default
     </ul>
 <h1>Technical Skills and Keywords</h1>
     <ul>
-        <li>HTML (HTML5), CSS (CSS3, Sass, LESS, SCSS, Compass)</li>
-        <li>JavaScript (jQuery, D3.js, Node.js, Angular2.js, Express.js, Gulp, Webpack), Python (Django)</li>
-        <li>SQL, NoSQL, MongoDB (Mongoose)</li>
+        <li>HTML5</li>
+        <li>CSS Processors</li>
+            <ul>
+                <li>CSS3, Sass, LESS, SCSS, Compass</li>
+            </ul>
+        <li>JavaScript</li>
+            <ul>
+                <li>User Interface Libraries–D3.js, React.js</li>
+            <li>Frameworks–jQuery, Node.js, Angular2.js, Express.js, Meteor.js</li>
+            <li>Build Tools–Gulp, Grunt, npm, Webpack</li>
+            </ul>
+        <li>Python</li>
+            <ul>
+                <li>Django, Bottle</li>
+            </ul>
+        <li>Databases</li>
+            <ul>
+                <li>SQL, NoSQL, MongoDB (Mongoose)</li>
+            </ul>
         <li>GitHub, git, vim, shell, bash</li>
         <li>VitrualBox, JIRA, Basecamp</li>
         <li>WordPress, Bootstrap, Jade, EJS</li>
