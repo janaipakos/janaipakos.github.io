@@ -1,43 +1,25 @@
 ---
 layout: default
 ---
-
 <div class="page-section short" id="works" name="works">
-  <div class="container">
-    <h1>About Me</h1>
-      <hr>
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10">
-          <div class="section-heading">
-          <p>Hi, welcome to the personal website of James Anaipakos. I'm a front-end developer, UI designer, and author in NYC. I sporadically speak in public about the history of software and data quantification, and write about Eastern European technology, open source projects, and social theory. Currently I'm an associate consultant for Capco, where I improve the documentation and workflow of anti-money laundering applications.</p>
-</div>
-</div>
-</div>
+    <div class="container">
+        <h1>About Me</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <img class="img-thumbnail" src="images/headshot.jpg" alt="james anaipakos">
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <p>Hi, I'm James Anaipakos. I'm a developer, UI designer, and editor living in New York City. I sporadically speak in public about the <a class="link" href="http://sched.co/2AhK">history of software</a> and <a class="link" href="https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e#.ds4ygjp8o">data quantification</a>, and write about my interest in project manangement, Eastern European technology, and digital networks. Previously with the <a class="link" href="https://dhs.gov">US Government</a> and <a class="link" href="https://pratt.edu">Pratt Institute</a>, I currently work with <a class="link" href="https://capco.com">Capco</a> on the documentation and delivery of IT components for a global anti-money laundering application.</p>
+                    <ul style="text-align: left">
+                    <li><a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">Email</a> is Janaipakos@gmail.com</li>
+                    <li><a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="link" title="LinkedIn- James Anaipakos">LinkedIn </a></li>
+                    <li><a alt="linkedin" href="https://github.com/janaipakos" class="link" title="GitHub- James Anaipakos">GitHub </a> </li>
+                    <li><a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="link" title="Vimeo">Vimeo</a></li>
 
- <div class="row">
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <i style="color:#C0392B" class="fa fa-book fa-4x"></i>
-         <h2>Writing</h2>
-        <p>Working with designers, film theorists, and media archaeologists at Pratt Institute, I write about post-communist hardware and software, data quantification, contemporary technology. </p>
-      </div>
+                </ul>
+                </div>
+            </div>
 
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-        <i style="color:#C0392B" class="fa fa-bar-chart-o fa-4x"></i>
-        <h2>Data Visualization</h2>
-        <p>At Capco Digital, I use D3.js to create data visualizations and dependency tools. I also designed QuantFlaunt, a solo project that captures and measures user metrics and activities.</p>
-      </div>
-
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <i style="color:#C0392B" class="fa fa-desktop fa-4x"></i>
-         <h2>Web Development</h2>
-        <p>I focus on design and process automation rather than the latest framework or tool. With a Build First mindset and an emphasis on clean code, I try to develop applications that are scalable and collaboration-friendly.</p>
-      </div>
-
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-          <i style="color:#C0392B" class="fa fa-sitemap fa-4x"></i>
-         <h2>UX Design</h2>
-        <p>I've interviewed hundreds of users and clients, and have experience running usability and A/B tests. Before starting a project, I create client personas and outline user journeys to focus and streamline products and applications.</p>
-      </div>
+        </div>
 </div>
-</div>
-

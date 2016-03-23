@@ -23,12 +23,12 @@ layout: default
         <li>Collaborate on presentation dashboard using the Python framework Django.</li>
     </ul>
 <h2>Manning Publications, New York, NY (2015–now)</h2>
-<h4>Manuscript Reviewer</h4>
+<h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
         <li>Comment on writing, technical content, examples, and source code.</li>
         <li>Offer feedback on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability, and scope in order to improve quality of the book prior to publication.</li>
-        <li>Reviewed titles include <em><strong>Nim in Action</strong></em>, <em><strong>CSS in Action</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
+        <li>Reviewed titles include <em><strong>Nim in Action</strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>Wordpress</h4>
@@ -89,9 +89,10 @@ layout: default
             </ul>
         <li>JavaScript</li>
             <ul>
-                <li>User Interface Libraries–D3.js, React.js</li>
-            <li>Frameworks–jQuery, Node.js, Angular2.js, Express.js, Meteor.js</li>
-            <li>Build Tools–Gulp, Grunt, npm, Webpack</li>
+                <li>Vanilla, Node.js, ECMAScript2015/ECMAScript 6/ES6, JSX</li>
+                <li>User Interface Libraries–D3.js, React.js, jQuery</li>
+                <li>Frameworks–Angular2.js, Express.js, Meteor.js</li>
+                <li>Build Tools–Gulp, Grunt, npm, Webpack, Babel</li>
             </ul>
         <li>Python</li>
             <ul>
