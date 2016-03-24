@@ -19,6 +19,8 @@ active: projects
                 <li class="projects"><a class="link" href='https://github.com/janaipakos/Marx-Magic-8-Bball'>Marxist Magic 8-Ball</a> – Collection of tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Ozymandias-Chatroom'>Ozymandias Chatroom</a> – A (semi)-private chatroom where nothing is recorded. Built with Node and Express.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>– A reference of code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em>.</li>
+                <li class="projects"><a class="link"  href='https://github.com/janaipakos/is-thirteen'>Is Thirteen</a>– Elaborate tape unit tests to confirm whether a value is 13.</li>
+                
 
 
                </ul>
