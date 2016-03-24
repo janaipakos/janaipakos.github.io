@@ -26,6 +26,6 @@ active: projects
                </ul>
             </div>
         </div>
-    </div></div>
+  
 
 
