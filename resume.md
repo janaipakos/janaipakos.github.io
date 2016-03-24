@@ -9,7 +9,7 @@ layout: default
     <ul>
     <li><strong>Fifteen months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
     <li><strong>Four years</strong> of experience as project leader, from two to six members.</li>
-    <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focused on mass media and wireless peer to peer networks in Eastern Europe.</li>
+    <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe.</li>
     </ul>
 <h1>Work Experience</h1>
 <h2>Capco, New York, NY (2014–now)</h2>
