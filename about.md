@@ -1,10 +1,10 @@
 ---
 layout: default
+active: about
 ---
 <div class="page-section short" id="works" name="works">
     <div class="container">
-        <h1>About Me</h1>
-        <hr>
+
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <img class="img-thumbnail" src="images/headshot.jpg" alt="james anaipakos">

@@ -8,15 +8,32 @@
 
       <div class="navbar-collapse collapse" id="main-navbar">
         <ul class="nav navbar-nav navbar-right">
-        {% for link in site.navbar-links %}
-        <li>
-      <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a>
-      </li>
-       {% endfor %}
+        {% if page.active == "blog" %}
+            <li><a class="active" href="#">Blog</a></li>
+        {% else %}
+            <li><a href="/">Blog</a></li>
+        {% endif %}
+        {% if page.active == "about" %}
+            <li class="active"><a href="#">About</a></li>
+        {% else %}
+            <li><a href="../about">About</a></li>
+        {% endif %}
+        {% if page.active == "projects" %}
+            <li class="active"><a href="#">Projects</a></li>
+        {% else %}
+            <li><a href="../projects">Projects</a></li>
+        {% endif %}
+        {% if page.active == "resume" %}
+            <li class="active"><a href="#">Résumé</a></li>
+        {% else %}
+            <li><a href="../resume">Résumé</a></li>
+        {% endif %}
+
+
       </ul>
       </div>
 
- <!--  {% if site.avatar %}
+  {% if site.avatar %}
   <div class="avatar-container">
     <div class="avatar-img-border">
       <a href="{{ site.url }} ">
@@ -24,14 +41,7 @@
     </a>
     </div>
   </div>
-  {% endif %} -->
+  {% endif %}
 
     </div>
   </nav>
-
-
-
-
-
-
-
