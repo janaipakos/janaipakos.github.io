@@ -7,19 +7,17 @@ active: resume
 
 <h1>Summary</h1>
     <ul>
-    <li><strong>Fifteen months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
-    <li><strong>Four years</strong> of experience as project leader, from two to six members.</li>
+    <li><strong>Nine months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
+    <li><strong>Three years</strong> of experience as project leader, from two to six members.</li>
     <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe.</li>
     </ul>
 <h1>Work Experience</h1>
 <h2>Capco, New York, NY (2014–now)</h2>
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
-        <li>Collaborate with team on anti-money laundering software documentation and testing for international clients.</li>
+        <li>Create <strong>more than 300</strong> design and test documents for IT components of a global anti-money laundering application. Documents span five years of software use for Actimize anti-money laundering applications.</li>
         <li>Work with team of seven on front-end development and QA testing for successfully-deployed Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>. Markup includes Sass and Bootstrap.</li>
         <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
-        <li>Create D3.js visualizations and dependency tools for two different national banks. These tools helped enrich the user experience of employees by quickly identifying relevant tasks and relationships.</li>
-        <li>Write <strong>more than 600</strong> compliance and database testing documents for international bank. Documents span five years of software use for Actimize anti-money laundering applications.</li>
         <li>Collaborate on presentation dashboard using the Python framework Django.</li>
     </ul>
 <h2>Manning Publications, New York, NY (2015–now)</h2>
@@ -28,7 +26,7 @@ active: resume
         <li>Comment on writing, technical content, examples, and source code.</li>
         <li>Offer feedback on the state of the technology and reader needs.</li>
         <li>Test content's relevance, accuracy, readability, and scope in order to improve quality of the book prior to publication.</li>
-        <li>Reviewed titles include <em><strong>Nim in Action</strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em> and <em><strong>Angular 2 in Action</strong></em>.</li>
+        <li>Reviewed titles include <em><strong>Nim in Action</strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong>RxJS in Action</strong></em>, and <em><strong>Angular 2 in Action</strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>Wordpress</h4>
@@ -80,8 +78,8 @@ active: resume
         <li>JavaScript</li>
             <ul>
                 <li>Vanilla, Node.js, ECMAScript2015/ECMAScript 6/ES6, JSX</li>
-                <li>User Interface Libraries–D3.js, React.js, jQuery</li>
-                <li>Frameworks–Angular2.js, Express.js, Meteor.js</li>
+                <li>User Interface Libraries–D3.js, React, jQuery</li>
+                <li>Frameworks–Angular 2, Express.js, Meteor</li>
                 <li>Build Tools–Gulp, Grunt, npm, Webpack, Babel</li>
             </ul>
         <li>Python</li>
@@ -93,9 +91,9 @@ active: resume
                 <li>SQL, NoSQL, MongoDB (Mongoose)</li>
             </ul>
         <li>GitHub, git, vim, shell, bash</li>
-        <li>VitrualBox, JIRA, Basecamp</li>
+        <li>VirtualBox, JIRA, Basecamp</li>
         <li>WordPress, Bootstrap, Jade, EJS</li>
         <li>Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, SublimeText, Microsoft Excel</li>
-        <li>Front-End Development, MVC Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software</li>
+        <li>Front-End Development, MV* Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software</li>
     </ul>
 </div>
