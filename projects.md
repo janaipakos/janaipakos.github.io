@@ -20,6 +20,7 @@ active: projects
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Ozymandias-Chatroom'>Ozymandias Chatroom</a> – A (semi)-private chatroom where nothing is recorded. Built with Node and Express.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>– A reference of code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em>.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/is-thirteen'>Is Thirteen</a>– Elaborate tape unit tests to confirm whether a value is 13.</li>
+                <li class="projects"><a class="link" href='https://github.com/janaipakos/multiply-by-666'>Multiply by 666</a>– Multiply any number by 666.</li>
                 
 
 
