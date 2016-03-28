@@ -8,7 +8,7 @@ active: projects
             <div class="col-md-12 col-lg-12">
                <ul>
                 <li class="projects"><a class="link" href='/quantflaunt'>QuantFlaunt</a> – A satirical web application that explores the future of branding and data quantification.</li>
-                <li class="projects"><a class="link" href='https://github.com/janaipakos/h1b-software-salaries'>D3.js + React</a> – Graph of H1B Salaries with React Components.</li>
+                <li class="projects"><a class="link" href='https://github.com/janaipakos/react-d3-graph'>D3.js + React</a> – Graph of H1B Salaries with React Components.</li>
                 <li class="projects"><a class="link" href='https://github.com/janaipakos/Marx-Magic-8-Bball'>Marxist Magic 8-Ball</a> – Collection of tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Ozymandias-Chatroom'>Ozymandias Chatroom</a> – A (semi)-private chatroom where nothing is recorded. Built with Node and Express.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>– A reference of code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em>.</li>
