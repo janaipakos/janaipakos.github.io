@@ -15,7 +15,7 @@ active: resume
 <h2>Capco, New York, NY (2014–now)</h2>
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
-        <li>Create <strong>more than 300</strong> design and test documents for IT components of a global anti-money laundering application. Documents span five years of software use for Actimize anti-money laundering applications.</li>
+        <li>Create <strong>more than 300</strong> design and test documents for IT components of the Actimize anti-money laundering application.</li>
         <li>Work with team of seven on front-end development and QA testing for successfully-deployed Sharepoint 2013 customer facing website with <strong>350+ combined pages</strong>. Markup includes Sass and Bootstrap.</li>
         <li>Record and produce <strong>20-hour</strong> knowledge transfer session of technical architecture and code base as added value for client.</li>
         <li>Collaborate on presentation dashboard using the Python framework Django.</li>
