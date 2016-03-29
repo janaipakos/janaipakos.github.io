@@ -255,8 +255,14 @@ a {
     -ms-transition: color .1s ease-in, background .1s ease-in;
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
-    color: #000;
+    color: #AC3326;
+    text-decoration: none;
     word-wrap: break-word
+}
+
+a:hover {
+  color: #922B20;
+    text-decoration: underline;
 }
 
 a.portfolio:hover,
