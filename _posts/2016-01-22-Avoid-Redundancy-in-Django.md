@@ -24,4 +24,4 @@ Here's what it looks like:
 
 The above code will bring in the css from the base file and include a custom stylesheet. No overriding or duplication.
 
-This is a pretty easy fix to project redundancy. It came from the awesome book *Two Scoops of Django*.
+This is a pretty easy fix to project redundancy. It came from the awesome book [*Two Scoops of Django*](https://www.twoscoopspress.com/products/two-scoops-of-django-1-8) (Daniel Roy Greenfeld, Audrey Roy Greenfeld, 2015).

@@ -16,4 +16,4 @@ Testing is easy in Go. Unit testing and benchmarking can happen alongside develo
 
 Overall, *Go in Action* is a great introduction to not only the language but also modern web development.
 
-Disclosure: [Manning Publications](https://www.manning.com/books/go-in-action, "Manning Publications") provided my copy of *Go in Action*.
+Disclosure: Manning Publications provided my copy of [*Go in Action*](https://www.manning.com/books/go-in-action, "Go in Action") (William Kennedy with Brian Ketelsen, Erik St. Martin, 2015).

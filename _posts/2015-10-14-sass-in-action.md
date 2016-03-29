@@ -47,7 +47,7 @@ Comments in Sass only require one marker, such as `//`, `/*`, and `/*!`, even if
 Both syntaxes have their pros and cons. Luckily the two syntaxes are convertable with the `sass-convert` command, and the `@import` directive allows you to use each syntax in the same project, as long as they are in different files.
 
 
-To close this out, here are some ways to straighten out your CSS and get started with Sass. These are found in *Sass and Compass in Action* from Manning Publications, and the title also lists Compass traits for a fresh project.
+To close this out, here are some ways to straighten out your CSS and get started with Sass. These are found in [*Sass and Compass in Action*](https://www.manning.com/books/sass-and-compass-in-action) (Wynn Netherland, Nathan Weizenbaum, Chris Eppstein, Brandon Mathis, 2013), which also lists Compass traits for a fresh project.
 
 
 - Grid-background, global reset, typography from [Google Font](https://www.google.com/fonts "Google Fonts"), [Font Squirrel](https://fontsquirrel.com "Font Squirrel"), and [Makerbook](https://makerbook.net "Makerbook")

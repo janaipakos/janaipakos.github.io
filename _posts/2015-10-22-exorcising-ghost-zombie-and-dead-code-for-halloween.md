@@ -4,7 +4,7 @@ title: Exorcising Ghost, Zombie, and Dead Code for Halloween
 date: 2015-10-22
 ---
 ## The Mikado Method
-The material for this post was adapted from [*The Mikado Method*](https://www.manning.com/books/the-mikado-method) from Manning Publications and authors Ola Ellnestam and Daniel Brolund. The Mikado Method is a process for iteratively working through legacy code by setting a goal, quickly trying a solutions, observing the solutions, **reverting** the changes, and repeating the process with a new solution. The key here is deleting code changes, which may or may not have worked, before trying something else, and avoiding a mud ball of change built atop change.
+The material for this post was adapted from [*The Mikado Method*](https://www.manning.com/books/the-mikado-method) (Ola Ellnestam, Daniel Brolund, 2014). The Mikado Method is a process for iteratively working through legacy code by setting a goal, quickly trying a solutions, observing the solutions, **reverting** the changes, and repeating the process with a new solution. The key here is deleting code changes, which may or may not have worked, before trying something else, and avoiding a mud ball of change built atop change.
 
 
 While the entire book is great, its appendix proves especially useful by including strategies to remove unused code. So for Halloween, here's how to remove ghost, zombie, and dead code.
