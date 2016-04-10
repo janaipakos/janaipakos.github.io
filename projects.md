@@ -15,7 +15,7 @@ active: projects
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/is-thirteen'>Is Thirteen</a>– Elaborate tape unit tests to confirm whether a value is 13.</li>
                 <li class="projects"><a class="link" href='multiply-by-666/'>Multiply by 666</a>– Multiply any number by 666. The <a class="link" href="https://github.com/janaipakos/multiply-by-666">GitHub repo</a> covers the process of deriving cases for unit testing.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>– A reference of code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em>.</li>
-                <h2 class="project">Contributor</h2>
+                <h2 class="projects">Contributor</h2>
                 <li class="projects"><a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a> – The MongoDB driver for end-users.</li>
                 <li class="projects"><a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a> – Project management web application with scrum in mind. Built on top of Django and AngularJS (Front-end).</li>
                 <h2 class="projects">Misc</h2>
