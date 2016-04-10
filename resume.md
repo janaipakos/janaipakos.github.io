@@ -78,9 +78,9 @@ active: resume
             </ul>
         <li>JavaScript</li>
             <ul>
-                <li>Vanilla, Node.js, ECMAScript2015/ECMAScript 6/ES6, JSX</li>
+                <li>Node.js, ES6/ES7, JSX, RxJS</li>
                 <li>User Interface Libraries–D3.js, React, jQuery</li>
-                <li>Frameworks–Angular 2, Express.js, Meteor</li>
+                <li>Frameworks–Express.js, Meteor, Angular 2</li>
                 <li>Build Tools–Gulp, Grunt, npm, Webpack, Babel</li>
             </ul>
         <li>Python</li>
@@ -89,7 +89,7 @@ active: resume
             </ul>
         <li>Databases</li>
             <ul>
-                <li>SQL, NoSQL, MongoDB (Mongoose)</li>
+                <li>SQL, NoSQL, MongoDB, Mongoose</li>
             </ul>
         <li>GitHub, git, vim, shell, bash</li>
         <li>VirtualBox, JIRA, Basecamp</li>
