@@ -8,7 +8,7 @@ active: projects
             <div class="col-md-12 col-lg-12">
                <ul>
                 <li class="projects"><a class="link" href='/quantflaunt'>QuantFlaunt</a> – A satirical web application that explores the future of branding and data quantification.</li>
-                <li class="projects"><a class="link" href='http://jamesanaipakos.com/money-laundering-react-d3/'>Money Laundering Histogram</a> – D3.js + React histogram of money laundering in the US.</li>
+                <li class="projects"><a class="link" href='http://jamesanaipakos.com/money-laundering-chart/'>Money Laundering Histogram</a> – D3.js + React histogram of money laundering in the US.</li>
                 <li class="projects"><a class="link" href='https://marx-magic-8ball.herokuapp.com/'>Marxist Magic 8-Ball</a> – A collection of tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine.</li>
                 <li class="projects"><a class="link"  href='http://secretchat.herokuapp.com/'>Ozymandias Chatroom</a> – A (semi)-private chatroom where nothing is recorded. Built with Node and Express.</li>
                 <li class="projects"><a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>– A reference of code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em>.</li>
