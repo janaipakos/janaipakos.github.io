@@ -2,9 +2,10 @@
 layout: default
 active: resume
 ---
-
-<div class="page-section short">
-
+<div class="page-section short" id="resume" name="resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
 <h1>Summary</h1>
     <ul>
     <li><strong>Nine months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
@@ -96,4 +97,7 @@ active: resume
         <li>Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, SublimeText, Microsoft Excel</li>
         <li>Front-End Development, MV* Frameworks, User Interface Design, Interaction Design, Responsive Design, Rapid Prototyping, Usability Testing, Interviewing, Wireframing, Cryptocurrency, Peer-to-Peer Networks, Eastern European Software</li>
     </ul>
+</div>
+</div>
+</div>
 </div>
