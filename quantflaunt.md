@@ -30,7 +30,7 @@ layout: default
       <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
           <h2>Final Site</h2>
             <p>QuantFlaunt went live in 2014. Users can input and track their tangible and intangible thoughts and activities, and compare their representative number to others. How big is your number?</p>
-            <a style="color:white" href="http://quantflaunt.github.io" role="button" class="btn btn-default" title="QuantFlaunt">Visit QuantFlaunt</a>
+            <a style="color:white" href="https://janaipakos.com/quant-flaunt" role="button" class="btn btn-default" title="QuantFlaunt">Visit QuantFlaunt</a>
       </div>
 
 
