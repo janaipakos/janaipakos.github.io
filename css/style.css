@@ -84,7 +84,7 @@ body {
 }
 
 body {
-    font-family: 'Varela', sans-serif;
+    font-family: 'Roboto Slab', georgia, serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -176,33 +176,27 @@ a img {
     background: #f5f5f5
 }
 
-h1,
-h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', helvetica, sans-serif;
     font-style: normal;
-    font-weight: 600;
-    color: #000;
+    font-weight: normal;
+    color: #040404;
     line-height: 1.25em
+}
+
+h1 {
+    text-decoration: underline;
 }
 
 h3,
 h6 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: #000;
-    line-height: 1.25em;
     font-size: 200%
 }
 
 h4,
 h5 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
     line-height: 1em;
     letter-spacing: .75px;
-    color: #000
 }
 
 p {
