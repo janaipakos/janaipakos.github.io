@@ -345,6 +345,7 @@ a.link:hover {
 
 #about,
 #videos,
+#blog,
 #works,
 #resume,
 #quantflaunt {
@@ -352,6 +353,10 @@ a.link:hover {
     text-align: center;
     width: 100%;
     margin-top: 50px;
+}
+
+#about {
+margin-top: 75px;
 }
 
 #contact {

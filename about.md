@@ -2,7 +2,7 @@
 layout: default
 active: about
 ---
-<div class="page-section short" id="works" name="works">
+<div class="page-section short" id="about" name="about">
     <div class="container">
 
         <div class="row">
