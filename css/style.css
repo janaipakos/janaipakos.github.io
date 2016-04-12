@@ -36,7 +36,7 @@ textarea {
 
 body {
     font-size: 1em;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 ::-moz-selection {
@@ -281,7 +281,7 @@ a.paper {
 
 a.link {
     color: #AC3326;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.link:hover {
