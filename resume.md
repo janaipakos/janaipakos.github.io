@@ -48,7 +48,7 @@ active: resume
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
 <h4>Editorial Assistant, Office of Communications</h4>
     <ul>
-        <li>Refined organization brand by attracting new readers to a Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website through alumni, student, and faculty interviews, and <strong>more than 100</strong> news articles.</li>
+        <li>Refined organization brand by attracting new readers to a Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website through alumni, student, and faculty interviews, and writing <strong>more than 100</strong> news articles.</li>
         <li>Encouraged editorial quality by coaching new writers on content style, voice, and structure.</li>
     </ul>
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
