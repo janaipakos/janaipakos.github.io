@@ -9,9 +9,9 @@ active: resume
 <section class="summary">
     <h1>Summary</h1>
     <ul>
-    <li><strong>Project leader</strong>, <strong>front-end developer</strong>, <strong>tester</strong>, and <strong>documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development.</li>
+    <li><strong>Project leader</strong>, <strong>developer</strong>, <strong>tester</strong>, and <strong>documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development.</li>
     <li><strong>Three years</strong> of experience as <strong>project leader</strong>, from two to six members.</li>
-    <li><strong>Nine months</strong> of experience in <strong>front-end development</strong>, UX design, data visualization, and usability testing.</li>
+    <li><strong>Nine months</strong> of experience in <strong>full-stack JavaScript development</strong>, UX design, data visualization, and usability testing.</li>
     <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe.</li>
     <li>Active in the <a class="link"  href='https://jamesanaipakos.com/projects'>Open-Source community</a>. Occassional <a class="link"  href='http://sched.co/2AhK'>public speaker</a>.</li>
     </ul>
