@@ -54,7 +54,7 @@ active: resume
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
 <h4>Transportation Security Officer</h4>
     <ul>
-        <li>Demonstrated critical thinking, subject matter expertise, and clear decision making while identifiying security incidents, recognizing <a class="link"  href='http://www.paulekman.com/product-category/facs/'>behavioral patterns</a> deviating from baseline norms, and interviewing hundreds of airline passengers.</li>
+        <li>Demonstrated critical thinking, subject matter expertise, and clear decision making while identifying security incidents, recognizing <a class="link"  href='http://www.paulekman.com/product-category/facs/'>behavioral patterns</a> deviating from baseline norms, and interviewing hundreds of airline passengers.</li>
         <li>Selected for award after passing three security drills designed to test alertness and analytical thinking.</li>
     </ul>
 </section>
