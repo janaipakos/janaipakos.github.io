@@ -8,7 +8,7 @@ active: projects
             <div class="col-md-12 col-lg-12">
                 <h2>Creator</h2>
                 <ul>
-                <li class="projects"><a class="link" href='http://jamesanaipakos.com/money-laundering-chart/'>Money Laundering Histogram</a> – D3.js + React histogram of money laundering in the US.</li>
+                <li class="projects"><a class="link" href='http://jamesanaipakos.com/react-d3-data-viz/'>React Developer Salary Histogram</a> – D3.js + React histogram of average React developer salary by state and year.</li>
                 <li class="projects"><a class="link" href='/quantflaunt'>QuantFlaunt</a> – A satirical web application that explores the future of branding and data quantification.</li>
                 <li class="projects"><a class="link"  href='http://secretchat.herokuapp.com/'>Ozymandias Chatroom</a> – A (semi)-private chatroom where nothing is recorded. Built with Node and Express.</li>
                 <li class="projects"><a class="link" href='http://jamesanaipakos.com/Marx-Magic-8-ball'>Marxist Magic 8-Ball</a> – A collection of tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine.</li>
