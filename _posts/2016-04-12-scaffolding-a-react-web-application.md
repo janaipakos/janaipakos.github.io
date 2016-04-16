@@ -14,6 +14,7 @@ The included configuration files are `package.json`, `.babelrc`, `.eslint`, `.es
 ## Directory Structure
 
 The directory has four folders.
+
 - The production application loads `dist/index.html`, which reads the compiled `bundle.js`. Any change that needs to be reflected in production, the user should use the `npm run postinstall` script to run the production Webpack file and compile a new `dist/bundle.js`.
 - `css/` contains the styling. The LESS file is referenced by the main Histogram Component, and bundled together for development. But in production, this styling is loaded as an external CSS file to avoid the Flash Of Unstyled Content.
 - `public/data/` contains the data that will be loaded into the gragh. The only place this data is referenced is `/components/index.jsx` and the name of this file and the data include can be changed here.
@@ -30,6 +31,7 @@ This application is deployed through the `gh-pages` package. It can be installed
 
 ## Build Tools
 Webpack is used to build the application. Webpack has four main objects: entry output, plugin, modue/loaders.
+
 - Entry is the file that will load the application.
 - Output is the location that `bundle.js` will be sent after it hs been built.
 - Plugin is any number of Webpack plugins that will help minimize, transform, or hot-reload your application.
