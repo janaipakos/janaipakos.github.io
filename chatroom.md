@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="page-section short" id="chatroom" name="chatroom">
+<div class="page-section short" id="quantflaunt" name="quantflaunt">
     <div class="container">
       <h3>Ozymandias Chatroom</h3>
 
@@ -22,7 +22,7 @@ layout: default
 
       </div>
 
-  </div>
+    </div>
 
 </div>
 </div>
