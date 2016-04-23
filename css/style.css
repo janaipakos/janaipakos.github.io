@@ -153,6 +153,10 @@ body {
   margin: 10px 0;
 }
 
+.project-padded {
+    margin: 50px;
+}
+
 hr {
     position: relative;
     border: none
@@ -348,7 +352,8 @@ a.link:hover {
 #blog,
 #works,
 #resume,
-#quantflaunt {
+#quantflaunt,
+#chatroom {
     background-color: #fff;
     text-align: center;
     width: 100%;
