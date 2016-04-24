@@ -60,7 +60,7 @@ active: projects
                      – An alternative currency slash art object.</li>
                 <li class="projects">
                     <a class="link"  href='https://vimeo.com/120022906'>IndieCade East</a>
-                     – My presentation at IndieCade East 2015 titled "Software and Hardware in Post-Communist Central and Eastern Europe".</li>
+                     – A presentation at IndieCade East 2015 titled "Software and Hardware in Post-Communist Central and Eastern Europe".</li>
                 <li class="projects">
                     <a class="link"  title="Letters Vimeo" href='https://www.youtube.com/watch?v=AOa1aX8Ehek'>Emails from Home</a>
                      – A video essay of my Grandmother's emails and Clinton Hill, Brooklyn.</li>
