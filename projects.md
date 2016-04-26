@@ -9,6 +9,10 @@ active: projects
                 <p>Below is a list of applications, sites, and tools I’ve worked on, ordered by release date. Click the GitHub Octocat (<img class="github" src="images/Octocat_small.png">) to contribute and read about each project's development.</p>
                 <h2>Creator</h2>
                 <ul>
+                    <li class="projects">
+                    <a class="link" href='http://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
+                     – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API.
+                     <a href="https://github.com/janaipakos/darksoulsnyc"><img class="github" src="images/Octocat_small.png"></a></li>
                 <li class="projects">
                     <a class="link" href='http://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
                      – Angular 2 web application using a Yahoo Finance API. Manage stocks for the 2016 presidential candidates.

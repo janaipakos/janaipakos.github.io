@@ -78,11 +78,12 @@ active: resume
 <h1>Technical Skills and Keywords</h1>
     <ul>
         <li>HTML5, CSS3, LESS, SCSS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS</li>
-        <li>User Interface Design, D3.js, React, jQuery, MV* Frameworks, Angular 2, Express.js, Meteor</li>
+        <li>D3.js, React, jQuery, Angular 1/2, Express.js, Meteor</li>
+        <li>User Interface Design, RESTful API, MV* Frameworks</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>
         <li>SQL, NoSQL, MongoDB, Mongoose</li>
-        <li>Tape, unit testing, usability testing, user acceptance testing, VirtualBox</li>
-         <li>Rapid Prototyping, Interviewing, Wireframing</li>
+        <li>Tape, QUnit, Unit Testing, Usability Testing, User Acceptance Testing, VirtualBox</li>
+        <li>Rapid Prototyping, Interviewing, Wireframing</li>
         <li>GitHub, Git, vim, shell, bash, JIRA, Basecamp</li>
         <li>WordPress, Bootstrap, Jade, EJS</li>
         <li>Adobe Creative Suite, Illustrator, InDesign, Premiere, After Effects, Axure, Sublime Text, Microsoft Excel</li>
