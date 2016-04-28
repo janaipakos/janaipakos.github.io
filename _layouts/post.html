@@ -5,7 +5,7 @@ layout: default
 <div class="page-section short" >
   <div class="container">
   <div class="row">
-    <div class="col-lg-10 col-md-10 col-md-offset-1">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div class="post-heading">
         <h1>{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -15,16 +15,12 @@ layout: default
       </div>
      </div>
   </div>
-</div>
+
 
 <br>
 
-<article>
-  <div class="row">
-    <div class="col-lg-10  col-md-10 col-md-offset-1">
+ <article role="main" class="blog-post">
 	  {{ content }}
-	</div>
-  </div>
 </article>
 
 <!-- <div class="row">
@@ -51,3 +47,5 @@ layout: default
   </div>
 </div>
 {% endif %}
+</div>
+</div>
