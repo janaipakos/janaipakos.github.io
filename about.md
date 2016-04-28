@@ -4,7 +4,6 @@ active: about
 ---
 <div class="page-section short" id="about" name="about">
     <div class="container">
-
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <img class="img-thumbnail" src="images/headshot.jpg" alt="james anaipakos">
