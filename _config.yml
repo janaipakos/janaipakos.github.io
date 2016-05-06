@@ -26,6 +26,7 @@ footer-links-active:
   linkedin: true
   stackoverflow: false
 url-pretty: "janaipakos.com"
+disqus: "jamesanaipakos"
 google_analytics: "56064805"
 timezone: "America/Vancouver"
 markdown: kramdown
@@ -43,7 +44,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false
+      comments: true
   -
     scope:
       path: ""

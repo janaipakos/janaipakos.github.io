@@ -5,7 +5,7 @@ layout: default
 <div class="page-section short" >
   <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-12 col-md-12">
       <div class="post-heading">
         <h1>{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -23,7 +23,7 @@ layout: default
 	  {{ content }}
 </article>
 
-<!-- <div class="row">
+<div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     <ul class="pager blog-pager">
       {% if page.previous.url %}
@@ -38,12 +38,12 @@ layout: default
       {% endif %}
     </ul>
   </div>
-</div> -->
+</div>
 
 {% if page.comments %}
 <div class="row disqus-comments">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    {% include disqus.html %}
+    {% include disquis.html %}
   </div>
 </div>
 {% endif %}
