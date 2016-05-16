@@ -1,34 +1,10 @@
-/* Mixins */
-.Background-size {
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.Ease-transition {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-
-/* Styling */
 @charset "utf-8";
-
-html {
+html,
+body {
     height: 100%
 }
 
 body {
-    height: 100%;
     font-family: 'Roboto Slab', georgia, serif;
     font-style: normal;
     font-weight: 300;
@@ -37,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch
 }
 
 textarea {
@@ -52,15 +28,16 @@ hr {
     margin: 1em 0;
     padding: 0;
     position: relative;
-    &:before {
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 25%;
-        width: 50%;
-        height: 2px;
-        background: #000
-    }
+}
+
+hr:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: #000
 }
 
 img {
@@ -131,48 +108,68 @@ small {
 }
 
 a {
-  .Ease-transition;
-  color: #AC3326;
-  text-decoration: none;
-  word-wrap: break-word;
-    &:hover {
-      color: #922B20;
-      text-decoration: underline;
-    }
-    &:before,
-    &:after {
-      .Ease-transition;
-    }
-    &.portfolio:hover,
-    &.portfolio:focus {
-      color: #c0392b;
-      text-decoration: underline;
-      outline: 0
-    }
-    &.link {
-      color: #AC3326;
-      text-decoration: none;
-      &:hover {
-        color: #922B20;
-        text-decoration: underline;
-      }
-    }
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+    color: #AC3326;
+    text-decoration: none;
+    word-wrap: break-word
+}
+
+a:hover {
+    color: #922B20;
+    text-decoration: underline;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in
+}
+
+a.portfolio:hover,
+a.portfolio:focus {
+    color: #c0392b;
+    text-decoration: underline;
+    outline: 0
+}
+
+a.link {
+    color: #AC3326;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: #922B20;
+    text-decoration: underline;
 }
 
 .overflow-image {
     margin-top: -65px
 }
 
+.post-title:hover {
+    color: #c0392b
+}
+
 .post-title {
-    text-decoration: underline;
-    text-align:left
-    &:hover {
-        color: #c0392b
-    }
+    text-decoration: underline
 }
 
 .Background-size {
-    .Background-size  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
 }
 
 .img-thumbnail {
@@ -226,6 +223,14 @@ a {
     margin: 50px;
 }
 
+.centered {
+    text-align: center
+}
+
+.left-align {
+    text-align: left
+}
+
 .paragraph-lead {
     font-size: 20px;
     color: #000
@@ -254,14 +259,13 @@ a {
     padding: 50px 0 200px 0
 }
 
-.white {
-    h1 {
-        padding-top: 35px
-    }
-    p {
-        padding-top: 25px
-    }
-}   
+.white h1 {
+    padding-top: 35px
+}
+
+.white p {
+    padding-top: 25px
+}
 
 .container {
     padding-right: 15px;
