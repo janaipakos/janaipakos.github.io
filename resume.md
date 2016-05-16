@@ -11,6 +11,7 @@ active: resume
     <ul>
     <li><strong>Project leader</strong>, <strong>developer</strong>, <strong>tester</strong>, and <strong>documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development.</li>
     <li><strong>Three years</strong> of experience as <strong>project leader</strong>, from two to six members.</li>
+    <li><strong>One year</strong> of experience as <strong>technical editor</strong> in web, database, and anti-money laundering software architecture.</li>
     <li><strong>Nine months</strong> of experience in <strong>full-stack JavaScript development</strong>, UX design, data visualization, and usability testing.</li>
     <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe.</li>
     <li>Active in the <a class="link"  href='https://jamesanaipakos.com/projects'>Open-Source community</a>. Occassional <a class="link"  href='http://sched.co/2AhK'>public speaker</a>.</li>
@@ -31,7 +32,7 @@ active: resume
 <h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
         <li>Improved manuscript quality prior to publication by identifying missing dependencies through Git source code testing, and confirming scope and readability by offering feedback on reader needs and the state of technology.</li>
-        <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
+        <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>Wordpress</h4>
@@ -77,7 +78,7 @@ active: resume
 <section class="skills">
 <h1>Technical Skills and Keywords</h1>
     <ul>
-        <li>HTML5, CSS3, LESS, SCSS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS</li>
+        <li>HTML, CSS, LESS, SCSS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS, C, Haskell</li>
         <li>D3.js, React, jQuery, Angular 1/2, Express.js, Meteor</li>
         <li>User Interface Design, RESTful API, MV* Frameworks</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>

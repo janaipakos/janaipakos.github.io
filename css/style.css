@@ -147,8 +147,9 @@ a.link:hover {
 }
 .post-title {
   text-decoration: underline;
+  text-align: left;
 }
-text-align:left .post-title:hover {
+.post-title:hover {
   color: #c0392b;
 }
 .Background-size {
