@@ -22,16 +22,16 @@ active: resume
 <h2>Capco, New York, NY (2014–now)</h2>
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
-        <li>Remediated portion of international bank's <strong>$1.45B regulatory fine</strong> by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components. Created and tracked <strong>300 design and testing documents</strong> that described the waterfall software lifecycle management process and manual unit testing framework.</li>
-        <li>Revamped a successfully-deployed Sharepoint 2013 customer-facing website with <strong>350+ combined pages</strong> while working with seven developers and designers on the Sass and Bootstrap front-end and user acceptance testing with VirtualBox.</li>
+        <li>Remediated portion of international bank's <strong>$1.45B regulatory fine</strong> by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components. Reduced expected fine by creating and tracking <strong>300 design and testing documents</strong> that described the waterfall software lifecycle management process and manual unit testing framework.</li>
+        <li>Revamped and successfully-deployed Sharepoint 2013 customer-facing website with <strong>350+ combined pages</strong> while working with seven developers and designers. Project included Sass and Bootstrap front-end, and user acceptance testing with VirtualBox.</li>
         <li>Enhanced application hand-off to client by recording and producing <strong>20-hour</strong> knowledge transfer session covering technical architecture and code base.</li>
-        <li>Designed, prototyped, and produced an <a class="link" href="https://jamesanaipakos.com/money-laundering-react-d3">anti-money laundering application</a> for a retail bank using D3.js, Express, and React.</li>
+        <li>Strengthened client understanding of anti-money laundering by designing and prototyping visualization using D3.js, Express, and React.</li>
         <li>Improved look and feel of Django-powered client presentation dashboard by working with UX designer on wireframes and workflow and Python developer on Bootstrap implementation.</li>
     </ul>
 <h2>Manning Publications, New York, NY (2015–now)</h2>
 <h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
-        <li>Improved manuscript quality prior to publication by identifying missing dependencies through Git source code testing, and confirming scope and readability by offering feedback on reader needs and the state of technology.</li>
+        <li>Improved manuscript quality prior to publication by identifying missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology.</li>
         <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
@@ -43,19 +43,19 @@ active: resume
     <h2>Barfly, New York, NY (2013–2015)</h2>
 <h4>Contractor</h4>
     <ul>
-          <li>Bolstered bar revenue and minimized company loss by identifying employee theft, and suggesting improvements to workflow, customer experience, and waste reduction in <strong>more than 30</strong> <a class="link"  href='http://www.barflysms.com/'>client reports</a>. </li>
+          <li>Bolstered revenue and minimized monetary loss of <strong>more than 15 bars</strong> by identifying employee theft, and suggesting improvements to workflow, customer experience, and waste reduction through <strong>more than 30</strong> <a class="link"  href='http://www.barflysms.com/'>client reports</a>. </li>
           <li>Built company expertise by training new hires in report writing, theft identification, and behavior observation.</li>
     </ul>
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
 <h4>Editorial Assistant, Office of Communications</h4>
     <ul>
-        <li>Refined organization brand by attracting new readers to a Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website through alumni, student, and faculty interviews, and writing <strong>more than 100</strong> news articles.</li>
-        <li>Encouraged editorial quality by coaching new writers on content style, voice, and structure.</li>
+        <li>Refined organization brand by attracting new readers to a Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website by writing <strong>more than 100</strong> articles and interviews.</li>
+        <li>Fostered editorial quality by coaching new writers on content style, voice, and structure.</li>
     </ul>
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
 <h4>Transportation Security Officer</h4>
     <ul>
-        <li>Demonstrated critical thinking, subject matter expertise, and clear decision making while identifying security incidents, recognizing <a class="link"  href='http://www.paulekman.com/product-category/facs/'>behavioral patterns</a> deviating from baseline norms, and interviewing hundreds of airline passengers.</li>
+        <li>Demonstrated critical thinking, subject matter expertise, and clear decision making by identifying security incidents, recognizing <a class="link"  href='http://www.paulekman.com/product-category/facs/'>behavioral patterns</a> deviating from baseline norms, and interviewing hundreds of airline passengers.</li>
         <li>Selected for award after passing three security drills designed to test alertness and analytical thinking.</li>
     </ul>
 </section>
