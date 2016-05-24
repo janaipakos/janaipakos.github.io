@@ -22,7 +22,8 @@ active: resume
 <h2>Capco, New York, NY (2014–now)</h2>
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
-        <li>Remediated portion of international bank's <strong>$1.45B regulatory fine</strong> by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components. Reduced expected fine by creating and tracking <strong>300 design and testing documents</strong> that described the waterfall software lifecycle management process and manual unit testing framework.</li>
+        <li>Remediated portion of international bank's <strong>$1.45B regulatory fine</strong> by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components.</li>
+        <li>Streamlined documentation framework by introducing living documents in SharePoint and requirements filtering that led to a 10x reduction in redundancies, from an estimated <strong>3000</strong> design and testing documents to <strong>300</strong>.</li>
         <li>Revamped and successfully-deployed Sharepoint 2013 customer-facing website with <strong>350+ combined pages</strong> while working with seven developers and designers. Project included Sass and Bootstrap front-end, and user acceptance testing with VirtualBox.</li>
         <li>Enhanced application hand-off to client by recording and producing <strong>20-hour</strong> knowledge transfer session covering technical architecture and code base.</li>
         <li>Strengthened client understanding of anti-money laundering by designing and prototyping visualization using D3.js, Express, and React.</li>
@@ -31,13 +32,13 @@ active: resume
 <h2>Manning Publications, New York, NY (2015–now)</h2>
 <h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
-        <li>Improved manuscript quality prior to publication by identifying missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology.</li>
+        <li>Improve quality of <strong>six</strong> manuscripts prior to publication by isolating missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology</li>
         <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
-<h4>Wordpress</h4>
+<h4>WordPress</h4>
     <ul>
-        <li>Created and launched personal portfolio and sustainable goods Wordpress sites by designing layout, implementing plugin functionality, and running usability tests for user feedback.</li>
+        <li>Created and launched personal portfolio and sustainable goods WordPress sites by designing layout, implementing plugin functionality, and running usability tests for user feedback.</li>
         <li>Clients include <strong><a class="link"  href='http://barrelon.com/'>Barrel On</a></strong>, <strong><a class="link"  href='http://chicvilleusa.com/'>Chicville USA</a></strong>, and <strong><a class="link"  href='http://withpurposeandpepper.com/'>With Purpose and Pepper</a></strong>.</li>
     </ul>
     <h2>Barfly, New York, NY (2013–2015)</h2>
@@ -49,8 +50,7 @@ active: resume
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
 <h4>Editorial Assistant, Office of Communications</h4>
     <ul>
-        <li>Refined organization brand by attracting new readers to a Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website by writing <strong>more than 100</strong> articles and interviews.</li>
-        <li>Fostered editorial quality by coaching new writers on content style, voice, and structure.</li>
+        <li>Attracted new readers to Pratt's <a class="link"  href='https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/'>quarterly magazine</a> and weekly-updated WordPress website by writing and editing <strong>more than 100</strong> articles and interviews.</li>
     </ul>
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
 <h4>Transportation Security Officer</h4>
@@ -78,7 +78,7 @@ active: resume
 <section class="skills">
 <h1>Technical Skills and Keywords</h1>
     <ul>
-        <li>HTML, CSS, LESS, SCSS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS, C, Haskell</li>
+        <li>HTML, CSS, LESS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS, C, Haskell</li>
         <li>D3.js, React, jQuery, Angular 1/2, Express.js, Meteor</li>
         <li>User Interface Design, RESTful API, MV* Frameworks</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>
