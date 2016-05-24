@@ -32,7 +32,7 @@ active: resume
 <h2>Manning Publications, New York, NY (2015–now)</h2>
 <h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
-        <li>Improve quality of <strong>six</strong> manuscripts prior to publication by isolating missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology</li>
+        <li>Improve quality of <strong>six</strong> manuscripts prior to publication by isolating missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology.</li>
         <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
