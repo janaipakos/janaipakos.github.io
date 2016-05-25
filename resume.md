@@ -23,29 +23,28 @@ active: resume
 <h4>Associate Consultant, Technology Domain</h4>
     <ul>
         <li>Remediated portion of international bank's <strong>$1.45B regulatory fine</strong> by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components.</li>
-        <li>Streamlined documentation framework by introducing living documents in SharePoint and requirements filtering that led to a 10x reduction in redundancies, from an estimated <strong>3000</strong> design and testing documents to <strong>300</strong>.</li>
-        <li>Revamped and successfully-deployed Sharepoint 2013 customer-facing website with <strong>350+ combined pages</strong> while working with seven developers and designers. Project included Sass and Bootstrap front-end, and user acceptance testing with VirtualBox.</li>
-        <li>Enhanced application hand-off to client by recording and producing <strong>20-hour</strong> knowledge transfer session covering technical architecture and code base.</li>
-        <li>Strengthened client understanding of anti-money laundering by designing and prototyping visualization using D3.js, Express, and React.</li>
-        <li>Improved look and feel of Django-powered client presentation dashboard by working with UX designer on wireframes and workflow and Python developer on Bootstrap implementation.</li>
+        <li>Updated documentation framework by introducing living documents in SharePoint and requirements filtering that led to a 10x reduction in effort, from <strong>3000</strong> design and testing documents to <strong>300</strong>.</li>
+        <li>Revamped and successfully-deployed Sharepoint 2013 customer-facing website with <strong>350+ combined pages</strong> while working with seven developers and designers.</li>
+        <li>Enhanced application hand-off to client by recording and producing <strong>20 hour</strong> knowledge transfer session covering technical architecture and code base.</li>
+        <li>Increased client understanding of anti-money laundering with D3, Express, and React application.</li>
+        <li>Improved look and feel of Django dashboard while working with UX designer and Python developer.</li>
     </ul>
 <h2>Manning Publications, New York, NY (2015–now)</h2>
 <h4>Manuscript Reviewer <small>volunteer position</small></h4>
     <ul>
-        <li>Improve quality of <strong>six</strong> manuscripts prior to publication by isolating missing dependencies, testing source code, confirming scope and readability, and offering feedback on reader needs and the state of technology.</li>
-        <li>Reviewed titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Nim in Action</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
+        <li>Improve quality of <strong>six titles</strong> prior to publication by testing source code, verifying readability, and offering feedback on reader needs.</li>
+        <li>Titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Learn Nim</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
     </ul>
 <h2>Freelance Web Design, New York, NY (2014–now)</h2>
 <h4>WordPress</h4>
     <ul>
-        <li>Created and launched personal portfolio and sustainable goods WordPress sites by designing layout, implementing plugin functionality, and running usability tests for user feedback.</li>
+        <li>Create and launch personal portfolio and sustainable goods WordPress sites.</li>
         <li>Clients include <strong><a class="link"  href='http://barrelon.com/'>Barrel On</a></strong>, <strong><a class="link"  href='http://chicvilleusa.com/'>Chicville USA</a></strong>, and <strong><a class="link"  href='http://withpurposeandpepper.com/'>With Purpose and Pepper</a></strong>.</li>
     </ul>
     <h2>Barfly, New York, NY (2013–2015)</h2>
 <h4>Contractor</h4>
     <ul>
-          <li>Bolstered revenue and minimized monetary loss of <strong>more than 15 bars</strong> by identifying employee theft, and suggesting improvements to workflow, customer experience, and waste reduction through <strong>more than 30</strong> <a class="link"  href='http://www.barflysms.com/'>client reports</a>. </li>
-          <li>Built company expertise by training new hires in report writing, theft identification, and behavior observation.</li>
+          <li>Increased revenue and minimize losses of <strong>more than 15 bars</strong> by identifying employee theft and suggesting workflow, customer experience, and operational improvements in <strong>more than 30</strong> <a class="link"  href='http://www.barflysms.com/'>reports</a>. </li>
     </ul>
 <h2>Pratt Institute, Brooklyn, NY (2013–2015)</h2>
 <h4>Editorial Assistant, Office of Communications</h4>
@@ -55,8 +54,8 @@ active: resume
 <h2>Department of Homeland Security, Ft. Lauderdale, FL (2010–2012)</h2>
 <h4>Transportation Security Officer</h4>
     <ul>
-        <li>Demonstrated critical thinking, subject matter expertise, and clear decision making by identifying security incidents, recognizing <a class="link"  href='http://www.paulekman.com/product-category/facs/'>behavioral patterns</a> deviating from baseline norms, and interviewing hundreds of airline passengers.</li>
-        <li>Selected for award after passing three security drills designed to test alertness and analytical thinking.</li>
+        <li>Exhibited critical thinking, subject matter expertise, and decision making by identifying security incidents, recognizing deviating behavioral patterns, and interviewing hundreds of  passengers.</li>
+        <li>Passed three security drills designed to test alertness and analytical thinking.</li>
     </ul>
 </section>
 <section class="presentations">
