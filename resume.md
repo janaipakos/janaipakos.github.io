@@ -6,6 +6,13 @@ active: resume
     <div class="container">
         <div class="row projects">
             <div class="col-md-12 col-lg-12">
+                <section class="summary">
+                    <a style="color:white" href="/resumes/james_anaipakos_cv.pdf" role="button" class="link btn btn-default" title="Download Full CV" target="_blank">Download Full CV</a>
+                </section>
+            </div>
+        </div>
+        <div class="row projects">
+            <div class="col-md-12 col-lg-12">
 <section class="summary">
     <h1>Summary</h1>
     <ul>
