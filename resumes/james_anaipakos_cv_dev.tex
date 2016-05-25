@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+
+\usepackage{verbatim}
+%\usepackage{hyperref}
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+%\definecolor{darkblue}{HTML}{EAB988}
+%\definecolor{darkblue}{HTML}{9C9F84}
+%\definecolor{darkblue}{HTML}{A97D5D}
+\definecolor{darkblue}{HTML}{4682B4}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+% personal data
+\firstname{James}
+\familyname{Anaipakos}
+\address{New York, NY}{}    % optional, remove the line if not wanted
+\mobile{+954-614-9805}                    % optional, remove the line if not wanted
+\email{janaipakos@gmail.com}                      % optional, remove the line if not wanted
+\homepage{jamesanaipakos.com}                % optional, remove the line if not wanted
+\extrainfo{\href{http://github.com/janaipakos.com}{github.com/janaipakos}}
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+\AfterPreamble{
+\hypersetup{colorlinks=true,urlcolor=darkblue,linkcolor=darkblue}
+}
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace{-40px}
+
+\section{Summary}
+%\vspace{-10px}
+\cvline{}{
+\begin{itemize}%
+\item Project leader, developer, and tester with {\textbf{five years}}  of experience.
+\item {\textbf{Three years}} of experience as {\textbf{project leader}}, from two to six members.
+\item {\textbf{One year}} of experience in {\textbf{full-stack JavaScript development}}, UX design, data visualization, and usability testing.
+\item Active in the \href{http://github.com/janaipakos.com}{Open-Source} community. Occassional \href{http://sched.co/2AhK}{public speaker}.
+\end{itemize}
+\vspace{-12px}
+}
+
+\section{Computer skills}
+\cvcomputer{Great}{JavaScript, HTML/CSS, LESS, Node}{Concepts}{UI Design, MV* Frameworks, Testing}
+\cvcomputer{Good}{React, D3, Express, jQuery, Angular}{Databases}{SQL, MongoDB, Mongoose}
+\cvcomputer{Passable}{Meteor, Haskell, C, Python, \LaTeX}{Tools}{Git, Adobe CS, Grunt, Webpack, Gulp}
+
+\section{Experience}
+\cventry {2014--Present}{Capco}{Associate Consultant}{New York, NY}{}{
+\begin{itemize}%
+\item Remediated portion of international bank's {\textbf{\$1.45B regulatory fine}} by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components.
+\item Revamped and successfully-deployed Sharepoint 2013 customer-facing website with {\textbf{350+ combined pages}} while working with seven developers and designers.
+\item Increased client understanding of anti-money laundering with D3, Express, and React application. 
+\item Improved look and feel of Django dashboard while working with UX designer and Python developer.\\
+\end{itemize}
+}
+
+\cventry{2015--Present}{Manning Publications}{Manuscript Reviewer}{New York, NY}{}{
+\begin{itemize}%
+\item Improve {\textbf{six titles}} prior to publication by testing source code, verifying readability, and offering feedback on reader needs. Titles include {\em CSS in Action}, {\em Learn Haskell}, and \href{https://www.manning.com/books/angular-2-in-action}{\em Angular 2 in Action}.\\
+\end{itemize}
+}
+
+\cventry{2015--Present}{Freelance Web Design}{WordPress}{New York, NY}{}{
+\begin{itemize}%
+\item Create and launch personal portfolio and sustainable goods WordPress sites for clients including \href{http://barrelon.com/}{Barrel On}, \href{http://chicvilleusa.com/}{Chicville USA}, and \href{http://withpurposeandpepper.com/}{With Purpose and Pepper}.\\
+\end{itemize}
+}
+
+\section{Projects}
+\cventry{MEAN}{\href{http://darksoulsnyc.herokuapp.com/}{Dark Souls NYC}}{}{{\em Dark Souls} as Manhattan neighborhoods}{}{}
+
+\cventry{Angular 2}{\href{http://jamesanaipakos.com/thecompanywekeep/}{The Company We Keep}}{}{Manage stocks for the 2016 presidential candidates}{}{}
+
+\cventry{D3 + React}{\href{http://jamesanaipakos.com/react-d3-data-viz/}{React Developer Salary Histogram}}{}{Average developer salary by state and year}{}{}
+
+\cventry{Node.js}{\href{https://jamesanaipakos.com/2015-11-01-Ozymandias-Chatroom}{Ozymandias Chatroom}}{}{Start a private and shareable chatroom in seconds}{}{}
+
+\cventry{Highcharts}{\href{https://jamesanaipakos.com/2015-09-01-QuantFlaunt-Overview}{QuantFlaunt}}{}{A satirical look at branding and data quantification}{}{}
+
+\cventry{jQuery}{\href{http://jamesanaipakos.com/Marx-Magic-8-ball}{Marxist Magic 8-Ball}}{}{Generate tweetable quotes from {\em Jacobin} magazine}{}{}
+
+\section{Education}
+\cventry{2015--2013}{Masters of Arts}{Media Studies}{4.0 GPA}{}{Pratt Institute, Brooklyn, NY}
+\cventry{2004--2009}{Bachelors of Arts}{Double Degree, English and Humanities}{3.5 GPA}{}{Florida State University, Tallahassee, FL}
+
+\end{document}
