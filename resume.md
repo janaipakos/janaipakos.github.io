@@ -85,7 +85,7 @@ active: resume
 <h1>Technical Skills and Keywords</h1>
     <ul>
         <li>HTML, CSS, LESS, Sass, JavaScript, Node.js, ES6/ES7, jsx, RxJS, C, Haskell</li>
-        <li>D3.js, React, jQuery, Angular 1/2, Express.js, Meteor</li>
+        <li>D3.js, React, jQuery, Angular 1/2, Express, Meteor</li>
         <li>User Interface Design, RESTful API, MV* Frameworks</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>
         <li>SQL, NoSQL, MongoDB, Mongoose</li>
