@@ -8,25 +8,25 @@ The following is a JavaScript style guide combined from various corporate and en
 
 
 ## JavaScript is a front-end language ##
-- Many enterprise style guides refer to JavaScript as a client-side programming language. Some even have addendums that JavaScript is not similar to Java. These guides do not take into accound Node's server-side interaction with databases and interfaces.
+- Enterprise style guides refer to JavaScript as a client-side programming language. Some even have reminders that Java and JavaScript are not the same langauge. These guides do not take into account Node’s server-side interaction with databases and interfaces.
 
 ## Limit line length to 120 characters ##
 
-- 120 characters is 50% longer than the suggested line length of 80 encouraged by other style guides. I attribute this to companies not using GitHub(version control is, however, encouraged).
+- 120 characters is 50% longer than the suggested line length of 80 encouraged by other style guides. I attribute this to companies not using GitHub, or any type of version control..
 
 ## Use double-quotes over single-quotes ##
 
-- I like this specification. This may be due to Java developers complaining about the otherwise indecipherable JavaScript code.
+- “Cover your ass” is a phrase I hear often, and over-commenting code is a failsafe against accountability when something breaks. By encouraging double-quotes, corporate style guides nudge developers to think of their code base as a “narrative” to air grievances and craft confusing and jargon filled asides.
 
-## Use /* for comments, and favor block comments over single-line ##
+## Favor block comments over single-line ##
 
-- "Cover your ass" is a phrase I hear often, and over-commenting code is a failsafe against accountability when something breaks. The trend of writing complex code that is covered in comments may be the lesser of two evils (no comments at all), but what about a rule such as eliminating the need for comments through clear function and class names.
+- The trend of writing complex code that is covered in comments may be the lesser of two evils (no comments at all). However, eliminating the need for comments through clear function and class names is not mentioned.
 
 ## Spaces over tabs, with 4-space indentation for readability ##
 
 - While files are huge and unwieldy, I appreciate the attempt at clarity.
 
-## Use JShint to test for errors in code, and delete commented out code and outdated comments ##
+## Use JSHint to test for errors in code, and delete commented out code and outdated comments ##
 
-- This is the most surprsing guideline I have come across. These are two bombshells that go against the status quo of waterfall development and bloated projects.
+- Just kidding.
 

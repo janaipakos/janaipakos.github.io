@@ -4,7 +4,7 @@ title: QuantFlaunt Overview
 date: 2015-09-01
 ---
 
-<p>QuantFlaunt is a satirical web application that explores the future of online branding and data quantification. By collecting and sharing not only everyday measureables, but also intangible thoughts and experiences, QuantFlaunt gives users a self-determined number that represents their identity and provides the 'big picture.' It's the interesction between Klout and The Onion headline <code>"Popular New Exercise App Just Tells Users They Ran 5 Miles A Day No Matter What."</code></p>
+<p>QuantFlaunt is a satirical web application that explores the future of online branding and data quantification. By collecting and sharing not only everyday measureables, but also intangible thoughts and experiences, QuantFlaunt gives users a self-determined number that represents their identity and provides the 'big picture.' It's the intersection between Klout and The Onion headline <code>"Popular New Exercise App Just Tells Users They Ran 5 Miles A Day No Matter What."</code></p>
 
 
 <div class="row">
