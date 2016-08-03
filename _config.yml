@@ -99,21 +99,3 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
-
-common-css:
-  - "/css/normalize.css"
-  - "/css/bootstrap.min.css"
-  - "/css/style.css"
-  - "/css/animate-custom.css"
-common-ext-css:
-  - "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-common-googlefonts:
-  - "Source+Sans+Pro:200,300,700"
-  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-  - "Roboto+Slab:100,300,400,700"
-  - "Roboto+Condensed:300,400"
-  - "Varela"
-common-js:
-  - "/js/jquery-1.11.2.min.js"
-  - "/js/bootstrap.min.js"
-common-ext-js:
