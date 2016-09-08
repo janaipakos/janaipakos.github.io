@@ -4,7 +4,7 @@ title: Setting Up a Haskell Project
 date: 2016-09-07T00:00:00.000Z
 ---
 
-I haven't found the perfect Haskell IDE yet. Atom and Sublime both have alright. Testing is done through `hlint` and there is ghc support in both. Unfortunately, I have had bad luck getting `stylish-haskell` to run in either. Nevertheless, Atom is my preferred, through its packages `language-haskell`, `ide-haskell`, and `haskell-ghc-mod`.
+I haven't found the perfect Haskell IDE yet. Atom and Sublime both have alright. Testing is done through `hlint` and there is GHC support in both. Unfortunately, I have had bad luck getting `stylish-haskell` to run in either. Nevertheless, Atom is my preferred, through its packages `language-haskell`, `ide-haskell`, and `haskell-ghc-mod`.
 
 Here are some notes I made after a day of messing with Haskell's package system.
 
