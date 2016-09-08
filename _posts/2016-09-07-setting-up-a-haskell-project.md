@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting a Haskell Project
+title: Setting Up a Haskell Project
 date: 2016-09-07
 ---
 
