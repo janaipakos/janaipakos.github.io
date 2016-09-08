@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Gherkin Specifications for an AML Application
+title: Building Gherkin Specs for an AML Application
 date: 2016-06-15
 ---
 
