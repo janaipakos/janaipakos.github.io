@@ -2,7 +2,7 @@
 layout: default
 active: resume
 ---
-<div class="page-section short" id="resume" name="resume">
+<div class="page-section short">
     <div class="container">
         <div class="row projects">
             <div class="col-md-12 col-lg-12">
