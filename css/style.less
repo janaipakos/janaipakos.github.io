@@ -1,5 +1,24 @@
-/* Mixins */
+/* Styling */
+@charset "utf-8";
+html {
+    height: 100%;
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; 
+}
 
+:root {
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+/* Mixins */
 .Background-size {
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -19,57 +38,30 @@
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
-/* Styling */
-
-@charset "utf-8";
-html {
-    height: 100%;
-  font-family: sans-serif; 
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; 
-}
-
+/*Font*/
 body {
-    height: 100%;
     font-family: 'Roboto Slab', georgia, serif;
-    font-style: normal;
-    font-weight: 300;
-     font-size: 16px;
+    font-size: 1rem;
     color: #000;
-    letter-spacing: .75px;
-    line-height: 1.4;
+    line-height: 1.4rem;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    margin: 0;
+    
+}
+
+body * + * { 
+     
 }
 
 textarea {
     resize: vertical
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: none;
-    border-top: 1px solid #fff;
-    margin: 1em 0;
-    padding: 0;
-    position: relative;
-    &:before {
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 25%;
-        width: 50%;
-        height: 2px;
-        background: #000
-    }
-}
-
-img {
-    vertical-align: middle; 
-    border: 0
+p {
+    line-height: 1.75rem;
+    margin-bottom: 1.5625em;
+    text-align: left;
+    hyphens: auto; /*Firefox only*/
 }
 
 h1,
@@ -82,7 +74,7 @@ h6 {
     font-style: normal;
     font-weight: normal;
     color: #040404;
-    line-height: 1.25em
+    line-height: 1.25em;
 }
 
 h1 {
@@ -94,40 +86,33 @@ h6 {
     font-size: 200%
 }
 
-h4,
-h5 {
-    line-height: 1em;
-    letter-spacing: .75px;
-}
-
-p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    text-align: left
-}
-
 b,
 strong {
-    font-weight: bold
+    font-weight: bold;
 }
 
 em {
-    font-weight: 300
-}
-
-pre {
-    background: #ebebeb;
-    border: none;
-    font-size: 16px;
-    color: #666;
-    padding: 20px;
-    line-height: 28px
+    font-weight: 300;
 }
 
 small {
     font-size: 80%;
 }
 
+code {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.post-title {
+    text-decoration: underline;
+    text-align: left;
+    &:hover {
+        color: #c0392b
+    }
+}
+
+/* Links */
 a {
     .Ease-transition;
     color: #AC3326;
@@ -158,6 +143,12 @@ a {
     }
 }
 
+/* Images */
+img {
+    vertical-align: middle; 
+    border: 0;
+}
+
 a img {
     background: white
 }
@@ -166,32 +157,20 @@ a img {
     background: #f5f5f5
 }
 
-.post-title {
-    text-decoration: underline;
-    text-align: left;
-    &:hover {
-        color: #c0392b
-    }
-}
-
-.Background-size {
-    .Background-size
-}
-
 .img-thumbnail {
     display: inline-block;
     height: auto;
     max-width: 100%;
-    padding: 4px;
+    padding: .25em;
     line-height: 1.42857143;
     background-color: #000;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: -15px
+.github {
+    height: 1.5625em;
 }
 
+/* Navigation */
 .navbar-default {
     border-color: transparent;
     background-color: #fff
@@ -220,18 +199,14 @@ a img {
     background-color: #eee;
 }
 
+/* Layout */
+.Background-size {
+    .Background-size
+}
+
 .projects {
     text-align: left;
-    margin: 10px 0;
-}
-
-.project-padded {
-    margin: 50px;
-}
-
-.paragraph-lead {
-    font-size: 20px;
-    color: #000
+    margin: .625em 0;
 }
 
 #about,
@@ -244,44 +219,32 @@ a img {
     background-color: #fff;
     text-align: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 #about {
-    margin-top: 75px;
-}
-
-#contact {
-    background: #fdfdfd;
-    width: 100%;
-    padding: 50px 0 200px 0
+    margin-top: 4.6875em;
 }
 
 .white {
     h1 {
-        padding-top: 35px
+        padding-top: 2.1875em;
     }
     p {
-        padding-top: 25px
+        padding-top: 1.5625em;
     }
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0 1em;
+    margin: 0 auto;
+    max-width: 1080px;
 }
 
 .page-section.short {
-    width: 100%;
-    min-height: 100px;
-    padding: 50px 0;
-}
-
-.github {
-    width: 25px;
-    height: 25px;
+    max-width: 1080px;
+    min-height: 6.25em;
+    padding: 3.125em 0;
 }
 
 .disqus-comments {
@@ -292,9 +255,4 @@ a img {
     .disqus-comments {
         margin-top: 40px;
     }
-}
-
-code {
-  font-family: monospace, monospace;
-  font-size: 1em;
 }
