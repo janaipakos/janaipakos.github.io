@@ -1,9 +1,10 @@
 /* Styling */
+
 @charset "utf-8";
 html {
     height: 100%;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
 }
 
 :root {
@@ -17,6 +18,7 @@ html {
     box-sizing: inherit;
 }
 
+
 /* Mixins */
 
 .Ease-transition {
@@ -27,7 +29,9 @@ html {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+
 /*Font*/
+
 body {
     font-family: -apple-system, ".SFNSText-Regular", "Roboto", serif;
     font-size: 100%;
@@ -43,7 +47,8 @@ p {
     line-height: 1.75rem;
     margin-bottom: 1.5625em;
     text-align: left;
-    hyphens: auto; /*Firefox only*/
+    hyphens: auto;
+    /*Firefox only*/
 }
 
 h1,
@@ -52,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Roboto,-apple-system,sans-serif;
+    font-family: Roboto, -apple-system, sans-serif;
     font-style: normal;
     font-weight: normal;
     color: #040404;
@@ -86,8 +91,8 @@ small {
 }
 
 code {
-  font-family: monospace, monospace;
-  font-size: 1em;
+    font-family: monospace, monospace;
+    font-size: 1em;
 }
 
 .post-title {
@@ -98,7 +103,9 @@ code {
     }
 }
 
+
 /* Links */
+
 a {
     .Ease-transition;
     color: #AC3326;
@@ -123,9 +130,11 @@ a {
     }
 }
 
+
 /* Images */
+
 img {
-    vertical-align: middle; 
+    vertical-align: middle;
     border: 0;
 }
 
@@ -139,7 +148,7 @@ img {
 }
 
 .img-responsive {
-     display: block;
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -148,7 +157,9 @@ img {
     height: 1.5625em;
 }
 
+
 /* Navigation */
+
 .navbar-default {
     border-color: transparent;
     background-color: #fff
@@ -177,8 +188,8 @@ img {
     background-color: #eee;
 }
 
-/* Layout */
 
+/* Layout */
 
 .container {
     padding: 0 1em;
@@ -190,39 +201,109 @@ img {
     min-height: 6.25em;
 }
 
-header { padding: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 1rem; font-size: 80%; }
-header nav ul {list-style: none;margin: 0 auto;padding: 0;display: inline-block;}
-header nav ul li {display: inline-block;margin-right: 1.5rem;padding-bottom: 0.5rem;}
-header nav ul li:last-child { margin-right: 0; }
-
-
-@media (min-width: 500px) {
-    header { margin-bottom: 0; padding: 2rem; border-bottom: none; }
-    header .navbar {text-align: center;}
+header {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    font-size: 80%;
 }
 
-pre, code, samp { font-family: "Inconsolata", Consolas, monospace; font-size: inherit; }
-pre, code { background-color: #eee; border-radius: 3px; }
-code { color: #7a7a7a; }
-pre, code { font-family: "Inconsolata", Consolas, monospace; }
-pre, pre code { background-color: transparent; border-radius: 0; }
+header nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+@media (min-width: 500px) {
+    header {
+        margin-bottom: 0;
+        padding: 2rem;
+        border-bottom: none;
+    }
+    header .navbar {
+        text-align: center;
+    }
+}
+
+pre,
+code,
+samp {
+    font-family: "Inconsolata", Consolas, monospace;
+    font-size: inherit;
+}
+
+pre,
+code {
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+code {
+    color: #7a7a7a;
+}
+
+pre,
+code {
+    font-family: "Inconsolata", Consolas, monospace;
+}
+
+pre,
+pre code {
+    background-color: transparent;
+    border-radius: 0;
+}
 
 .flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: webkit-flex; 
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;}
-.flex > * + * { margin-top: 0;}
+    flex-flow: column wrap;
+    flex: 1;
+}
 
-.column-sidebar { -webkit-box-flex: 33%; -ms-flex: 33%; flex: 33%; }
-.column-main {-webkit-box-flex:66%; -ms-flex: 33%; flex: 66%;}
+.flex > * + * {
+    margin-top: 0;
+}
 
-.tile {padding: 0 1.5em 0 0;}
+.column-sidebar {
+    flex: 0 0 22em;
+}
+
+.column-main {
+    flex: 1;
+}
+
+.tile {
+    padding: 0 1.5em 0 0;
+}
 
 .pager li {
     display: inline;
 }
 
-.pager {list-style: none;}
+.pager {
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .flex {
+        flex-direction: row;
+        flex: 1;
+    }
+    .column-main {
+        flex: 1;
+    }
+    .column-sidebar {
+        /* 12em is the width of the columns */
+        flex: 0 0 22em;
+    }
+}
