@@ -6,8 +6,7 @@ avatar:
 navbar-links:
   Blog: ""
   Projects: "projects"
-  About Me: "about"
-  Résumé: "resume"
+  About: "about"
 
 author:
   name: James Anaipakos
