@@ -212,12 +212,12 @@ pre, pre code { background-color: transparent; border-radius: 0; }
     display: -ms-flexbox;
     display: webkit-flex; 
     display: flex;
-    flex-flow: row wrap;}
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;}
 .flex > * + * { margin-top: 0;}
 
-.column-sidebar { -webkit-box-flex: 33%; -webkit-flex: 66%; -ms-flex: 33%; flex: 33%; }
-.column-main {-webkit-box-flex:66%; -webkit-flex: 66%; -ms-flex: 33%; flex: 66%;}
-
+.column-sidebar { -webkit-box-flex: 33%; -ms-flex: 33%; flex: 33%; }
+.column-main {-webkit-box-flex:66%; -ms-flex: 33%; flex: 66%;}
 
 .tile {padding: 0 1.5em 0 0;}
 
