@@ -36,7 +36,7 @@ highlighter: rouge
 gems: [jekyll-paginate]
 
 permalink: /:year-:month-:day-:title
-paginate: 5
+paginate: 100
 future: true
 defaults:
   -

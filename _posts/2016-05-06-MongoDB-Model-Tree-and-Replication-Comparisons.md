@@ -13,7 +13,7 @@ For example, adding one node to a Nested Model Tree will require the modificatio
 
 This is a huge waste. For another example, the Ancestors pattern, which looks like this:
 
-`db.categories.insert( { _id: "dbm", ancestors: [ "Books", "Programming", "Databases" ], parent: "Databases" } )`) 
+`db.categories.insert( { _id: "dbm", ancestors: [ "Books", "Programming", "Databases" ], parent: "Databases" } )` 
 
 is similar to the Materialized Paths pattern:
 

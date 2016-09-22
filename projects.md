@@ -3,10 +3,10 @@ layout: default
 active: projects
 ---
 <div class="page-section short">
-    <div class="container">
-        <div class="row projects">
-            <div class="col-md-12 col-lg-12">
-                <p>Below is a list of applications, sites, and tools I’ve worked on, ordered by release date. Click the GitHub Octocat (<img class="github-cat" src="images/Octocat_small.png">) to contribute and read about each project's development.</p>
+    <div class="container flex">
+        <div>
+            <div>
+                <p>Click the GitHub Octocat (<img class="github-cat" src="images/Octocat_small.png">) to contribute and read about each project's development.</p>
                 <h2>Creator</h2>
                 <ul>
                     <li>

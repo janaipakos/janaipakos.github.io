@@ -1,16 +1,17 @@
 ---
 common-css:
-  - "/css/bootstrap.min.css"
   - "/css/style.css"
 common-ext-css:
-  - "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 common-googlefonts:
-  - "Source+Sans+Pro:200,300,700"
+  - "Source+Sans+Pro:200,300,400, 600, 700, 400italic"
   - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
   - "Varela"
+  - "Inconsolata: 400,700"
+  - "Karla: 400"
+  - "Cousine"
+  - "Space+Mono:700"
 common-js:
   - "/js/jquery-1.11.2.min.js"
-  - "/js/bootstrap.min.js"
 common-ext-js:
 ---
 
@@ -23,7 +24,7 @@ common-ext-js:
 
     {% include nav.html %}
 
-    <div role="main" class="container main-content">
+    <div role="main" class="container main-content flex">
       {{ content }}
     </div>
 
