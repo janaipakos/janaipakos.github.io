@@ -4,21 +4,21 @@
           James Anaipakos
       </h3>  
     <nav role="navigation">
-        <ul>
+        <ul class="navbar__list">
         {% if page.active == "blog" %}
-            <li><a class="active" href="#">Blog</a></li>
+            <li class="active navbar--button"><a href="#">Blog</a></li>
         {% else %}
-            <li><a href="/">Blog</a></li>
+            <li class="navbar--button"><a href="/">Blog</a></li>
         {% endif %}
         {% if page.active == "projects" %}
-            <li class="active"><a href="#">Projects</a></li>
+            <li class="active navbar--button"><a href="#">Projects</a></li>
         {% else %}
-            <li><a href="../projects">Projects</a></li>
+            <li class="navbar--button"> <a href="../projects">Projects</a></li>
         {% endif %}
         {% if page.active == "about" %}
-            <li class="active"><a href="#">About</a></li>
+            <li class="active navbar--button"><a href="#">About</a></li>
         {% else %}
-            <li><a href="../about">About</a></li>
+            <li class="navbar--button"><a href="../about">About</a></li>
         {% endif %}
 
 

@@ -1,21 +1,20 @@
 ---
 layout: post
 title: Building Gherkin Specs for an AML Application
-date: 2016-06-15
+date: 2016-06-15T00:00:00.000Z
 ---
 
-
-Much of this post was inspired by [*Specification by Example using Gherkin*](https://www.manning.com/books/specification-by-example-using-gherkin).
+Much of this post was inspired by [_Specification by Example using Gherkin_](https://www.manning.com/books/specification-by-example-using-gherkin).
 
 In enterprise organizations, specifications are confused with tasks. Rather than providing a large description of the system or application in the form of specifications, or a list of requirements that describe the capability of the software, test and design documents focus on performance goals for software testers (read: implementation). Oftentimes, this segmentation does not give a clear picture of how an application performs or even what its purpose it, and this methodology only helps testers. But this is also not helpful, as testers only focus on their responsible tasks. For anyone else reading the document, the specification is too granular, and, to use a cliché, misses the forest for the trees.
 
-Alternatively, specification by example focuses on defining requirements or software capabilities by illustrating specifications. 
+Alternatively, specification by example focuses on defining requirements or software capabilities by illustrating specifications.
 
-The difference in these two methodologies is a clearer overall goal and a more helpful specification document. 
+The difference in these two methodologies is a clearer overall goal and a more helpful specification document.
 
 Below is a sample anti-money laundering application. Monetary transactions are screened by location and amount, and if either of these values fall into a certain range, they will be flagged by the system and require a closer inspection.
 
-Let’s screen three sample transactions:
+Let's screen three sample transactions:
 
 ```
 {ID: 1, location: USA, amount: 5000},
@@ -31,11 +30,11 @@ Our traditional or enterprise UAT document may look like the following:
 -Step: 3, Tester: Bob, Task: Record transaction ID 3 to database, Expected Result: Confirm transaction flagged
 ```
 
-This “documentation” has problems. From a tester perspective, I have no idea how this system works, or even its possible results. The only thing that interests me, in this case tester James, is making sure the ID 1 transaction is not flagged. I have no idea why or how flagging occurs, and I don’t care about the other transactions. In a classic case of CYA, I'm only focused on what test case my name is attached to.
+This "documentation" has problems. From a tester perspective, I have no idea how this system works, or even its possible results. The only thing that interests me, in this case tester James, is making sure the ID 1 transaction is not flagged. I have no idea why or how flagging occurs, and I don't care about the other transactions. In a classic case of CYA, I'm only focused on what test case my name is attached to.
 
 From the perspective of any non-tester, this document tells us nothing about the application or software. Deductive reasoning tells us that this system flags transactions for any number of reasons: locations other than USA, Mars as the location, locations not a string of three characters, locations in lowercase. Similarly, the amounts may need to be 5000, start with the digit 5, or be four digits in length. There are a litany of unknowns. And it leads to a case of shortsightedness and mystery.
 
-Compare this to a specification: 
+Compare this to a specification:
 
 ```gherkin
 Feature: Screen valid transactions
