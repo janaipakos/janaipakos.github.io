@@ -9,12 +9,12 @@ active: about
 <section>
     <h1>Summary</h1>
     <ul>
-    <li><strong>Project leader</strong>, <strong>developer</strong>, <strong>tester</strong>, and <strong>documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development.</li>
-    <li><strong>Three years</strong> of experience as <strong>project leader</strong>, from two to six members.</li>
-    <li><strong>One year</strong> of experience as <strong>technical editor</strong> in web, database, and anti-money laundering software architecture.</li>
-    <li><strong>Nine months</strong> of experience in <strong>full-stack JavaScript development</strong>, UX design, data visualization, and usability testing.</li>
-    <li>Graduate degree in Media Studies from <strong>Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe.</li>
-    <li>Active in the <a class="link"  href='https://jamesanaipakos.com/projects'>Open-Source community</a>. Occassional <a class="link"  href='http://sched.co/2AhK'>public speaker</a>.</li>
+    <li>Project leader</strong>, developer</strong>, tester</strong>, and documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development</li>
+    <li>Three years</strong> of experience as project leader</strong>, from two to six members</li>
+    <li>One year</strong> of experience as technical editor</strong> in web, database, and anti-money laundering software architecture</li>
+    <li>Nine months</strong> of experience in full-stack JavaScript development</strong>, UX design, data visualization, and usability testing</li>
+    <li>Graduate degree in Media Studies from Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe</li>
+    <li>Active in the <a class="link"  href='https://jamesanaipakos.com/projects'>Open-Source community</a>. Occassional <a class="link"  href='http://sched.co/2AhK'>public speaker</a></li>
     </ul>
 </section>
 <section>
@@ -24,7 +24,7 @@ active: about
 <li>Technology Consultant, Capco, New York, NY (2014–now)</li>
 <li>Manuscript Reviewer, Manning Publications, New York, NY (2015–now)</li>
     <ul>
-        <li>Titles include <em><strong><a class="link"  href='https://www.manning.com/books/nim-in-action'>Learn Nim</a></strong></em>, <em><strong>CSS in Action</strong></em>,  <em><strong>Python for Marketers</strong></em>, <em><strong><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em><strong>Learn Haskell</strong></em>, and <em><strong><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em>.</li>
+        <li>Titles include <em><a class="link"  href='https://www.manning.com/books/nim-in-action'>Learn Nim</a></strong></em>, <em>CSS in Action</strong></em>,  <em>Python for Marketers</strong></em>, <em><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em>Learn Haskell</strong></em>, and <em><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em></li>
     </ul>
 <li>Freelance Web Design, Wordpress, New York, NY (2014–now)</li>
     <li>Contractor, Barfly, New York, NY (2013–2015)</li>
@@ -70,8 +70,8 @@ active: about
                    <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">Email</a>
                     <a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="link" title="LinkedIn- James Anaipakos">LinkedIn </a>
                     <a alt="linkedin" href="https://github.com/janaipakos" class="link" title="GitHub- James Anaipakos">GitHub </a>
-                    <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="link" title="Vimeo">Vimeo</a>
-                    <a href="https://github.com/janaipakos/reads" class="link" title="Bookshelf">Bookshelf</a>
+                    <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="link" title="Vimeo- James Anaipakos">Vimeo</a>
+                    <a href="https://github.com/janaipakos/reads" class="link" title="Bookshelf- James Anaipakos">Bookshelf</a>
                     <a href="/resumes/james_anaipakos_cv.pdf" class="link" title="Download Full CV" target="_blank">CV</a>
             </div>
 </div>
