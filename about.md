@@ -9,11 +9,11 @@ active: about
 <section>
     <h1>Summary</h1>
     <ul>
-    <li>Project leader</strong>, developer</strong>, tester</strong>, and documentation specialist</strong> with five years of experience in Government, Compliance, Publishing, and Web Development</li>
-    <li>Three years</strong> of experience as project leader</strong>, from two to six members</li>
-    <li>One year</strong> of experience as technical editor</strong> in web, database, and anti-money laundering software architecture</li>
-    <li>Nine months</strong> of experience in full-stack JavaScript development</strong>, UX design, data visualization, and usability testing</li>
-    <li>Graduate degree in Media Studies from Pratt Institute</strong>, focusing on wireless peer to peer networks in Eastern Europe</li>
+    <li>Project leader, developer, tester, and documentation specialist with five years of experience in Government, Compliance, Publishing, and Web Development</li>
+    <li>Three years of experience as project leader, from two to six members</li>
+    <li>One year of experience as technical editor in web, database, and anti-money laundering software architecture</li>
+    <li>Nine months of experience in full-stack JavaScript development, UX design, data visualization, and usability testing</li>
+    <li>Graduate degree in Media Studies from Pratt Institute, focusing on wireless peer to peer networks in Eastern Europe</li>
     <li>Active in the <a class="link"  href='https://jamesanaipakos.com/projects'>Open-Source community</a>. Occassional <a class="link"  href='http://sched.co/2AhK'>public speaker</a></li>
     </ul>
 </section>
@@ -24,7 +24,7 @@ active: about
 <li>Technology Consultant, Capco, New York, NY (2014–now)</li>
 <li>Manuscript Reviewer, Manning Publications, New York, NY (2015–now)</li>
     <ul>
-        <li>Titles include <em><a class="link"  href='https://www.manning.com/books/nim-in-action'>Learn Nim</a></strong></em>, <em>CSS in Action</strong></em>,  <em>Python for Marketers</strong></em>, <em><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></strong></em>, <em>Learn Haskell</strong></em>, and <em><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></strong></em></li>
+        <li>Titles include <em><a class="link"  href='https://www.manning.com/books/nim-in-action'>Learn Nim</a></em>, <em>CSS in Action</em>,  <em>Python for Marketers</em>, <em><a class="link"  href='https://www.manning.com/books/rxjs-in-action'>RxJS in Action</a></em>, <em>Learn Haskell</em>, and <em><a class="link"  href='https://www.manning.com/books/angular-2-in-action'>Angular 2 in Action</a></em></li>
     </ul>
 <li>Freelance Web Design, Wordpress, New York, NY (2014–now)</li>
     <li>Contractor, Barfly, New York, NY (2013–2015)</li>
