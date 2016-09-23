@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting Up a Haskell Project
-date: 2016-08-07T00:00:00.000Z
+date: 2016-08-07
 ---
 
 I haven't found the perfect Haskell IDE yet. Atom and Sublime both have alright plugin support and linting. Testing is done through `hlint` and there is GHC support in both. Unfortunately, I have had bad luck getting `stylish-haskell` to run in either. Nevertheless, Atom is my preferred, through its packages `language-haskell`, `ide-haskell`, and `haskell-ghc-mod`. Outside of these two, vim is another good option.

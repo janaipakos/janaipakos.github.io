@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MongoDB Model Tree and Replication Comparison
-date: 2016-05-06T00:00:00.000Z
+date: 2016-05-06
 ---
 
 While studying for the MongoDB Developer Exam, I noticed that many structures and sets, described thoroughly in the documentation, lacked an easy to read visual component. Below are two tables I came up with for drills.

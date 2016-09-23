@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building Gherkin Specs for an AML Application
-date: 2016-06-15T00:00:00.000Z
+date: 2016-06-15
 ---
 
 Much of this post was inspired by [_Specification by Example using Gherkin_](https://www.manning.com/books/specification-by-example-using-gherkin).
