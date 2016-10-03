@@ -9,7 +9,6 @@ I haven't found the perfect Haskell IDE yet. Atom and Sublime both have alright 
 Here are some notes I made after a day of messing with Haskell's package system.
 
 # Creating a project in Stack
-## Download
 - Download Stack from [Haskell Stack](https://haskell-lang.org/get-started)
 - Can also use `brew install haskell-stack`
 
@@ -21,7 +20,7 @@ Here are some notes I made after a day of messing with Haskell's package system.
 - `stack build` wil compile the project
 - Run the compiled output or file with `stack ghci` or `stack build` and `stack exec {project-name}`.
 
-##PATH
+## PATH
 If you want to add ghci and ghc to your PATH, you could export it directly in the Terminal, but this will only be for that temporary session. A better solution is, on Mac, changing your PATH through `$HOME/.bash_profile` or by creating a file with paths in `/etc/paths.d`. In `$HOME/.bash_profile`, just type `export PATH=$HOME/{PATH HERE}:$PATH`.
 
 Now you can call GHCI from the Terminal/bash.
