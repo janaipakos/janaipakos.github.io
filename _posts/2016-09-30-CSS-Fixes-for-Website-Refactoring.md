@@ -7,7 +7,7 @@ I found several surprises after running a pagespeed audit on this blog. The firs
 
 These were easy replacements after removing the Bootstrap CSS, thanks to flexbox. But while i was tinkering around, I started refactoring more and more CSS. Listed below are a few quick fixes that will improve CSS readability and squeeze performance from sites:
 
-##PX, REM, EM
+## PX, REM, EM
 Em and rem are units of measurement translated into pixel values, and this flexibility helps them scale elements uniformly. Keith Grant uses a button with text as an example. With pixel units, resizing the interior text will not change the button size, and lead to janky looking elements. But with em referencing font-size, the button will scale.
 
 Generally, rem should be used for font-size, em for padding/margins, and px for borders. Rem/em is preferred so that the element can size up and down accordingly to a point of reference, which could be the font-size of an element or, in the case of rem, the font-size made explicit in the root. Use the code below, then set your font to rem to set it relative to this!
@@ -21,7 +21,7 @@ For the difference between rem and em, consider that nested elements will refere
 - Em for the padding to scale
 - Px because these measurements should be exact
 
-##BEM Naming
+## BEM Naming
 Harry Roberts from [CSS Wizardry](http://csswizardry.com/) has more to say about this, but a quick note on the naming specification BEM that helped organize my CSS. BEM splits components’ classes into three groups, and it stands for:
 - Block: The sole root of the component.
 - Element: A component part of the Block.
@@ -33,7 +33,7 @@ An analogy is below. Here we can see that `.person {}` is the Block; it is the s
 - .person__head { }
 - .person--tall { }
 
-##Miscellaneous Fixes and References
+## Miscellaneous Fixes and References
 - Use maxwidth instead of width for flexbility
 - Add the property `hyphens` to text selectors for better readability. Only works on Firefox.
 - Get rid of unused class names and unspecific class names. Think `post-title` instead of `title`. Remove overly specific class names such as `nav ul` and replace them with .site-nav

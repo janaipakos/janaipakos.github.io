@@ -13,12 +13,11 @@ date: 2016-10-03
 - :kind (k) - Shows the kind of type, and can also print normalised type
 
 ## Perks of Haskell
-- Strong - Does not compile with errors. Does not coerce to correct, but it does _infer_
+- Strong- Does not compile with errors. Does not coerce to correct, but it does _infer_
 - Static- Knows the vslue of esch type. Don't need to declare like Java. No duck typing or replacement
 - Inferred- Compiler can deduce aaType without the user declaring it
 
 ## Overview
-As a functional language, you pass functions to other functions. A few quirks help with this.
 - Polymorphic- A value is polymorphic if more than one type can have it
 - Ad hoc- Ad hoc is given separate definition for type. Think of the infix + operator: it does different things
 - Parametric- Value behave the same way regardless of type. Type can be used in different contexts
@@ -67,7 +66,8 @@ As a functional language, you pass functions to other functions. A few quirks he
 - !! x - get x index from list
 
 ## Algebraic Data Types
-`data BookInfo = Book Int String | Unknown` -> a data declaration, how datatypes are defined
+### `data BookInfo = Book Int String | Unknown`
+- A data declaration, how datatypes are defined
 - data- creates or defines a new Type constructor or data type
     + `data Sex = Male | Female` is an instance of constructor
 - BookInfo- Type constructor, type name for datatype BookInfo
@@ -76,7 +76,7 @@ As a functional language, you pass functions to other functions. A few quirks he
 - | - reads as "or"
 - Unknown- Second value or data constructor
 
-`"String" :: String`
+### `"String" :: String`
 - Type Signature- line of code that defines the type of a value, expression, or function
 - `(++) :: [a] -> [a] -> [a]`
 - 'a' is the type variable. It is polymorphic. It doesn't have to be the same literal value, only the same type.
@@ -85,7 +85,7 @@ As a functional language, you pass functions to other functions. A few quirks he
     + new type- Allows one value or data constructor with one field
 - Give functions type synonms to convey more information
 
-`Class class where type`
+### `Class class where type`
 - Make own Type class without using 'deriving'
 - Deriving- Type classes are tacked on to give ability (similar to an alias)
 - Instance- Begins declaration of type-class instance
