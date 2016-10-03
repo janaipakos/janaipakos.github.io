@@ -3,7 +3,7 @@ layout: post
 title: Haskell Master Notes
 date: 2016-10-03
 ---
-#GHCI Shortcuts
+## GHCI Shortcuts
 - : - Means "type of"
 - :? - Help menu
 - :load (l) - Load program
@@ -12,12 +12,12 @@ date: 2016-10-03
 - :type (t) - Shows type of expression
 - :kind (k) - Shows the kind of type, and can also print normalised type
 
-#Perks of Haskell
+## Perks of Haskell
 - Strong - Does not compile with errors. Does not coerce to correct, but it does _infer_
 - Static- Knows the vslue of esch type. Don't need to declare like Java. No duck typing or replacement
 - Inferred- Compiler can deduce aaType without the user declaring it
 
-#Overview
+## Overview
 As a functional language, you pass functions to other functions. A few quirks help with this.
 - Polymorphic- A value is polymorphic if more than one type can have it
 - Ad hoc- Ad hoc is given separate definition for type. Think of the infix + operator: it does different things
@@ -44,19 +44,19 @@ As a functional language, you pass functions to other functions. A few quirks he
 - Function Composition ( . )= Chain functions from the right to the left
 - Funtion Application ( $) - Replace parentheses that edn to the right. However, don't make huge composition chains, use let bindings as labels
 
-#Recursion Rules
+## Recursion Rules
 1. Consider the type of the function
 2. Determine the base or edge case along with the edge goal. Usually a empty list
 3. Determine arguments. List all alternate possibilities to the goal. E.g. if not an empty list, a list with something
 4. Consider the recursion or the repeated steps. What should repeat? Usually the same function
 5. Ensure these actions move towards the goal. Don't waste actions
 
-#Definitions
+## Definitions
 - Accumulator- Like recursion, but start to end rather than end to start
 - Arity- The number of arguments a function or constructor takes
 - Pragma- The language extension "comment" at the top of a program file
 
-#Patterns
+## Patterns
 - If, Then, Else- 
 - Case- Case {expression} of {pattern} -> result
 - Pattern Match
@@ -66,7 +66,7 @@ As a functional language, you pass functions to other functions. A few quirks he
 - : - Prepend to list
 - !! x - get x index from list
 
-#Algebraic Data Types
+## Algebraic Data Types
 `data BookInfo = Book Int String | Unknown` -> a data declaration, how datatypes are defined
 - data- creates or defines a new Type constructor or data type
     + `data Sex = Male | Female` is an instance of constructor
@@ -91,6 +91,6 @@ As a functional language, you pass functions to other functions. A few quirks he
 - Instance- Begins declaration of type-class instance
     + `Instance __ __ where` -> what type do you declare for the new instance. Where shows the functions
 
-#Scope
+## Scope
 - Haskell is lexically or location-base scoped
 - Scope is the entire function, not just what is to the right of the equals. But func is outside, while let is inside
