@@ -65,7 +65,7 @@ date: 2016-10-03
 - !! x - get x index from list
 
 ## Algebraic Data Types
-#### `data BookInfo = Book Int String | Unknown`
+
 - A data declaration, how datatypes are defined
 - data- creates or defines a new Type constructor or data type
     + `data Sex = Male | Female` is an instance of constructor
