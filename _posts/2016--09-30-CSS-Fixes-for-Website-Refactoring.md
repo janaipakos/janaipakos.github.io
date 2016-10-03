@@ -1,8 +1,8 @@
-----
+---
 layout: post
 title: CSS Fixes for Website Refactoring
-date: 09-15-2016
------
+date: 2016-09-05
+---
 I found several surprises after running a pagespeed audit on this blog. The first was that  the site was not using 96% of Bootstrap's CSS. It has become second nature to import Bootstrap or Foundation while setting up a site, and I fell into this trap of going for simplicity instead of performance. The only Bootstrap code I was using was the grid system and navigation styling.
 
 These were easy replacements after removing the Bootstrap CSS, thanks to flexbox. But while i was tinkering around, I started refactoring more and more CSS. Listed below are a few quick fixes that will improve CSS readability and squeeze performance from sites:

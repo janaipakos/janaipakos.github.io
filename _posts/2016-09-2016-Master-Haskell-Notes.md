@@ -1,3 +1,8 @@
+---
+layout: post
+title: Haskell Master Notes
+date: 2016-10-03
+---
 #GHCI Shortcuts
 - : - Means "type of"
 - :? - Help menu
