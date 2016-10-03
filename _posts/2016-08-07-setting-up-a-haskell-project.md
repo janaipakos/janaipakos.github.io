@@ -9,14 +9,19 @@ I haven't found the perfect Haskell IDE yet. Atom and Sublime both have alright 
 Here are some notes I made after a day of messing with Haskell's package system.
 
 # Creating a project in Stack
-
+## Download
 - Download Stack from [Haskell Stack](https://haskell-lang.org/get-started)
+- Can also use `brew install haskell-stack`
+
+## Scaffold
 - Create a new project, simply by writing one in a single file or using `stack new {project-name}`. This does a bit of scaffolding with folders, files, etc. You can also use a few [different templates](https://github.com/commercialhaskell/stack-templates) that set up the project in different ways.
 - Something I learned from Christopher Allen's [_Haskell Mega Stack Tutorial_](https://www.youtube.com/watch?v=sRonIB8ZStw) is that Stack and Cabal are not package managers! GHC-PKG is the package manager.
-- Use `stack setup` to download and configure ghci using resolvers. Resolver or snapshots are all the same thing. These are just different updates or builds used to install ghc.
 - `cd {project folder}`
-- Run the file with `stack ghci` or `stack build` and `stack exec {project-name}`.
+- Use `stack setup` to download and configure ghci using resolvers after switching to the new directory. Resolver or snapshots are all the same thing. These are just different updates or builds used to install ghc.
+- `stack build` wil compile the project
+- Run the compiled output or file with `stack ghci` or `stack build` and `stack exec {project-name}`.
 
+##PATH
 If you want to add ghci and ghc to your PATH, you could export it directly in the Terminal, but this will only be for that temporary session. A better solution is, on Mac, changing your PATH through `$HOME/.bash_profile` or by creating a file with paths in `/etc/paths.d`. In `$HOME/.bash_profile`, just type `export PATH=$HOME/{PATH HERE}:$PATH`.
 
 Now you can call GHCI from the Terminal/bash.
