@@ -65,7 +65,7 @@ date: 2016-10-03
 - !! x - get x index from list
 
 ## Algebraic Data Types
-#### `data BookInfo = Book Int String | Unknown`
+- `data BookInfo = Book Int String | Unknown`
 - A data declaration, how datatypes are defined
 - data- creates or defines a new Type constructor or data type
     + `data Sex = Male | Female` is an instance of constructor
@@ -75,7 +75,7 @@ date: 2016-10-03
 - | - reads as "or"
 - Unknown- Second value or data constructor
 
-#### `"String" :: String`
+- `"String" :: String`
 - Type Signature- line of code that defines the type of a value, expression, or function
 - `(++) :: [a] -> [a] -> [a]`
 - 'a' is the type variable. It is polymorphic. It doesn't have to be the same literal value, only the same type.
@@ -84,7 +84,7 @@ date: 2016-10-03
     + new type- Allows one value or data constructor with one field
 - Give functions type synonms to convey more information
 
-#### `Class class where type`
+- `Class class where type`
 - Make own Type class without using 'deriving'
 - Deriving- Type classes are tacked on to give ability (similar to an alias)
 - Instance- Begins declaration of type-class instance
