@@ -72,7 +72,6 @@ date: 2016-10-03
 - BookInfo- Type constructor, type name for datatype BookInfo
 - Book- value or data constructor
 - Int and String- Components, arguments, field, parameter
-- | - reads as "or"
 - Unknown- Second value or data constructor
 
 - `"String" :: String`
