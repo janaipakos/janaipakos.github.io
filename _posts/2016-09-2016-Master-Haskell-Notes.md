@@ -14,23 +14,23 @@ date: 2016-10-03
 
 ## Perks of Haskell
 - Strong- Does not compile with errors. Does not coerce to correct, but it does _infer_
-- Static- Knows the vslue of esch type. Don't need to declare like Java. No duck typing or replacement
-- Inferred- Compiler can deduce aaType without the user declaring it
+- Static- Knows the value of each type. Don't need to declare like Java. No duck typing or replacement
+- Inferred- Compiler can deduce a Type without the user declaring it
 
 ## Overview
 - Polymorphic- A value is polymorphic if more than one type can have it
 - Ad hoc- Ad hoc is given separate definition for type. Think of the infix + operator: it does different things
 - Parametric- Value behave the same way regardless of type. Type can be used in different contexts
 - Type Erasure- Haskell does not care about type when running an program, it only cares at compilation. This increases speed
-- Currying- Every function has one parameter. Multi-function arguments are expressed as one argument functions. They are split or stepped through.
+- Currying- Every function has one parameter. Multi-function arguments are expressed as one argument functions. They are split or stepped through
 - Partial application binds these arguments. Think of each arrow in function signatures as a new function
     + Avoid using Partial Functions (such as head, tail, init). These do not cover all possible values, such as an empty list, and can crash. Use total functions with pattern matching to cover all possible inputs
 - Higher Order Functions- Functions that abstract away common patterns, such as map, filter, fold
     + Map- Do something over a list (even functions!)
     + Filter- Keep something, with a predicate or test, from a list, and throw the rest away
     + Fold- Combine lists via an operator. Use when traversing a list
-        * *Catamorphism- Cata means down. Destructing data and reducing structure.
-        * Fold justreplaces the cons constructor in lists.
+        * *Catamorphism- Cata means down. Destructing data and reducing structure
+        * Fold justreplaces the cons constructor in lists
         * Foldr adds the accumulator to the final element. Foldl adds the accumulator to the head*
     + Scan- Flike Fold, but shows intermediate (initial) values. I.e shows progress
 - Predicate- Functions that tell if something is true. Found in list comprehension
@@ -61,7 +61,6 @@ date: 2016-10-03
 - Pattern Match
 - Guards- See if a value is true or false. Remember not to use "="
 - Where/Let Bindings- let {parameter} in {binding} -> let is local and where is global
-- >>= - Bind Function
 - : - Prepend to list
 - !! x - get x index from list
 
