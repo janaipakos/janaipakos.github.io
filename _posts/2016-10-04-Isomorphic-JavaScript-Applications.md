@@ -2,7 +2,7 @@
 layout: post
 title: Isomorphic JavaScript Applications
 data: 2016-10-04
---- 
+---
 Isopmorphic JavaScript applications share JavaScript code between client and server. There are several perks to this, including a codebase with an equal form regardless of environment.
 
 Below are a few key points from [*Building Isomorphic JavaScript Apps*](http://shop.oreilly.com/product/0636920042846.do) by Jason Strimpel. Strimpel uses an eCommerce site as a barometer for three qualities a modern web application should fulfill: 
