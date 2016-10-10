@@ -18,7 +18,7 @@ Here are some notes I made after a day of messing with Haskell's package system.
 - `cd {project folder}`
 - Use `stack setup` to download and configure ghci using resolvers after switching to the new directory. Resolver or snapshots are all the same thing. These are just different updates or builds used to install ghc.
 - `stack build` wil compile the project
-- Run the compiled output or file with `stack ghci` or `stack build` and `stack exec {project-name}`.
+- Run the compiled output or file with `stack ghci` or `stack build` and `stack exec {project-name}` or `stack runhaskell ./src/Main.hs`.
 
 ## PATH
 If you want to add ghci and ghc to your PATH, you could export it directly in the Terminal, but this will only be for that temporary session. A better solution is, on Mac, changing your PATH through `$HOME/.bash_profile` or by creating a file with paths in `/etc/paths.d`. In `$HOME/.bash_profile`, just type `export PATH=$HOME/{PATH HERE}:$PATH`.
