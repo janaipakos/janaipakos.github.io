@@ -3,20 +3,16 @@ layout: post
 title: Functional Reactive Programming
 data: 2016-10-18
 ---
-## FRP
-Functional Reactive Programming (FRP) is a library that replaces listers (callbacks) in the observer pattern for clearer and simpler code. It is about refactoring  specific area of code that focuses on event propogation. FRP is a replacement for the observer pattern i. e. event  listeners and callbacks. One of the main goals of FRP is to bring order to the management of state. 
+Functional Reactive Programming (FRP) is a library that replaces listers (callbacks) in the observer pattern for clearer and simpler code. It is about refactoring  specific area of code that focuses on event propogation. FRP is a replacement for the observer pattern i.e. event  listeners and callbacks. One of the main goals of FRP is to bring order to the management of state. 
 
-The term “reactive” refers to inputs or the flow of data. It is event based, acting in response to input, and focuses on the flow of data rather than the flow of control. 
-
-Reactivity is fused with "Functional" in the form of compositionality from Functional Programming.
-
-The Rx library is also reactive in that it chains event handlers. But FRP's addition of functional programming brings a tighter control to your codebase.
+The term “reactive” refers to inputs or the flow of data. It is event based, acting in response to input, and focuses on the flow of data rather than the flow of control. Reactivity is fused with "Functional" in the form of compositionality from Functional Programming. The Rx library is also reactive in that it chains event handlers. But FRP's addition of functional programming brings a tighter control to your codebase.
 
 ### Manning Book
 _Functional Reactive Programming_ (Manning, 2016) describes two ways to architect appications. The first is through threads, which refers to control flow. This is good for I/O and a clearly defined sequence (e.g through Actors and generators). Threads express control through sequences. The seond way is through Events. This refers to discrete and asynchronous messages. Think GUIs and videogames. Events express control through dependencies. Both of these methods manage state change via inputs. A problem arises when the way these two methods switch how they express control. Programming is basically organizing and controlling state machines, or when apps change state to logic. Confuse the logic, and you've got trouble.
 
-### LIstener Plagues
-The author describes the six plagues of listeners.
+### Listener Plagues
+The author describes the six plagues of listeners: 
+
 - Unpredictable orders- Events depend on listener order
 - Missed first event- Hard to know if listener is registered
 - Messy state- Callbacks force state-machine style
