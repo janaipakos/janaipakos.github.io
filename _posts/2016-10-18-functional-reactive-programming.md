@@ -2,7 +2,7 @@
 layout: post
 title: Functional Reactive Programming
 data: 2016-10-18
---- 
+---
 ## FRP
 Funtional Reactive Programming (FRP) is a library that replaces listers (callbacks) in the observer pattern for clearer and simpler code. It is about refactoring  specific area of code that focuses on event propogation. FRP is a replacement for the observer pattern i. e. event  listeners and callbacks. One of the main goals of FRP is to bring order to the management of state. 
 
