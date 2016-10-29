@@ -12,10 +12,10 @@ active: projects
                     <a class="link" href='https://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
                      – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API</li>
                 <li>
-                    <a class="link" href='http://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
+                    <a class="link" href='https://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
                      – Angular 2 web application using a Yahoo Finance API. Manage stocks for the 2016 presidential candidates</li>
                  <li>
-                    <a class="link" href='http://jamesanaipakos.com/react-d3-data-viz/'>React Developer Salary Histogram</a>
+                    <a class="link" href='https://jamesanaipakos.com/react-d3-data-viz/'>React Developer Salary Histogram</a>
                      – D3.js + React histogram of average React developer salary by state and year</li>
                  <li>
                     <a class="link"  href='2015-11-01-Ozymandias-Chatroom'>Ozymandias Chatroom</a>
@@ -24,10 +24,10 @@ active: projects
                     <a class="link" href='2015-09-01-QuantFlaunt-Overview'>QuantFlaunt</a>
                      – Explore the future of branding and data quantification in this satirical web application</li>
                 <li>
-                    <a class="link" href='http://jamesanaipakos.com/Marx-Magic-8-ball'>Marxist Magic 8-Ball</a>
+                    <a class="link" href='https://jamesanaipakos.com/Marx-Magic-8-ball'>Marxist Magic 8-Ball</a>
                      – Generate tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine</li>
                 <li>
-                    <a class="link" href='http://jamesanaipakos.com/multiply-by-666/'>Multiply by 666</a>
+                    <a class="link" href='https://jamesanaipakos.com/multiply-by-666/'>Multiply by 666</a>
                     – Multiply any number by 666</li>
                 <li>
                     <a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>
@@ -36,13 +36,13 @@ active: projects
                 <h2>Contributor</h2>
                 <ul>
                 <li>
-                    <a class="link" href="http://survivejs.com/" alt="SurviveJS">SurviveJS</a>
+                    <a class="link" href="https://survivejs.com/" alt="SurviveJS">SurviveJS</a>
                      – Code review and documentation for the essential Webpack + React ebook</li>
                 <li>
                     <a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a>
                      – Documentation for the MongoDB Node driver</li>
                 <li>
-                    <a class="link" href="http://taiga.io" alt="Taiga">Taiga.io</a>
+                    <a class="link" href="https://taiga.io" alt="Taiga">Taiga.io</a>
                      – Documentation for a project management web application with Scrum in mind</li>
                 <li>
                     <a class="link"  href='https://github.com/janaipakos/is-thirteen'>Is Thirteen</a>
@@ -51,7 +51,7 @@ active: projects
                 <h2>Art Projects</h2>
                 <ul>
                 <li>
-                    <a class="link" href='http://csalateral.org/issue3/ecologies/boluk'>Scrypt</a>
+                    <a class="link" href='https://csalateral.org/issue3/ecologies/boluk'>Scrypt</a>
                      – An alternative currency slash art object</li>
                 <li>
                     <a class="link"  href='https://vimeo.com/120022906'>IndieCade East</a>
