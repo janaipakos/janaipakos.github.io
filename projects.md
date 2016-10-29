@@ -9,7 +9,7 @@ active: projects
                 <h2>Creator</h2>
                 <ul>
                     <li>
-                    <a class="link" href='http://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
+                    <a class="link" href='https://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
                      – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API</li>
                 <li>
                     <a class="link" href='http://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
