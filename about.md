@@ -67,11 +67,11 @@ active: about
 <div class="column-sidebar tile">
                     <p>James Anaipakos is a developer, UI designer, and editor based in New York City. He sporadically speaks in public about the <a class="link" href="http://sched.co/2AhK">history of software</a> and <a class="link" href="https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e#.ds4ygjp8o">data quantification</a>. Previously with <a class="link" href="https://pratt.edu">Pratt Institute</a>, he currently works with <a class="link" href="https://capco.com">Capco</a> on the design and test documentation of IT components for a global anti-money laundering application.</p>
                     
-                   <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">Email</a>
-                    <a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="link" title="LinkedIn- James Anaipakos">LinkedIn </a>
-                    <a alt="linkedin" href="https://github.com/janaipakos" class="link" title="GitHub- James Anaipakos">GitHub </a>
-                    <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="link" title="Vimeo- James Anaipakos">Vimeo</a>
-                    <a href="https://github.com/janaipakos/reads" class="link" title="Bookshelf- James Anaipakos">Bookshelf</a>
+                   <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">Email</a> |
+                    <a alt="linkedin" href="https://www.linkedin.com/pub/james-anaipakos/48/345/16" class="link" title="LinkedIn- James Anaipakos">LinkedIn</a> |
+                    <a alt="linkedin" href="https://github.com/janaipakos" class="link" title="GitHub- James Anaipakos">GitHub</a> |
+                    <a alt="vimeo" href="https://vimeo.com/jamesanaipakos" class="link" title="Vimeo- James Anaipakos">Vimeo</a> |
+                    <a href="https://github.com/janaipakos/reads" class="link" title="Bookshelf- James Anaipakos">Bookshelf</a> |
                     <a href="/resumes/james_anaipakos_cv.pdf" class="link" title="Download Full CV" target="_blank">CV</a>
             </div>
 </div>
