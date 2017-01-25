@@ -18,23 +18,126 @@ html {
     box-sizing: inherit;
 }
 
+.Ease-transition {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
 
+body {
+    font-family:arial,sans-serif;
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.4rem;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+    font-variant-ligatures: common-ligatures;
+    text-align: left;
+    -webkit-font-smoothing:antialiased;
+     text-rendering:optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    font-weight: 500;
+    color: #040404;
+    line-height: 1.25em;
+    text-decoration: none; 
+    /*text-transform: uppercase;*/
+}
+
+/*Font*/
+
+p {
+    line-height: 1.4rem;
+    text-align: left;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    /*Firefox only*/
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-weight: 300;
+}
+
+small {
+    font-size: 80%;
+}
 
 code {
     font-family: monospace, monospace;
     font-size: 1em;
 }
 
+.post-title {
+    text-decoration: none;
+    text-align: left;
+    &:hover {
+        color: #c0392b
+    }
+}
+
+
+
 
 
 
 /* Links */
+a {
+    .Ease-transition;
+    color: #AC3326;
+    text-decoration: none;
+    word-wrap: break-word;
+}
 
+a:hover {
+    color: #922B20;
+    text-decoration: underline;
+    outline: 0;
+}
 
+a:before,
+a:after {
+    .Ease-transition;
+}
 
+a.link {
+    color: #AC3326;
+    text-decoration: none;
+}
+
+a.link:hover {
+     color: #922B20;
+    text-decoration: underline;
+    outline: 0;
+}
+
+.post-meta {
+    margin: -1.5em 0 0;
+}
+
+.blog-post h2 {
+    margin: 0 0 -.5em;
+    padding: .5em 0 0;
+}
+
+.post-heading {
+    margin: 0 0 -.5em;
+    h1 {
+        margin: 0 0;
+    }
+}
 
 /* Images */
-
 img {
     vertical-align: middle;
     border: 0;
@@ -46,12 +149,33 @@ img {
     height: auto;
 }
 
-
 /* Navigation */
+header {
+    padding: 1rem;
+    margin: 0 0 1rem;
+    font-size: 80%;
+}
 
+.navbar__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
 
+.navbar--button {
+    display: inline-block;
+    margin: 0 1.5rem 0 0;
+    padding: 0 0 0.5rem;
+}
 
+.navbar--button:last-child {
+    margin: 0 0;
+}
 
+.active {
+    background: #eee;
+}
 
 /* Layout */
 
