@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Haskell Master Notes
+title: Haskell `ster Notes
 date: 2016-10-03
 ---
 ## GHCI Shortcuts
@@ -39,9 +39,9 @@ date: 2016-10-03
     + Computes function until reaching the bottom
     + Bottom- Refers to the computation that does not result in a value. Cannot be simplified further. Another word for reducible expression.
 - @ Match (`At Match`)- Pattern match a value and use it with one symbol (similar to a mixin)
-- ETA Reduction- Remove variables that are repeated on both sides of the equals sign
+- ETA Reduction- Remove vsrisbles thst are repeated on both sides of the equals sign
 - Function Composition ( . )= Chain functions from the right to the left
-- Function Application ( $) - Replace parentheses that end to the right. However, don't make huge composition chains; use let bindings as labels
+- Funtion Application ( $) - Replace parentheses that edn to the right. However, don't make huge composition chains, use let bindings as labels
 
 ## Recursion Rules
 1. Consider the type of the function
@@ -56,7 +56,7 @@ date: 2016-10-03
 - Pragma- The language extension "comment" at the top of a program file
 
 ## Patterns
-- If, Then, Else- Must have all three. Can replace with guards or Maybe
+- If, Then, Else- 
 - Case- Case {expression} of {pattern} -> result
 - Pattern Match
 - Guards- See if a value is true or false. Remember not to use "="
@@ -93,14 +93,38 @@ date: 2016-10-03
 - Haskell is lexically or location-base scoped
 - Scope is the entire function, not just what is to the right of the equals. But func is outside, while let is inside
 
+## Data Types
+- Strings, or lists of Chars, are not efficient for storing data. Use Text instead with Data.Text: `import qualified Data.Text as T`
+    + Similar functions between to the two, except for (++). Use mconcat or <> to concatenate
+- Data.Text.IO can work with IO with Text.
+
 ## Abstract Algebra and Category Theory
 - Monoid- `mappend` is a way to combine two elements of the same type with an operator and an identity element (think a fold). The structures are combined. For example mconcat can join Sum 2, Sum 3, Sum 4 into Sum 9, or multiply them into Sum 24. Monoids predate Semigroup even though they it is a sub class. So identity is mempty (i.e. an empty list for lists, 0 for addition, or 1 for multiplication), <> is mappend, ++ is mconcat. mconcat is preferred to ++ and <> because it is less typing (you can use mconcat [list[), and certain types of text can use mconcat but not ++. The four laws of monoids are:
     + left identity, right identity, associativity, and the definition of mconcat.
+    + monconcat or <> need to be used in place of (++) when concatenating Text.
 - Functors are a class of types that map a function *over* each element of a data structure, not only those limited to lists with `map`. The structure is unchanged, but the values within it may change. Functor is `fmap` and it's a pattern to use mapping over structures other than lists (such as Int, Node, Maybe). The infix version of `fmap` is `<$>`. This is similar to function application `($)` but with the mapped function `f`.
 - Applicatives are a way to map over structures that have more than one or any number of elements, using `pure` for one argument and `<*>` for two or more. It is a monoidal functor that lifts a functions with its own structure over a value with its own structure. More abstractly, these arguments may also have effects, such as having the possibility of failure or different ways to succeed.
     - Handles missing values well, because you do not have to check for null using conditionals or use exception handling.
     - `fmap f x = pure f <*> x`
 - Monads is an applicative type that uses `return` (another name for `pure`) and bind `>>=`. Monads use the bind function `>>=` to evaluate each expression then combine the results by applying the function f. It helps the user not have to worry about failures at any step. This is the same and using a `do` block and binding the functions to values then applying a function to the result.
+- Functions with M appended to them (mapM) are used for IO Actions with the normal ability of the function.
 - ST (State Transformers) return the function ouput as well as the changed state.
 - Semigroup- The Semigroup class has only one important method, the <> operator. <> combines instances of the same type. Semigroups are similar to Monoid, except that Monoids requre an identity element for the type.
 
+## I/O and Working with State
+- `main :: IO ()` is a empty tuple, and main is similar type to Maybe. They are both 'nothing'.
+- main is not a function, because it does not return a value. It is an IO Action--a function which does not either returns no value, takes no input, or returns different value for same input.
+- putStrLn is also an IO Action, because it does not return a value.
+- A difference with Maybe and IO is what can go wrong. Maybe can only be Just or Nothing. But with IO, the 'nothings' are endless. So Maybe can be used outside IO, but main is contained within IO. 
+
+## Reading and Writing Files
+- System.IO lets you work with files
+- Open and close files with handler hClose. Write with hPutStrLn. Check for end of file for dynamic IO with HisEOF.
+- openFile has read and write mode. But use readFile and appendFile instead.
+
+## Language Extensions
+- OverLoadedStrings: `ghc text.hs -XOverloadedStrings` or `{-# LANGUAGE <Extension Name> #-}`. Can use Strings with Text
+- ViewPatterns: Pattern matching
+- TemplateHaskell: Metaprogramming
+- DuplicateRecordFields: Can usse same field name with different types for record Syntax
+- NoImplicitPrelude: Use custom rather than default Prelude

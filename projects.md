@@ -15,9 +15,6 @@ active: projects
                     <a class="link" href='https://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
                      – Angular 2 web application using a Yahoo Finance API. Manage stocks for the 2016 presidential candidates</li>
                  <li>
-                    <a class="link" href='https://jamesanaipakos.com/react-d3-data-viz/'>React Developer Salary Histogram</a>
-                     – D3.js + React histogram of average React developer salary by state and year</li>
-                 <li>
                     <a class="link"  href='2015-11-01-Ozymandias-Chatroom'>Ozymandias Chatroom</a>
                      – Start a private and shareable chatroom in seconds</li>
                 <li>
