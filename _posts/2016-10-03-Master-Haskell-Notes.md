@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Haskell `ster Notes
+title: Master Haskell Notes
 date: 2016-10-03
 ---
 ## GHCI Shortcuts
