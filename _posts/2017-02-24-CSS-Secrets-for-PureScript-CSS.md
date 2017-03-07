@@ -21,7 +21,7 @@ To start, add the fourth length parameter by importing the necessary attributes,
 
 Then, create a boxShadow function that takes a fourth parameter, rather than the existing three:
 
-```purescript
+```haskell
 boxShadow :: forall a. Size a -> Size a -> Size a -> Size a -> Color -> CSS
 boxShadow w x y z c = 
   prefixed (browsers <> fromString "box-shadow") (w ! x ! y ! z ! c)
@@ -31,7 +31,7 @@ Below is markup for the Pux view and a component using our new function. Each el
 
 For example, creating a shadow on a single side of a box:
 
-```purescript
+```haskell
   resetButton = 
    button [ style $ do
               backgroundColor (yellowgreen)
@@ -44,7 +44,7 @@ For example, creating a shadow on a single side of a box:
 
 Or creating shadows "normally" on two adjacent sides:
 
-```purescript
+```haskell
   resetButton = 
     button [ style $ do
               backgroundColor (yellowgreen)
@@ -60,7 +60,7 @@ Next steps can includes figuring out how to pass a list of attributes (comma sep
 ## Text Glow
 Another component is one that relies on the `text-shadow` property. This lets the user create a (somewhat corny) effect of glowing text due to a small shadow the same color of the text. Note that while in vanilla CSS, the `text-shadow` property will inherit the color, but with PureScript the color must be explicitly stated.
 
-```purescript
+```haskell
 import CSS.Text.Shadow (textShadow)
 
 resetButton = 

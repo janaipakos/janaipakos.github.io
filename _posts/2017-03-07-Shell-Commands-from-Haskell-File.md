@@ -7,7 +7,9 @@ date: 2017-03-07
 
 During development, the user may want to quickly reset their SQLite database with a "fresh start" SQL file. This could look like the following shell command:
 
-`$ sqlite3 db_name < fresh_start.sql`
+```bash
+$ sqlite3 db_name < fresh_start.sql
+```
 
 However, it is also possible to run this command from within a Haskell file so that the user does not need to switch environments. 
 
@@ -16,7 +18,7 @@ The package [System.Process](https://hackage.haskell.org/package/process-1.6.0.0
 Below is a snippet that pipes a SQL file, which drops all of the database tables, to sqlite3. Obviously being able to wipe a database with two words is insanely insecure (even with the helpful warning), but this package is perfect for quick development environments.
 
 ```sql
-//reset_db.sql
+--reset_db.sql
 DROP TABLE IF EXISTS employees
 
 CREATE TABLE employee (

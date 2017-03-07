@@ -21,7 +21,7 @@ Flare is a FRP library that I think this is pretty cool and easy to read. It mak
 Pux is my library of choice. First is the markup, which is easier to reason about than other libraries. Pux is modeled after the Elm Architecture,
 and its made of user actions, state, updates to state, and a rendered view. Pux is similar to Thermite in that it's one component with a large (basically boilerplate) render function. Aside from this easy-to-reason model is the straightforward syntax. Each HTML element is made up of two arrays: its attributes and its children. Here is how you can make a button:
 
-```PureScript
+```haskell
 div
   --empty attributes
   []
