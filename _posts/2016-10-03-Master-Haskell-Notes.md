@@ -3,6 +3,8 @@ layout: post
 title: Master Haskell Notes
 date: 2016-10-03
 ---
+Refer to [http://haskellbook.com/](http://haskellbook.com/) for more Haskell help
+
 ## GHCI Shortcuts
 - : - Means "type of"
 - :? - Help menu
@@ -99,18 +101,40 @@ date: 2016-10-03
 - Data.Text.IO can work with IO with Text.
 
 ## Abstract Algebra and Category Theory
-- Monoid- `mappend` is a way to combine two elements of the same type with an operator and an identity element (think a fold). The structures are combined. For example mconcat can join Sum 2, Sum 3, Sum 4 into Sum 9, or multiply them into Sum 24. Monoids predate Semigroup even though they it is a sub class. So identity is mempty (i.e. an empty list for lists, 0 for addition, or 1 for multiplication), <> is mappend, ++ is mconcat. mconcat is preferred to ++ and <> because it is less typing (you can use mconcat [list[), and certain types of text can use mconcat but not ++. The four laws of monoids are:
-    + left identity, right identity, associativity, and the definition of mconcat.
-    + monconcat or <> need to be used in place of (++) when concatenating Text.
-- Functors are a class of types that map a function *over* each element of a data structure, not only those limited to lists with `map`. The structure is unchanged, but the values within it may change. Functor is `fmap` and it's a pattern to use mapping over structures other than lists (such as Int, Node, Maybe). The infix version of `fmap` is `<$>`. This is similar to function application `($)` but with the mapped function `f`.
-- Applicatives are a way to map over structures that have more than one or any number of elements, using `pure` for one argument and `<*>` for two or more. It is a monoidal functor that lifts a functions with its own structure over a value with its own structure. More abstractly, these arguments may also have effects, such as having the possibility of failure or different ways to succeed.
-    - Handles missing values well, because you do not have to check for null using conditionals or use exception handling.
-    - `fmap f x = pure f <*> x`
-- Monads is an applicative type that uses `return` (another name for `pure`) and bind `>>=`. Monads use the bind function `>>=` to evaluate each expression then combine the results by applying the function f. It helps the user not have to worry about failures at any step. This is the same and using a `do` block and binding the functions to values then applying a function to the result.
+- Monoid- `mappend` or `<>` is a way to combine two elements of the same type with an operator and an identity element (think fold). The structures are combined. Basically, Monoid lets you write more generic functions, such as replacing `++` with `<>` to work on Monoids as well as Strings. Can also use `mconcat` and `mempty`. `<>` is a Semigroup method that combines instances of the same type without requiring an element.
+
+```haskell 
+Sum 5 <> Sum 6 <> Sum 10 = Sum {getSum = 21}
+```
+
+- Functors are a class of types that map a function *over* each element of a data structure, not only those limited to lists with `map`. The structure is unchanged, but the values within it may change. Exposes `fmap`, with an infix as `<$>`. This is similar to function application `($)` but with the mapped function `f`.
+
+```haskell 
+fmap (+3) Just 1 = Just 4
+``` 
+
+- Applicatives are monoidal functors that lift a structured function over a structured value. `pure` inserts a value into a structure. Can take any number of elements, `pure` for one argument and `<*>` for two or more. These arguments may also have effects, such as having the possibility of failure or different ways to succeed.
+    - `Nothing` handles missing values well, because you do not have to check for null using conditionals or use exception handling.
+
+```haskell 
+fmap f x = pure f <*> x
+fmap (*) (Just 3) <*> (Just 2) = Just 15
+pure (*) <*> (Just 3) <*> (Just 2) = Just 15
+(*) <$> (Just 5) <*> (Just 3) = Just 15
+```
+
+- Monad is an applicative type that uses `return` (another name for `pure`) and the `bind` function `>>=` to evaluate a structured expression, then combine the results to return a structured function. It helps the user not have to worry about failure at any step. Can use a `do` block to bind functions to values then apply a function to the result.
+
+```haskell
+structuredSquare x = if x == 2 then Just 4 else Nothing
+Just 2 >>= structuredSquare = Just 4
+Just 1 >>= structuredSquare = Nothing
+```
+
 - Functions with M appended to them (mapM) are used for IO Actions with the normal ability of the function.
 - ST (State Transformers) return the function ouput as well as the changed state.
-- Semigroup- The Semigroup class has only one important method, the <> operator. <> combines instances of the same type. Semigroups are similar to Monoid, except that Monoids requre an identity element for the type.
 
+- Reader is a way of stringing functions together when all those functions are awaiting one input from a shared envi- ronment.
 ## I/O and Working with State
 - `main :: IO ()` is a empty tuple, and main is similar type to Maybe. They are both 'nothing'.
 - main is not a function, because it does not return a value. It is an IO Action--a function which does not either returns no value, takes no input, or returns different value for same input.
@@ -121,6 +145,17 @@ date: 2016-10-03
 - System.IO lets you work with files
 - Open and close files with handler hClose. Write with hPutStrLn. Check for end of file for dynamic IO with HisEOF.
 - openFile has read and write mode. But use readFile and appendFile instead.
+
+# Misc
+- `liftA` == `liftM` == `fmap`
+- `liftA2` == `zipWith` (only broader than only lists)
+- Newtypes must have the same underlying representation as the type they wrap as the newtype wrapper disappears at compile time. So the function contained in the newtype must be isomorphic to the type it wraps. That is, there must be a way to go from the newtype to the thing it wraps and back again without losing information. 
+- A parser combinator is a higher-order function that takes parsers as input and returns a new parser as output. You may remember our brief discussion of combinators way back in the lambda calculus chapter. Combinators are expressions with no free variables
+- Free vvaraiable is a variable that is not bound. For example in a lambda expression, `\x -> x y`, y is a free variable.
+- In the sequencing operator `(>>)`, the value gets thrown away but the effect gets passed. Compare this to bind `(>>=)`, which passes the value
+- parseString takes three values: the char you are looking for (and this can be chained with `>>` and looks like `char 'a'` or `string "abc"`), `mempty` as the empty list, and a string to search
+- Alternative typelcass has <|>, which is like a either or thing, some (which is one or more), and more (which is zero or more)
+
 
 ## Language Extensions
 - OverLoadedStrings: `ghc text.hs -XOverloadedStrings` or `{-# LANGUAGE <Extension Name> #-}`. Can use Strings with Text
