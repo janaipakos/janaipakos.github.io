@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Shell Commands from Haskell file
+title: Running Shell Commands from Haskell File
 date: 2017-03-07
 ---
-# Running shell commands from inside Haskell file
 
 During development, the user may want to quickly reset their SQLite database with a "fresh start" SQL file. This could look like the following shell command:
 
