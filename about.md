@@ -12,8 +12,7 @@ active: about
        <p>Email: <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">janaipakos@gmail.com</a><p>
 <div>
 <h1>About</h1>
-                    <p>I'm a developer, UI designer, and editor based in New York City. Sporadically, I talk about the <a class="link" href="http://sched.co/2AhK">history of software</a> and <a class="link" href="https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e#.ds4ygjp8o">data quantification</a>. After becoming interested in interactive design and media studies at Pratt Institute, I worked as a technical editor and developer at Capco. Currently, I am attending Recurse Center and learning more about Haskell and functional programming.
-                    </div>
+                    <p>I'm a developer, UI designer, and editor based in New York City. Sporadically, I talk about the <a class="link" href="http://sched.co/2AhK">history of software</a> and <a class="link" href="https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e#.ds4ygjp8o">data quantification</a>. I went to Pratt Institute for media studies and interactive design, and worked as a technical editor and developer at Capco. Currently, I'm attending Recurse Center and learning more about Haskell and functional programming.
                     <div>
 
     <h1>Summary</h1>
