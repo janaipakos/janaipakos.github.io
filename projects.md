@@ -8,7 +8,10 @@ active: projects
             <div>
                 <h2>Creator</h2>
                 <ul>
-                    <li>
+                <li>
+                    <a class="link" href='https://ghibliapi.herokuapp.com/'>Studio Ghibli API</a>
+                     – GET and combine resources from the films of Studio Ghibli</li>
+                <li>
                     <a class="link" href='https://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
                      – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API</li>
                 <li>
