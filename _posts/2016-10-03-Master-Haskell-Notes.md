@@ -135,6 +135,7 @@ Just 1 >>= structuredSquare = Nothing
 - ST (State Transformers) return the function ouput as well as the changed state.
 
 - Reader is a way of stringing functions together when all those functions are awaiting one input from a shared envi- ronment.
+
 ## I/O and Working with State
 - `main :: IO ()` is a empty tuple, and main is similar type to Maybe. They are both 'nothing'.
 - main is not a function, because it does not return a value. It is an IO Action--a function which does not either returns no value, takes no input, or returns different value for same input.

@@ -22,6 +22,9 @@ date: 2017-03-19
 - `unpack` : String -> List Char converts a String into a list of characters.
 - `isDigit` : Char -> Bool returns whether a Char is one of the digits 0–9.
 - `all` : (a -> Bool) -> List a -> Bool returns whether every entry in a list satisfies a test.
+- `cast` : cast operation? change type from one to another
+- `pure` : IO wrapper for value
+- `printLin` : Show a => a -> IO () displays value at console directly
 
 ## Programs
 - While everything is brought together in `main`, the program is started by calling `:exec` from the repl, not `main`
