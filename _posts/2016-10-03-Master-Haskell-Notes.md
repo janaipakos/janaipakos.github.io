@@ -149,13 +149,13 @@ Just 1 >>= structuredSquare = Nothing
 
 # Misc
 - `liftA` == `liftM` == `fmap`
-- `liftA2` == `zipWith` (only broader than only lists)
+- `liftA2` == `zipWith` (broader than only lists)
 - Newtypes must have the same underlying representation as the type they wrap as the newtype wrapper disappears at compile time. So the function contained in the newtype must be isomorphic to the type it wraps. That is, there must be a way to go from the newtype to the thing it wraps and back again without losing information. 
 - A parser combinator is a higher-order function that takes parsers as input and returns a new parser as output. You may remember our brief discussion of combinators way back in the lambda calculus chapter. Combinators are expressions with no free variables
-- Free vvaraiable is a variable that is not bound. For example in a lambda expression, `\x -> x y`, y is a free variable.
+- Free varaiable is a variable that is not bound. For example in a lambda expression, `\x -> x y`, y is a free variable.
 - In the sequencing operator `(>>)`, the value gets thrown away but the effect gets passed. Compare this to bind `(>>=)`, which passes the value
 - parseString takes three values: the char you are looking for (and this can be chained with `>>` and looks like `char 'a'` or `string "abc"`), `mempty` as the empty list, and a string to search
-- Alternative typelcass has <|>, which is like a either or thing, some (which is one or more), and more (which is zero or more)
+- Alternative typeclass has `<|>`, which is like an either or thing, some (which is one or more), and more (which is zero or more)
 
 
 ## Language Extensions
