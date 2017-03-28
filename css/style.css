@@ -90,7 +90,7 @@ a {
     word-wrap: break-word;
 }
 
-a:hover {
+a:hover, a:visited {
     color: var(--link-blue);
     text-decoration: underline;
     outline: 0;
