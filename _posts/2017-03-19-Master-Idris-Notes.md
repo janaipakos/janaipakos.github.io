@@ -29,4 +29,5 @@ date: 2017-03-19
 ## Programs
 - While everything is brought together in `main`, the program is started by calling `:exec` from the repl, not `main`
 - IO is an interactive program that returns a description of an IO action. Think recipe rather than execution
+- Sometimes you need to pass result of executed function in the repl with `>>= printLn`
 - Functions can be chained in the repl with bind i.e. `:exec readVect >>= printVect`

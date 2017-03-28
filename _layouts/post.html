@@ -5,7 +5,7 @@ layout: default
 <div class="page-section short" >
   <div class="container">
   <div class="row">
-    <div class="col-lg-12 col-md-12">
+    <div>
       <div class="post-heading">
         <h1>{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -24,16 +24,16 @@ layout: default
 </article>
 
 <div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <ul class="pager blog-pager">
+  <div>
+    <ul class="pager">
       {% if page.previous.url %}
       <li class="pager--button previous">
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">< Previous Post</a>
       </li>
       {% endif %}
       {% if page.next.url %}
       <li class="pager--button next">
-        <a style="float:right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        <a style="float:right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post ></a>
       </li>
       {% endif %}
     </ul>
