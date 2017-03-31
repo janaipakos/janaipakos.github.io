@@ -76,42 +76,47 @@ More powerful than variables in preprocessors. Useful for reocurring values such
 
 ## Border Box
 - Default property is `content-box`, which is the size set by the content. The padding, border, and magin is added after.
-- `border-box` is preferred, where the height and width set the size of the content i.e. adding padding makes the content narrower (shrinks it to make room), rather than wider.
+- `border-box` is prf s, where the height and width set the size of the content i.e. adding padding makes the content narrower (shrinks it to make room), rather than wider.
 - Dont set a default column height. Use `min-height` or `max-height`. Use flex to sort out heights automatically.
 - Vertical centering: give a container equal top and bottom padding, or use flexbox.
+- The double container pattern is settling an inner container within an outer one in order to control the width of the page contents.
+  - The body selector can serve as the outer container, with a `div class='container'` serving as the inner. 
+  - One way to remember this is the idea of compiling React or PureScript code into a single div.
+  - Set the max-width, and `margin: 0 auto` to restrain the inner container and center it.
 
+## Flexbox
+
+- `display: flex` turns an element into a flex conatiner, which makes its children (flex items) fill the width of the container.
+- X axis is main axis, y axis is cross axis, listed left to right as start to end.
+- The `flex` property resizes flex items width along the main axis
+  - `flex` is shorthand for `flex-grow`, `flex-shrink`, and `flex-basis`
+  - `flex-grow` is how much the item should grow to fill the remaining size left over from `basis`. This is proportionally based i.e. 2 is double the size of 1
+  - `flex-shrink` how much should an item shrink. Can use percentage with just `flex` to signify this
+  - `flex-basis` is the initial main size of the item in px, em, or percent
+- `flex-direction` can take the value row, column, or the reverse to change the stack direction of flex items
+
+## CSS Grid
+- Grid layout that all browsers will support soon without prefixing.
+- Define two-dimensional layout and then place elements within it.
+- Set up with `display: grid`
+  - property `grid-template-column/row` and the new value `1fr` (fraction unit), which is similar to `flex-grow`. Can use `repeat()` to define number and height. Can name the grid lines with [left] 1fr [center] 1fr [right]. Or name the grid areas with `grid-template-areas` to name the correct amount of rows and columns, then calling these names in the `grid-area` property.x
+  - `grid-gap` is the amount of space between each cell
+  - `grid-line` is horizontal or vertical structure of the grid
+  - `grid-track` is space between grid line. Created with grid-template-col/row
+  - `grid-cell` is a single place/cell where grid tracks intersect
+  - `grid-area` is a rectangle of one or more grid cells
+- Differences with flexbox: flex is one-dimensional, grid is two. You don't set size with flex, but grid has a size
 
 ## Always use
+
 - Use the universal border-box fix, which targets every element and pseudo-element.
+
 ```css
 :root {box-sizing: border-box;}
 *, ::before,::after {box-sizing: inherit;}
 ```
 
 ## More Information
-- [*CSS Secrets*](http://lea.verou.me/) by Lea Verdou
+
+- [*CSS Secrets*](http://lea.verou.me/) by Lea Verou
 - [*CSS in Depth*](https://www.manning.com/books/css-in-depth) by Keith J. Grant
-
-CSS Notes, for Modular code
-
-- Create a modifier by defining a new class name that begins with the module’s name. For instance, an “error” modifier for the message module might be “message-error”. By including the module name, you clearly indicate that this class belongs with the message module. A popular convention is to use two hyphens to indicate a modifier: message--error.
-
-.message {padding: 0.8em 1.2em; border-radius: 0.2em; border: 1px solid #265559; color: #265559; background-color: #e0f0f2;
-}
-
-- Changing the font size adjusts the element’s em-size, which in turn changes the padding and border radius without having to override their declared values.
-
-- These begin with the module name, followed by a double-underscore, then the name of the sub element. This is another convention from BEM methodology. As with double-hyphen modifiers, it tells you at a glance what role the class name plays and what module it belongs to.
-
-- Need to figure out onclick for drop down menus
-
-- These practices have become transformative in the CSS world. It is worth knowing about a few of the big ones. Some of these are simple, offering just a few guidelines. Others are more rigid, providing a strict organization for your styles. They each have their own terminology and naming conventions, but fundamentally they all come back to a modular approach to CSS:
-OOCSS — “Object-oriented CSS”, created by Nicole Sullivan. https://github.com/stubbornella/oocss/wiki
-SMACSS — “Scalable and Modular Architecture for CSS”, created by Jonathan Snook https://smacss.com/
-BEM — “Block, Element, Modifier”, developed at Yandex https://en.bem.info/methodology/
-ITCSS — “Inverted Triangle CSS”, created by Harry Roberts http://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528
-
-
-- Instead of relying on class naming conventions, this approach requires using JavaScript to either manufacture class names that are guaranteed unique or to apply all styles to the page using the HTML style attribute. A number of JavaScript libraries have emerged to do this work, the most popular of which are Aphrodite, JSS, Radium, and one called (confusingly) CSS Modules. Most of these are tied to a particular JavaScript framework or tool set, such as WebPack.
-
-- Pattern library as an API
