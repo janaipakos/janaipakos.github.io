@@ -105,8 +105,8 @@ More powerful than variables in preprocessors. Useful for reocurring values such
   - `grid-track` is space between grid line. Created with grid-template-col/row
   - `grid-cell` is a single place/cell where grid tracks intersect
   - `grid-area` is a rectangle of one or more grid cells
+  - `grid-auto-flow` is the order of item placement. Value of row or column and an optional word `dense` to attempt and fill gaps
 - Differences with flexbox: flex is one-dimensional, grid is two. You don't set size with flex, but grid has a size
-
 ## Always use
 
 - Use the universal border-box fix, which targets every element and pseudo-element.
