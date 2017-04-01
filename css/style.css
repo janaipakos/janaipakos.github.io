@@ -144,6 +144,8 @@ header {
     font-size: 80%;
 }
 
+.navbar {}
+
 .navbar__list {
     list-style: none;
     margin: 0 auto;

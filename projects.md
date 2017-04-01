@@ -6,7 +6,7 @@ active: projects
     <div class="container flex">
         <div>
             <div>
-                <h2>Creator</h2>
+                <h2>creator</h2>
                 <ul>
                 <li>
                     <a class="link" href='https://ghibliapi.herokuapp.com/'>Studio Ghibli API</a>
@@ -29,11 +29,8 @@ active: projects
                 <li>
                     <a class="link" href='https://jamesanaipakos.com/multiply-by-666/'>Multiply by 666</a>
                     – Multiply any number by 666</li>
-                <li>
-                    <a class="link"  href='https://github.com/janaipakos/Clean-Code-Smells-and-Heuristics'>Clean Code</a>
-                    – Code smells from Martin Fowler's Refactoring and Robert C Martin's <em>Clean Code</em></li>
                 </ul>
-                <h2>Contributor</h2>
+                <h2>contributor</h2>
                 <ul>
                 <li>
                     <a class="link" href="https://survivejs.com/" alt="SurviveJS">SurviveJS</a>
@@ -44,11 +41,8 @@ active: projects
                 <li>
                     <a class="link" href="https://taiga.io" alt="Taiga">Taiga.io</a>
                      – Documentation for a project management web application with Scrum in mind</li>
-                <li>
-                    <a class="link"  href='https://github.com/janaipakos/is-thirteen'>Is Thirteen</a>
-                    – Translation, documentation, and elaborate tape unit tests to confirm whether a value is 13</li>
                 </ul>
-                <h2>Art Projects</h2>
+                <h2>misc</h2>
                 <ul>
                 <li>
                     <a class="link" href='https://csalateral.org/issue3/ecologies/boluk'>Scrypt</a>
