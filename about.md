@@ -9,10 +9,10 @@ active: about
 
 <div>
 <h1>about</h1>
-    <p>email: 
+    <p>email:
         <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">janaipakos@gmail.com</a><p>
-    <p>resume: 
-        <a href="./resumes/james_anaipakos_cv_dev.pdf" class="link" title="pdf resume">pdf</a>
+    <p>resume:
+        <a href="./resumes/james_anaipakos_cv.pdf" class="link" title="pdf resume">pdf</a>
     </p>
     <p>I'm a software engineer, UI designer, and technical editor based in New York City. I started learning media studies and interactive design at Pratt Institute, and then worked as a developer and technical editor for anti-money laundering (AML) software at Capco. Currently, I'm attending Recurse Center studying functional programming.</p>
     <div>
@@ -55,4 +55,3 @@ active: about
         <li>Rapid Prototyping, Interviewing, Wireframing</li>
     </ul>
 </div>
-

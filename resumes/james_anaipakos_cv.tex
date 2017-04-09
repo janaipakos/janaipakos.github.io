@@ -1,6 +1,5 @@
 \documentclass[11pt,a4paper]{moderncv}
 
-
 \usepackage{verbatim}
 %\usepackage{hyperref}
 % moderncv themes
@@ -9,20 +8,24 @@
 %\definecolor{darkblue}{HTML}{EAB988}
 %\definecolor{darkblue}{HTML}{9C9F84}
 %\definecolor{darkblue}{HTML}{A97D5D}
-\definecolor{darkblue}{HTML}{4682B4}
+\definecolor{darkblue}{HTML}{00008B}
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
+% remove periods in title
+\usepackage{xpatch}
+\xpatchcmd{\cventry}{.\strut}{\strut}{}{}
+
 % adjust the page margins
 \usepackage[scale=0.85]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{0cm}           % if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 % personal data
 \firstname{James}
 \familyname{Anaipakos}
-\address{New York, NY}{}    % optional, remove the line if not wanted
+%\address{New York, NY}{}    % optional, remove the line if not wanted
 \mobile{+954-614-9805}                    % optional, remove the line if not wanted
 \email{janaipakos@gmail.com}                      % optional, remove the line if not wanted
 \homepage{jamesanaipakos.com}                % optional, remove the line if not wanted
@@ -35,99 +38,111 @@
 \hypersetup{colorlinks=true,urlcolor=darkblue,linkcolor=darkblue}
 }
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\renewcommand{\labelitemi}{$\bullet$}
+
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
-\vspace{-40px}
+\vspace{-50px}
+\hrulefill
 
 \section{Summary}
-%\vspace{-10px}
+\vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item Project leader, developer, tester, and documentation specialist with {\textbf{five years}}  of experience in Government, Compliance, Publishing, and Web Development.
-\item {\textbf{Three years}} of experience as {\textbf{project leader}}, from two to six members.
-\item {\textbf{One year}} of experience as technical editor in web, database, and anti-money laundering software architecture.
-\item {\textbf{Nine months}} of experience in {\textbf{full-stack JavaScript development}}, UX design, data visualization, and usability testing.
-\item Graduate degree in Media Studies from {\textbf{Pratt Institute}}, focusing on wireless peer to peer networks in Eastern Europe.
-\item Active in the \href{http://github.com/janaipakos.com}{Open-Source} community. Occassional \href{http://sched.co/2AhK}{public speaker}.
-\end{itemize}
-\vspace{-12px}
-}
-
-\section{Experience}
-\cventry {2014--Present}{Capco}{Associate Consultant}{New York, NY}{}{
-\begin{itemize}%
-\item Remediated portion of international bank's {\textbf{\$1.45B regulatory fine}} by stepping into project manager role mid-project and steering the documentation enhancement of an Actimize anti-money laundering application's IT components.
-\item Updated documentation framework by introducing living documents in SharePoint and requirements filtering that led to a 10x reduction in effort, from {\textbf{3000}} design and testing documents to {\textbf{300}}.
-\item Revamped and successfully-deployed Sharepoint 2013 customer-facing website with {\textbf{350+ combined pages}} while working with seven developers and designers.
-\item Enhanced website hand-off to client by recording and producing {\textbf{20 hour}} knowledge transfer session covering technical architecture and code base.
-\item Increased client understanding of anti-money laundering with D3, Express, and React application. 
-\item Improved look and feel of Django dashboard while working with UX designer and Python developer.\\
+\item Two years of experience in full-stack web development.
+\item Technical editor with a focus on databases, software engineering, and anti-money laundering.
+\item Project lead managing 2-6 members for an AML compliance project.
+\item Strong foundation in UX design, data visualization, and usability testing.
 \end{itemize}
 }
 
-\cventry{2015--Present}{Manning Publications}{Manuscript Reviewer}{New York, NY}{}{
-\begin{itemize}%
-\item Improve {\textbf{six titles}} prior to publication by testing source code, verifying readability, and offering feedback on reader needs. Titles include {\em CSS in Action}, {\em Learn Haskell}, and \href{https://www.manning.com/books/angular-2-in-action}{\em Angular 2 in Action}.\\
+\vspace{-16px}
+\section{Work Experience}
+\vspace{-4px}
+\cventry {}{Capco}{Technology Consultant}{NYC}{Summer 2015--Spring 2017}{
+\begin{itemize}
+\item Used JavaScript, D3.js, MySQL, Sass, Adobe Creative Cloud, SharePoint.
+\item Led documentation and testing enhancement for Actimize anti-money laundering application.
+\item Redesigned 350-page customer-facing website. Recorded and produced 20-hour knowledge transfer session.
 \end{itemize}
 }
 
-\cventry{2015--Present}{Freelance Web Design}{WordPress}{New York, NY}{}{
+\cventry{}{WordPress Developer}{Self-Employed}{}{Fall 2014--Fall 2016}{
 \begin{itemize}%
-\item Create and launch personal portfolio and sustainable goods WordPress sites for clients including \href{http://barrelon.com/}{Barrel On}, \href{http://chicvilleusa.com/}{Chicville USA}, and \href{http://withpurposeandpepper.com/}{With Purpose and Pepper}.\\
+\item Created and launched several personal portfolio and sustainable goods websites.
+\item Clients include \href{http://barrelon.com/}{Barrel On}, \href{http://chicvilleusa.com/}{Chicville USA}, and \href{http://withpurposeandpepper.com/}{With Purpose and Pepper}.
 \end{itemize}
 }
-
-\cventry{2013--2015}{Pratt Institute}{Editorial Assistant, Office of Communications}{New York, NY}{}{
+\cventry{}{Associate Editor}{Pratt Institute, Office of Communications}{NYC}{Fall 2013--Spring 2015}{
 \begin{itemize}%
-\item Attracted new readers to Pratt's \href{https://www.pratt.edu/partnerships-and-giving/publications/prattfolio/}{quarterly magazine} and weekly-updated WordPress website by writing and editing {\textbf{more than 100}} articles and interviews.\\
-\end{itemize}
-}
-
-\cventry{2013--2015}{Barfly}{Editor}{New York, NY}{}{
-\begin{itemize}%
-\item Increased revenue and minimize losses of {\textbf{more than 15 bars}} by identifying employee theft and suggesting workflow, customer experience, and operational improvements in {\textbf{more than 30}} reports.\\
-\end{itemize}
-}
-
-\cventry{2010--2012}{Department of Homeland Security}{Security Officer}{Fort Lauderdale, FL}{}{
-\begin{itemize}%
-\item Exhibited critical thinking, subject matter expertise, and decision making by identifying security incidents, recognizing deviating behavioral patterns, and interviewing hundreds of  passengers.
-\item Passed three security drills designed to test alertness and analytical thinking.\\
+\item Attracted new readers to Pratt’s quarterly magazine and weekly-updated WordPress website by writing and editing more than 100 articles and interviews.
 \end{itemize}
 }
 
 \section{Education}
-\cventry{2013--2015}{Masters of Arts}{Media Studies}{4.0 GPA}{}{Pratt Institute, Brooklyn, NY}
-\cventry{2004--2009}{Bachelors of Arts}{Double Degree, English and Humanities}{3.5 GPA}{}{Florida State University, Tallahassee, FL}
+\vspace{-4px}
+\cventry{}{Pratt Institute}{}{Brooklyn}{M.A. Media Studies, Fall 2013--Spring 2015}{
+\begin{itemize}%
+\item Graduate Coursework: Interaction Design; UX Design; Video Production; Network Communication
+\end{itemize}
+}
+\vspace{-2px}
+\cventry{}{Florida State University}{}{Tallahassee}{B.A. English, Fall 2004--Spring 20009}{}
+\vspace{-2px}
+\cventry{}{Scrum Alliance}{}{NYC}{Certified ScrumMaster® (CSM), Fall 2016}{
+}
 
+\vspace{-16px}
+\section{Personal Work}
+\vspace{-4px}
+\cventry {}{Recurse Center}{Recurser}{NYC}{Spring 2017}{
+\begin{itemize}
+\item Self-directed study focusing on front-end development, APIs, and functional programming.
+\item Projects include a Haskell image glitcher, HTTP wrapper, and JSON parser.
+\item{\href{https://ghibliapi.herokuapp.com/}{Studio Ghibli API}. Resources from Studio Ghibli films. Express, Node, JSON API.}
+\end{itemize}
+}
+
+\cventry{}{Manning Publications}{Manuscript Reviewer}{}{Fall 2015--April 2017}{
+\begin{itemize}
+\item Test source code, readability, and accuracy for titles such as {\em Angular 2 in Action}, {\em CSS in Depth}, and {\em Learn Haskell}.\\
+\end{itemize}
+}
+
+\vspace{-16px}
 \section{Presentations}
-\cventry{2015}{NYC Media Lab Summit}{\href{https://jamesanaipakos.com/quantflaunt}{QuantFlaunt} tech demonstration}{}{}{New York, NY}
-\cventry{2015}{IndieCade East}{Hardware and Software in Central and Eastern Europe}{}{}{Astoria, NY}
+\vspace{-4px}
+\cvline{}{
+\begin{itemize}%
+\item{NYC Media Lab Annual Summit}. QuantFlaunt Web Application--{\href{https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e}{article}}, {\href{https://jamesanaipakos.com/Quant-Flaunt/}{link}}
+\item{IndieCade East}. Software in Post-Communist Central and Eastern Europe--{\href{https://indiecadeeast2015.sched.com/event/2AhK}{abstract}}, {\href{https://vimeo.com/120022906}{video}}
+\end{itemize}
+}
 
+\vspace{-16px}
 \section{Projects}
-\cventry{MEAN}{\href{http://darksoulsnyc.herokuapp.com/}{Dark Souls NYC}}{}{{\em Dark Souls} as Manhattan neighborhoods}{}{}
+\vspace{-4px}
+\cvline{}{
+\begin{itemize}%
+\item{\href{https://darksoulsnyc.herokuapp.com/}{Dark Souls NYC}. {\em Dark Souls} as Manhattan neighborhoods. MongoDB, Express, Angular.}
+\item{\href{https://jamesanaipakos.com/2015-09-01-QuantFlaunt-Overview}{QuantFlaunt}. A satirical look at branding and data quantification. Highcharts.}
+\item{\href{https://jamesanaipakos.com/Marx-Magic-8-ball}{Marxist Magic 8-Ball}. Generate tweetable quotes from {\em Jacobin} magazine. jQuery.}
+\end{itemize}%
+}
 
-\cventry{Angular 2}{\href{http://jamesanaipakos.com/thecompanywekeep/}{The Company We Keep}}{}{Manage stocks for the 2016 presidential candidates}{}{}
-
-\cventry{D3 + React}{\href{http://jamesanaipakos.com/react-d3-data-viz/}{React Developer Salary Histogram}}{}{Average developer salary by state and year}{}{}
-
-\cventry{Node.js}{\href{https://jamesanaipakos.com/2015-11-01-Ozymandias-Chatroom}{Ozymandias Chatroom}}{}{Start a private and shareable chatroom in seconds}{}{}
-
-\cventry{Highcharts}{\href{https://jamesanaipakos.com/2015-09-01-QuantFlaunt-Overview}{QuantFlaunt}}{}{A satirical look at branding and data quantification}{}{}
-
-\cventry{jQuery}{\href{http://jamesanaipakos.com/Marx-Magic-8-ball}{Marxist Magic 8-Ball}}{}{Generate tweetable quotes from {\em Jacobin} magazine}{}{}
-
-\section{Masters thesis}
-\cvline{Title}{\emph{Software and Hardware in Post-Communist Central and Eastern Europe}}
-\cvline{Advisors}{Assistant Prof. Stephanie Boluk, Visiting Prof. Negar Mottahedeh, Pratt Institute}
-\cvline{Description}{Examines the hardware and software of post-communist Central and Eastern Europe in the 1980s and 90s, with a look at computer and console game piracy, network technology, and emerging social groups centered around electronics. The two-pronged study of both user groups and electronics culture alongside the physical commodity shows how social, political, and economic forces mold technology, as well as how software and hardware production influence contemporary culture.}
-
-\section{Computer skills}
-\cvcomputer{Great}{JavaScript, HTML/CSS, LESS, Node}{Concepts}{UI Design, MV* Frameworks, Testing}
-\cvcomputer{Good}{React, D3, Express, jQuery, Angular}{Databases}{SQL, MongoDB, Mongoose}
-\cvcomputer{Passable}{Meteor, Haskell, C, Python, \LaTeX}{Tools}{Git, Adobe CS, Grunt, Webpack, Gulp}
+\vspace{-16px}
+\section{Technical Skills}
+\vspace{-4px}
+\cvline{}{
+\begin{itemize}%
+\item{Haskell, PureScript, JavaScript, HTML, CSS, Node, React, D3.js, Express, Webpack}
+\item{SQL, MySQL, PostgreSQL, MongoDB, Mongoose}
+\item{UI Design, MV* Frameworks, Testing, Interviewing, Git, Adobe CC, \LaTeX}
+\end{itemize}%
+}
 
 \end{document}
