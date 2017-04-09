@@ -19,13 +19,13 @@
 
 % adjust the page margins
 \usepackage[scale=0.85]{geometry}
-\setlength{\hintscolumnwidth}{2cm}           % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{0cm}           % if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 % personal data
 \firstname{James}
 \familyname{Anaipakos}
-\address{New York, NY}{}    % optional, remove the line if not wanted
+%\address{New York, NY}{}    % optional, remove the line if not wanted
 \mobile{+954-614-9805}                    % optional, remove the line if not wanted
 \email{janaipakos@gmail.com}                      % optional, remove the line if not wanted
 \homepage{jamesanaipakos.com}                % optional, remove the line if not wanted
@@ -46,73 +46,103 @@
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
-\vspace{-40px}
+\vspace{-50px}
+\hrulefill
 
 \section{Summary}
+\vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item Two years of experience in full-stack web development and technical editing with a focus on databases, software engineering, and anti-money laundering.
-\item Project lead managing 2-6 members for an AML regulatory compliance project at a global financial institution.
+\item Two years of experience in full-stack web development.
+\item Technical editor with a focus on databases, software engineering, and anti-money laundering.
+\item Project lead managing 2-6 members for an AML compliance project.
 \item Strong foundation in UX design, data visualization, and usability testing.
 \end{itemize}
 }
-\vspace{-12px}
+
+\vspace{-16px}
 \section{Work Experience}
-\cventry {2017}{Recurser}{Recurse Center}{New York, NY}{}{
-\begin{itemize}
-\item Self-directed study focusing on front-end development and functional programming.
-\item Pair programmed on algorithms, PureScript, and Haskell.
-\item Projects include image glitcher, HTTP wrapper, movie API, and JSON parser.\\
-\end{itemize}
-}
 \vspace{-4px}
-\cventry {2015--2017}{Technology Consultant}{Capco}{New York, NY}{}{
+\cventry {}{Capco}{Technology Consultant}{NYC}{Summer 2015--Spring 2017}{
 \begin{itemize}
+\item Used JavaScript, D3.js, MySQL, Sass, Adobe Creative Cloud, SharePoint.
 \item Led documentation and testing enhancement for Actimize anti-money laundering application.
-\item Redesigned Sharepoint 2013 customer-facing website of more than 350 pages.\\
+\item Redesigned 350-page customer-facing website. Recorded and produced 20-hour knowledge transfer session.
 \end{itemize}
 }
-\vspace{-4px}
-\cventry{2015--2017}{Manuscript Reviewer}{Manning Publications}{New York, NY}{}{
-\begin{itemize}
-\item Tested source code, readability, and accuracy of technical manuscripts. 
-\item Reviewed titles include {\em CSS in Depth}, {\em Learn Haskell}, and {\em Angular 2 in Action}.\\
-\end{itemize}
-}
-\vspace{-4px}
-\cventry{2014--2016}{WordPress Developer}{Self-Employed}{New York, NY}{}{
+
+\cventry{}{WordPress Developer}{Self-Employed}{}{Fall 2014--Fall 2016}{
 \begin{itemize}%
-\item Created and launched several personal portfolio and sustainable goods WordPress sites.\\
+\item Created and launched several personal portfolio and sustainable goods websites.
+\item Clients include \href{http://barrelon.com/}{Barrel On}, \href{http://chicvilleusa.com/}{Chicville USA}, and \href{http://withpurposeandpepper.com/}{With Purpose and Pepper}.
+\end{itemize}
+}
+\cventry{}{Associate Editor}{Pratt Institute, Office of Communications}{NYC}{Fall 2013--Spring 2015}{
+\begin{itemize}%
+\item Attracted new readers to Pratt’s quarterly magazine and weekly-updated WordPress website by writing and editing more than 100 articles and interviews.
 \end{itemize}
 }
 
-\vspace{-12px}
 \section{Education}
-\cventry{2013--2015}{Pratt Institute}{}{Brooklyn, NY}{Master of Arts, Media Studies}{Graduate Coursework: Interactive Design; UX Design; Video Production; Network Communication}
-\cventry{2004--2009}{Florida State University}{}{Tallahassee, FL}{Bachelor of Arts, English}{Undergraduate Coursework: Copy-Editing; Non-Fiction Writing; Interviewing}
+\vspace{-4px}
+\cventry{}{Pratt Institute}{}{Brooklyn}{M.A. Media Studies, Fall 2013--Spring 2015}{
+\begin{itemize}%
+\item Graduate Coursework: Interaction Design; UX Design; Video Production; Network Communication
+\end{itemize}
+}
+\vspace{-2px}
+\cventry{}{Florida State University}{}{Tallahassee}{B.A. English, Fall 2004--Spring 20009}{}
+\vspace{-2px}
+\cventry{}{Scrum Alliance}{}{NYC}{Certified ScrumMaster® (CSM), Fall 2016}{
+}
 
+\vspace{-16px}
+\section{Personal Work}
+\vspace{-4px}
+\cventry {}{Recurse Center}{Recurser}{NYC}{Spring 2017}{
+\begin{itemize}
+\item Self-directed study focusing on front-end development, APIs, and functional programming.
+\item Projects include a Haskell image glitcher, HTTP wrapper, and JSON parser.
+\item{\href{https://ghibliapi.herokuapp.com/}{Studio Ghibli API}. Resources from Studio Ghibli films. Express, Node, JSON API.}
+\end{itemize}
+}
+
+\cventry{}{Manning Publications}{Manuscript Reviewer}{}{Fall 2015--April 2017}{
+\begin{itemize}
+\item Test source code, readability, and accuracy for titles such as {\em Angular 2 in Action}, {\em CSS in Depth}, and {\em Learn Haskell}.\\
+\end{itemize}
+}
+
+\vspace{-16px}
 \section{Presentations}
-\cventry{2015}{NYC Media Lab Annual Summit}{}{}{QuantFlaunt Web Application}{}
-\cventry{2015}{IndieCade East}{}{}{Hardware and Software in Post-Communist Central and Eastern Europe}{}
-
-\section{Open Source}
+\vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item{\href{https://ghibliapi.herokuapp.com/}{Studio Ghibli API}. Resources from Studio Ghibli films. Express, Node, JSON API.}
+\item{NYC Media Lab Annual Summit}. QuantFlaunt Web Application--{\href{https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e}{article}}, {\href{https://jamesanaipakos.com/Quant-Flaunt/}{link}}
+\item{IndieCade East}. Software in Post-Communist Central and Eastern Europe--{\href{https://indiecadeeast2015.sched.com/event/2AhK}{abstract}}, {\href{https://vimeo.com/120022906}{video}}
+\end{itemize}
+}
+
+\vspace{-16px}
+\section{Projects}
+\vspace{-4px}
+\cvline{}{
+\begin{itemize}%
 \item{\href{https://darksoulsnyc.herokuapp.com/}{Dark Souls NYC}. {\em Dark Souls} as Manhattan neighborhoods. MongoDB, Express, Angular.}
-\item{\href{https://jamesanaipakos.com/react-d3-data-viz/}{Developer Salary Histogram}. Average developer salary by state and year. D3, React.}
 \item{\href{https://jamesanaipakos.com/2015-09-01-QuantFlaunt-Overview}{QuantFlaunt}. A satirical look at branding and data quantification. Highcharts.}
 \item{\href{https://jamesanaipakos.com/Marx-Magic-8-ball}{Marxist Magic 8-Ball}. Generate tweetable quotes from {\em Jacobin} magazine. jQuery.}
 \end{itemize}%
 }
 
-\vspace{-12px}
+\vspace{-16px}
 \section{Technical Skills}
+\vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item{Haskell, PureScript, JavaScript, HTML, CSS, Node, React, D3, Express, Webpack}
-\item{SQL, PostgreSQL, MongoDB, Mongoose}
-\item{UI Design, MV* Frameworks, Testing, Interviewing, Git, Adobe CS, \LaTeX}
+\item{Haskell, PureScript, JavaScript, HTML, CSS, Node, React, D3.js, Express, Webpack}
+\item{SQL, MySQL, PostgreSQL, MongoDB, Mongoose}
+\item{UI Design, MV* Frameworks, Testing, Interviewing, Git, Adobe CC, \LaTeX}
 \end{itemize}%
 }
+
 \end{document}
