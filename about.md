@@ -4,11 +4,9 @@ active: about
 ---
 <div class="page-section short">
     <div class="container flex">
-        <div class="column-main tile">
             <div>
 
-<div>
-<h1>about</h1>
+<h2>about</h2>
     <p>email:
         <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">janaipakos@gmail.com</a><p>
     <p>resume:
@@ -17,7 +15,7 @@ active: about
     <p>I'm a software engineer, UI designer, and technical editor based in New York City. I started learning media studies and interactive design at Pratt Institute, and then worked as a developer and technical editor for anti-money laundering (AML) software at Capco. Currently, I'm attending Recurse Center studying functional programming.</p>
     <div>
 
-<h1>work</h1>
+<h2>work</h2>
     <ul>
         <li>Recurser, Recurse Center (Spring 2017)</li>
         <li>Technology Consultant, Capco (2015–2017)</li>
@@ -28,13 +26,13 @@ active: about
         <li>Officer, Department of Homeland Security (2010–2012)</li>
     </ul>
 
-<h1>presentations</h1>
+<h2>presentations</h2>
     <ul>
         <li>NYC Media Lab Summit, 09/25/2015, <a class="link"  href='https://jamesanaipakos.com/Quant-Flaunt/'>QuantFlaunt</a></li>
         <li>IndieCade East, 02/13/2015, <a class="link" href='https://vimeo.com/120022906'>Hardware and Software in Post-Communist Central and Eastern Europe</a></li>
     </ul>
 
-<h1>education</h1>
+<h2>education</h2>
     <ul>
         <li>Pratt Institute, Brooklyn, NY, Master of Arts, Media Studies, 2015</li>
         <ul><li>Graduate Thesis: <em>Hardware and Software in Post-Communist Central and Eastern Europe</em></li></ul>
@@ -43,7 +41,7 @@ active: about
         <li>MongoDB, MongoDB for Node.js Developers, 2015</li>
     </ul>
 
-<h1>technical skills</h1>
+<h2>technical skills</h2>
     <ul>
         <li>JavaScript, Node, ES6/ES7, JSX, React, jQuery, Express, Meteor</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>

@@ -7,13 +7,14 @@ html {
 }
 
 :root {
-    font-size: 1.125em;
+    font-size: 16px;
     box-sizing: border-box;
-    --main-color: #222;
-    --main-bg: #ffffff;
-    --link-red: red;
-    --link-blue: blue;
-    --headline: #000;
+    --main-color: hsla(0, 0%, 13%, 1);
+    --main-bg: hsla(0, 100%, 100%, 1);
+    --active-bg: hsla(0, 0%, 85%, 1);
+    --link-red: hsla(0, 100%, 50%, 1);
+    --link-blue: hsla(240, 100%, 50%, 1);
+    --headline: hsla(0, 0%, 0%, 1);
 }
 
 *,
@@ -23,11 +24,12 @@ html {
 }
 
 body {
+    margin: 0, auto;
     color: var(--main-color);
     background: var(--main-bg);
     font-family: arial,sans-serif;
     font-size: 1rem;
-    line-height: 1.4rem;
+    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     font-variant-ligatures: common-ligatures;
@@ -41,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     color: var(--headline);
     line-height: 1.25em;
-    text-decoration: none; 
+    text-decoration: none;
     /*text-transform: uppercase;*/
 }
 
@@ -74,14 +76,6 @@ code {
     font-size: 1em;
 }
 
-.post-title {
-    text-decoration: none;
-    text-align: left;
-}
-
-.post-title:hover {
-        color: var(--link-blue);
-}
 
 /* Links */
 a {
@@ -125,6 +119,12 @@ a.link:hover {
 .post-heading > h1 {
     margin: 0 0;
 }
+
+
+
+.posts-list {
+  min-width:640px;
+}
 /* Images */
 img {
     vertical-align: middle;
@@ -164,19 +164,21 @@ header {
 }
 
 .active {
-    background: #eee;
+    background: var(--active-bg);
 }
 
 /* Layout */
 
 .container {
-    padding: 0 .5em 2em;
+  padding: 0 .5em 2em;
     margin: 0 auto;
     max-width: 960px;
 }
 
 .page-section.short {
+    margin: 0 auto;
     min-height: 6.25em;
+    max-width: 640px;
 }
 
 .flex {
@@ -236,30 +238,7 @@ pre {
     font-size: .85em;
 }
 
-@media (max-width: 960px) {
-    .flex {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-    }
-    .column-main {
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-    }
-    .column-sidebar {
-        /* 22em is the width of the columns */
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 22em;
-        flex: 0 0 22em;
-    }
-}
-
-@media (min-width: 500px) {
+@media (min-width:640px) {
     header {
         margin: 0 0;
         padding: 1rem;
