@@ -123,7 +123,6 @@ a.link:hover {
 
 
 .posts-list {
-  min-width:640px;
 }
 /* Images */
 img {
@@ -179,33 +178,6 @@ header {
     margin: 0 auto;
     min-height: 6.25em;
     max-width: 640px;
-}
-
-.flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-}
-
-.flex > * + * {
-    margin: 0 0;
-}
-
-.column-sidebar {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 22em;
-    flex: 0 0 22em;
-}
-
-.column-main {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
 }
 
 .tile {
