@@ -35,7 +35,7 @@ body {
 }
 @font-face {
     font-family: 'Neu Hass';
-    src: url('./NeueHaasGroteskDisplay.woff') format('woff');
+    src: url('https://jamesanaipakos.com/css/NeueHaasGroteskDisplay.woff') format('woff');
     font-style: normal;
     font-weight: 300;
 }
