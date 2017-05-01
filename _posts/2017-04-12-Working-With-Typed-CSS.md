@@ -3,13 +3,15 @@ layout: post
 title: Working with Typed CSS
 date: 2017-04-12
 ---
-Typed CSS (shown below) is a good idea that isn't without its hurdles. While I think it's great for catching logic bugs, the time-to-learn and missing properties makes it sort of a pain to work with.
+Typed CSS (shown below) is a good idea that isn't without its hurdles.
 
 ```haskell
 boxShadow :: forall a. Size a -> Size a -> Size a -> Size a -> Color -> CSS
 boxShadow w x y z c =
   prefixed (browsers <> fromString "box-shadow") (w ! x ! y ! z ! c)
 ```
+
+ While I think it's great for catching logic bugs, the time-to-learn and missing properties makes it sort of a pain to work with.
 
 ## Good
 

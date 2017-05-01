@@ -6,7 +6,7 @@ date: 2017-03-29
 ## Pux
 - Each element constructor takes an array of *attributes* and an array of *children as properties*.
 ```purescript
-view state = 
+view state =
     div
         [attributes such as href, className]
         [children properties such as h1, h2, a, text]
