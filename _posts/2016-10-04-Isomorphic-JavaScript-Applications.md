@@ -5,7 +5,7 @@ data: 2016-10-04
 ---
 Isopmorphic JavaScript applications share JavaScript code between client and server. There are several perks to this, including a codebase with an equal form regardless of environment.
 
-Below are a few key points from [*Building Isomorphic JavaScript Apps*](http://shop.oreilly.com/product/0636920042846.do) by Jason Strimpel. Strimpel uses an eCommerce site as a barometer for three qualities a modern web application should fulfill: 
+Below are a few key points from [*Building Isomorphic JavaScript Apps*](http://shop.oreilly.com/product/0636920042846.do) by Jason Strimpel. Strimpel uses an eCommerce site as a barometer for three qualities a modern web application should fulfill:
 1) Should be indexable by search engines to improve SEO
 2) Initial load should be fast
 3) Future page should be fast
@@ -44,5 +44,5 @@ There is also a list of important functionalities or steps for modern web applic
 - Deserializing- objects and data need to be recreated on the client
 - Attaching- event handlers should be bound for interactive applications
 
-## Closing Thoghts
-Generally I thought this book did a good job of introducing Isomorphic applications to the reader, and how this concept fixes several problems facing (and have been facing) web development for a while. The author is clear in his arguments and keeps returning to them after looking at possible solutions. The last part of the book also has a few case studies of larger organizations using Isomorphism on their projects, including Node/React and Angular 1/Angular 2. While the high level explanation is great, I would have preferred more code examples to follow along with. 
+## Closing Thoughts
+Generally I thought this book did a good job of introducing Isomorphic applications to the reader, and how this concept fixes several problems facing (and have been facing) web development for a while. The author is clear in his arguments and keeps returning to them after looking at possible solutions. The last part of the book also has a few case studies of larger organizations using Isomorphism on their projects, including Node/React and Angular 1/Angular 2. While the high level explanation is great, I would have preferred more code examples to follow along with.

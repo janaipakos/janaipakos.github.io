@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PureScript Libraries
-date: 2017-02-22
+date: 2017-03-22
 ---
 
 I spent the last few days trying out different PureScript libraries and building small applications. As a reference, I have used vanilla React (without Redux) and Haskell for a few months. The PureScript syntax was pretty straightforward and similar to Haskell's, with minor differences. I think I am similar to other users in that I'd like library that meshes type safety, expressive syntax, and components. Out of the libraries I tried, Pux best fits all of these criteria.

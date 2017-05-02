@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transitioning From Jeykll to Hakyll
-date: 2017-03-20
+date: 2017-01-20
 ---
 
 ## Building Hakyll

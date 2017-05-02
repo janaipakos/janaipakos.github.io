@@ -9,9 +9,9 @@ active: about
 <h2>about</h2>
     <p>I'm a software engineer, UI designer, and technical editor based in New York City. I started learning media studies and interactive design at Pratt Institute, and then worked as a developer and technical editor for anti-money laundering (AML) software at Capco. Currently, I'm attending Recurse Center studying functional programming.</p>
     <p class="about-contact">email:
-        <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window">janaipakos@gmail.com</a><p>
+        <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window" target="_blank">janaipakos@gmail.com</a><p>
     <p class="about-contact">resume:
-        <a href="./resumes/james_anaipakos_cv.pdf" class="link" title="pdf resume">pdf</a>
+        <a href="./resumes/james_anaipakos_cv.pdf" class="link" title="pdf resume" target="_blank">pdf</a>
     </p>
 
     <div>
@@ -29,8 +29,8 @@ active: about
 
 <h2>presentations</h2>
     <ul>
-        <li>NYC Media Lab Summit, 09/25/2015, <a class="link"  href='https://jamesanaipakos.com/Quant-Flaunt/'>QuantFlaunt</a></li>
-        <li>IndieCade East, 02/13/2015, <a class="link" href='https://vimeo.com/120022906'>Hardware and Software in Post-Communist Central and Eastern Europe</a></li>
+        <li>NYC Media Lab Summit, 09/25/2015, <a class="link"  href='https://jamesanaipakos.com/Quant-Flaunt/' target="_blank">QuantFlaunt</a></li>
+        <li>IndieCade East, 02/13/2015, <a class="link" href='https://vimeo.com/120022906' target="_blank">Hardware and Software in Post-Communist Central and Eastern Europe</a></li>
     </ul>
 
 <h2>education</h2>
@@ -47,7 +47,7 @@ active: about
         <li>JavaScript, Node, ES6/ES7, JSX, React, jQuery, Express, Meteor</li>
         <li>Gulp, Grunt, npm, Webpack, Babel</li>
         <li>Haskell, PureScript</li>
-        <li>HTML, CSS, LESS, Sass</li>       
+        <li>HTML, CSS, LESS, Sass</li>
         <li>User Interface Design, D3.js, RESTful API, MV* Frameworks</li>
         <li>SQL, NoSQL, PostgreSQL, MongoDB, Mongoose</li>
         <li>Tape, QUnit, Unit Testing, Usability Testing, User Acceptance Testing, VirtualBox</li>

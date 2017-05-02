@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS Fixes for Website Refactoring
-date: 2016-09-05
+date: 2016-12-30
 ---
 After running a pagespeed audit, I found that this site uses 10% of Bootstrap's CSS. It's second nature to import Bootstrap or Foundation while setting up a site, and I fell into this trap of going for simplicity instead of performance.
 

@@ -9,13 +9,13 @@ active: projects
                 <h2>creator</h2>
                 <ul>
                 <li>
-                    <a class="link" href='https://ghibliapi.herokuapp.com/'>Studio Ghibli API</a>
+                    <a class="link" href='https://ghibliapi.herokuapp.com/' target="_blank">Studio Ghibli API</a>
                      – GET and combine resources from the films of Studio Ghibli</li>
                 <li>
-                    <a class="link" href='https://darksoulsnyc.herokuapp.com/'>Dark Souls NYC</a>
+                    <a class="link" href='https://darksoulsnyc.herokuapp.com/' target="_blank">Dark Souls NYC</a>
                      – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API</li>
                 <li>
-                    <a class="link" href='https://jamesanaipakos.com/thecompanywekeep/'>The Company We Keep</a>
+                    <a class="link" href='https://jamesanaipakos.com/thecompanywekeep/' target="_blank">The Company We Keep</a>
                      – Angular 2 web application using a Yahoo Finance API. Manage stocks for the 2016 presidential candidates</li>
                  <li>
                     <a class="link"  href='2015-11-01-Ozymandias-Chatroom'>Ozymandias Chatroom</a>
@@ -24,37 +24,37 @@ active: projects
                     <a class="link" href='2015-09-01-QuantFlaunt-Overview'>QuantFlaunt</a>
                      – Explore the future of branding and data quantification in this satirical web application</li>
                 <li>
-                    <a class="link" href='https://jamesanaipakos.com/Marx-Magic-8-ball'>Marxist Magic 8-Ball</a>
-                     – Generate tweetable quotes from <a href="https:jacobinmag.com" class="link"><em>Jacobin</em></a> magazine</li>
+                    <a class="link" href='https://jamesanaipakos.com/Marx-Magic-8-ball' target="_blank">Marxist Magic 8-Ball</a>
+                     – Generate tweetable quotes from <a href="https:jacobinmag.com" class="link" target="_blank"><em>Jacobin</em></a> magazine</li>
                 <li>
-                    <a class="link" href='https://jamesanaipakos.com/multiply-by-666/'>Multiply by 666</a>
+                    <a class="link" href='https://jamesanaipakos.com/multiply-by-666/' target="_blank">Multiply by 666</a>
                     – Multiply any number by 666</li>
                 </ul>
                 <h2>contributor</h2>
                 <ul>
                 <li>
-                    <a class="link" href="https://survivejs.com/" alt="SurviveJS">SurviveJS</a>
+                    <a class="link" href="https://survivejs.com/" alt="SurviveJS" target="_blank">SurviveJS</a>
                      – Code review and documentation for the essential Webpack + React ebook</li>
                 <li>
-                    <a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB">MongoDB Native NodeJS Driver</a>
+                    <a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB" target="_blank">MongoDB Native NodeJS Driver</a>
                      – Documentation for the MongoDB Node driver</li>
                 <li>
-                    <a class="link" href="https://taiga.io" alt="Taiga">Taiga.io</a>
+                    <a class="link" href="https://taiga.io" alt="Taiga" target="_blank">Taiga.io</a>
                      – Documentation for a project management web application with Scrum in mind</li>
                 </ul>
                 <h2>misc</h2>
                 <ul>
                 <li>
-                    <a class="link" href='https://csalateral.org/issue3/ecologies/boluk'>Scrypt</a>
+                    <a class="link" href='https://csalateral.org/issue3/ecologies/boluk' target="_blank">Scrypt</a>
                      – An alternative currency slash art object</li>
                 <li>
-                    <a class="link"  href='https://vimeo.com/120022906'>IndieCade East</a>
+                    <a class="link"  href='https://vimeo.com/120022906' target="_blank">IndieCade East</a>
                      – A presentation at IndieCade East 2015 titled "Software and Hardware in Post-Communist Central and Eastern Europe"</li>
                 <li>
-                    <a class="link"  title="Letters Vimeo" href='https://www.youtube.com/watch?v=AOa1aX8Ehek'>Emails from Home</a>
+                    <a class="link"  title="Letters Vimeo" href='https://www.youtube.com/watch?v=AOa1aX8Ehek' target="_blank">Emails from Home</a>
                      – A video essay of my Grandmother's emails and Clinton Hill, Brooklyn</li>
                 <li>
-                    <a class="link"  href="https://www.youtube.com/watch?v=u0J6l82ipT0" title="Fiction YouTube" >Video</a>
+                    <a class="link"  href="https://www.youtube.com/watch?v=u0J6l82ipT0" title="Fiction YouTube" target="_blank">Video</a>
                      – A video on advertising in video games</li>
                 </ul>
             </div>

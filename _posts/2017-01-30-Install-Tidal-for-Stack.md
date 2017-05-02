@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Install Tidal for Stack
-date: 2017-03-30
+date: 2017-01-30
 ---
 
 There is one small change necessary for running the [tidalcycles](https://tidalcycles.org/) plugin for Atom/VS.
 
-- Install tidal as normal, set up Super Collider with `include("SuperDirt")` then `SuperDirt.Start`. 
+- Install tidal as normal, set up Super Collider with `include("SuperDirt")` then `SuperDirt.Start`.
 
 - Install Atom or VS, then install the respective tidalcycles plugin. I did not need to change the default path to ghci from . . . `ghci`.
 

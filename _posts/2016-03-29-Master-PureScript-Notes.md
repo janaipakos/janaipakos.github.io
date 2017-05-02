@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Master PureScript Notes
-date: 2017-03-29
+date: 2016-03-29
 ---
 ## Pux
 - Each element constructor takes an array of *attributes* and an array of *children as properties*.
