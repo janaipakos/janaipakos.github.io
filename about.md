@@ -41,16 +41,4 @@ active: about
          <li>Scrum Alliance, Certified Scrum Master©, 2016</li>
         <li>MongoDB, MongoDB for Node.js Developers, 2015</li>
     </ul>
-
-<h2>technical skills</h2>
-    <ul>
-        <li>JavaScript, Node, ES6/ES7, JSX, React, jQuery, Express, Meteor</li>
-        <li>Gulp, Grunt, npm, Webpack, Babel</li>
-        <li>Haskell, PureScript</li>
-        <li>HTML, CSS, LESS, Sass</li>
-        <li>User Interface Design, D3.js, RESTful API, MV* Frameworks</li>
-        <li>SQL, NoSQL, PostgreSQL, MongoDB, Mongoose</li>
-        <li>Tape, QUnit, Unit Testing, Usability Testing, User Acceptance Testing, VirtualBox</li>
-        <li>Rapid Prototyping, Interviewing, Wireframing</li>
-    </ul>
 </div>
