@@ -12,6 +12,8 @@ active: projects
                     <a class="link" href='https://ghibliapi.herokuapp.com/' target="_blank">Studio Ghibli API</a>
                      – GET and combine resources from the films of Studio Ghibli</li>
                 <li>
+                    <a class="link" href='https://github.com/janaipakos/pux-kss-pattern-library' target='_blank'>Pux Pattern Library</a> - Generate and document components. PureScript, Pux.</li>
+                <li>
                     <a class="link" href='https://darksoulsnyc.herokuapp.com/' target="_blank">Dark Souls NYC</a>
                      – The <em>Dark Souls</em> world as Manhattan neighborhoods. MEAN architecture, geolocation, and RESTful API</li>
                 <li>
