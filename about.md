@@ -7,7 +7,7 @@ active: about
             <div>
 
 <h2>about</h2>
-    <p>I'm a software engineer, UI designer, and technical editor based in New York City. I started learning media studies and interactive design at Pratt Institute, and then worked as a developer and technical editor for anti-money laundering (AML) software at Capco. Currently, I'm attending Recurse Center studying functional programming.</p>
+    <p>I'm a front-end developer and technical editor based in New York City. I started learning media studies and interactive design at Pratt Institute, and then worked as a developer and technical editor for anti-money laundering (AML) software at Capco. Currently, I'm attending Recurse Center studying functional programming.</p>
     <p class="about-contact">email:
         <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window" target="_blank">janaipakos@gmail.com</a><p>
     <p class="about-contact">resume:
