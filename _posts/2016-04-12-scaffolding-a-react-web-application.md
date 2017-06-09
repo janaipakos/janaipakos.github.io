@@ -22,7 +22,7 @@ The directory has four folders.
 - The development application loads `index.html` in the root directory. And the production application loads `index.html` in `/dist`.
 
 ## Design Tools
-React, ReactDOM, and d3 are used for the design. All three packages are required for production. Scaffolding is in place that allows the user to change the visual layout of the graph easily by going into `src/components/MLGraph/index.jsx` and either changing the graph dimensions or layout. LESS is used for the styling, and its loader is required for production. `webpack.config.js` also includes a pipeline for changing LESS to CSS. The user can plug in any styilng they want. Just place the SCSS or Sass files into `/css` and change the require path in `src/components/MLGraph/index.jsx` and the pipeline in `webpack.config.js`.
+React, ReactDOM, and d3 are used for the design. All three packages are required for production. Scaffolding is in place that allows the user to change the visual layout of the graph easily by going into `src/components/MLGraph/index.jsx` and either changing the graph dimensions or layout. LESS is used for the styling, and its loader is required for production. `webpack.config.js` also includes a pipeline for changing LESS to CSS. The user can plug in any styling they want. Just place the SCSS or Sass files into `/css` and change the require path in `src/components/MLGraph/index.jsx` and the pipeline in `webpack.config.js`.
 
 Specific to this project, if new data is loaded, then the output text of the Meta Components, e.g. Title and Description, should be changed to reflect the new data subject matter.
 
