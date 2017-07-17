@@ -18,7 +18,7 @@
 \xpatchcmd{\cventry}{.\strut}{\strut}{}{}
 
 % adjust the page margins
-\usepackage[scale=0.90]{geometry}
+\usepackage[scale=0.86]{geometry}
 \setlength{\hintscolumnwidth}{0cm}           % if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -48,60 +48,60 @@
 \maketitle
 \vspace{-50px}
 \hrulefill
-
+\vspace{-2px}
 \section{Summary}
 \vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item Two years of experience in front-end web development.
-\item Project lead managing 2-6 members for an anti-money laundering compliance project.
-\item Technical editor with a focus on databases, software engineering, and web development.
+\item Two years of experience in front-end web development for enterprise and personal sites.
+\item Project lead managing 2-6 members for an anti-money laundering compliance application.
+\item Extensive UI experience with CSS, LESS, and Sass during coursework at Pratt Institute.
 \end{itemize}
 }
 
-\vspace{-16px}
+\vspace{-19px}
 \section{Work Experience}
 \vspace{-4px}
-\cventry {}{Capco}{Project Manager}{NYC}{August 2015--January 2017}{
-\begin{itemize}
+\cventry{}{Capco}{Front-End Developer}{NYC}{June 2015--January 2017}{
+\begin{itemize}%
+\item Responsible for front-end redesign of customer-facing website to favor mobile-first and modular components. Technology includes jQuery, HTML, CSS, Sass, Bootstrap, Sharepoint, Git, and JIRA.
 \item Led documentation and testing enhancement for Actimize anti-money laundering web application.
-\item Worked with developers to introduce living documentation and versioning in SharePoint.
-\end{itemize}
-}
-\vspace{1px}
-\cventry{}{Capco}{Web Developer}{NYC}{June 2014--August 2015}{
-\begin{itemize}%
-\item Worked with distributed team on front-end redesign of customer-facing website to favor mobile-first and modular components. Used JavaScript, Sass, Bootstrap, Sharepoint, JIRA.
 \item Recorded and produced 20-hour knowledge transfer session covering technical architecture and codebase.
-\item Created front-end for Django dashboard while working with UX designer and Python developer.
-\item Redesigned dependency matrix with D3.js to help back-of-office employees track projects.
+\item Worked with digital team on internal applications, including a Django dashboard, dependency matrix in D3.js, and a client website in Angular.
 \end{itemize}
 }
 \vspace{1px}
-\cventry{}{WordPress Developer}{Self-Employed}{}{August 2014--January 2016}{
+\cventry{}{Freelance}{Web Developer}{}{August 2013--Present}{
 \begin{itemize}%
-\item Created and launched several personal portfolio and sustainable goods websites.
+\item Style, implement, and launch personal portfolio and sustainable goods websites.
+\item Focus on full-stack implementation of WordPress and Jekyll static sites, with occasional UI/UX recommendations and usability testing results.
 \item Clients include \href{http://barrelon.com/}{Barrel On}, \href{http://chicvilleusa.com/}{Chicville USA}, and \href{http://withpurposeandpepper.com/}{With Purpose and Pepper}.
 \end{itemize}
 }
 
 \section{Personal Work}
-\vspace{-4px}
+\vspace{-5px}
 \cventry {}{Recurse Center}{Recurser}{NYC}{Spring 2017}{
 \begin{itemize}
-\item Self-directed study focusing on front-end development, APIs, and functional programming.
+\item Artist retreat for programmers. Focus on front-end development, APIs, and functional programming.
 \item Projects include a Haskell \href{https://github.com/janaipakos/glitcher}{image glitcher}, HTTP wrapper, and \href{https://github.com/janaipakos/ghibliapi-example}{JSON parser}.
 \end{itemize}
 }
-\vspace{1px}
-\cventry{}{Manning Publications}{Manuscript Reviewer}{}{August 2015--Present}{
+
+\cventry{}{Manning Publications}{Developmental Editor}{}{August 2015--Present}{
 \begin{itemize}
-\item Test source code, readability, and accuracy for titles such as {\em React Quickly} and {\em CSS in Depth}.
+\item Coach authors and provide feedback on code, structure, and accuracy for titles such as {\em CSS in Depth}.
 \end{itemize}
 }
-
 \vspace{-2px}
-\cventry{}{Open-Source Projects}{}{}{August 2015--Present}{
+\cventry{}{Presentations}{}{}{}{
+\begin{itemize}%
+\item{NYC Media Lab Annual Summit}. QuantFlaunt Web Application--{\href{https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e}{article}}
+\item{IndieCade East}. Software in Post-Communist Central and Eastern Europe--{\href{https://indiecadeeast2015.sched.com/event/2AhK}{abstract}}, {\href{https://vimeo.com/120022906}{video}}
+\end{itemize}%
+}
+
+\cventry{}{Open-Source Projects}{}{}{}{
 \begin{itemize}%
 \item{\href{https://ghibliapi.herokuapp.com/}{Studio Ghibli API}. Resources from Studio Ghibli films. Express, Node, JSON API.}
 \item{\href{https://github.com/janaipakos/pux-kss-pattern-library}{Pux Pattern Library}. Generate and document re-usable components. PureScript, Pux.}
@@ -110,32 +110,21 @@
 \end{itemize}%
 }
 
-\section{Presentations}
-\vspace{-4px}
-\cvline{}{
-\begin{itemize}%
-\item{NYC Media Lab Annual Summit}. QuantFlaunt Web Application--{\href{https://medium.com/@justinhendrix/previewing-nyc-media-lab-s-annual-summit-demo-session-ce5169df964e}{article}}
-\item{IndieCade East}. Software in Post-Communist Central and Eastern Europe--{\href{https://indiecadeeast2015.sched.com/event/2AhK}{abstract}}, {\href{https://vimeo.com/120022906}{video}}
-\end{itemize}
-}
-\vspace{-16px}
+
+
 \section{Technical Skills}
 \vspace{-4px}
 \cvline{}{
 \begin{itemize}%
-\item{JavaScript, HTML, CSS, Sass/LESS, Node, React, Express, Webpack}
-\item{Haskell, PureScript, SQL, MySQL, MongoDB, Mongoose}
-\item{UI Design, MV* Frameworks, Testing, Interviewing, Git, Adobe CC}
+\item{Use Often: HTML, CSS, JavaScript, jQuery, Sass, LESS, Git, Adobe CC}
+\item{Familiar: React, Express, Node, Webpack, Angular, Haskell, SQL, MongoDB/Mongoose}
+\item{Soft Skills: UI Design, Style Libraries, MV* Frameworks, Usability Testing, Interviewing}
 \end{itemize}%
 }
 \vspace{-16px}
 \section{Education}
 \vspace{-4px}
-\cventry{}{Pratt Institute}{}{Brooklyn}{M.A. Media Studies, Fall 2013--Spring 2015}{
-\begin{itemize}%
-\item Graduate Coursework: Web Development; Interaction Design; Video Production; Network Communication
-\end{itemize}
-}
+\cventry{}{Pratt Institute}{}{Brooklyn}{M.A. Media Studies, Fall 2013--Spring 2015}{}
 \vspace{-2px}
 \cventry{}{Florida State University}{}{Tallahassee}{B.A. English, Fall 2004--Spring 2009}{}
 \vspace{-2px}
