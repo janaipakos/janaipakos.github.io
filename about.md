@@ -7,12 +7,12 @@ active: about
     <div>
       <h2>about</h2>
         <p>I'm a front-end developer and technical editor based in New York City.</p>
-        <p>I work at <a href='https://thereformation.com'>Reformation</a></p>
-        <p>Before that I got a masters in media studies at Pratt Institute, worked as a technical editor for an anti-money laundering (AML) application at Capco and a developmental editor at Manning Publications, and attended Recurse Center to mess with functional programming.</p>
+        <p>I work at <a href='https://thereformation.com'>Reformation</a>.</p>
+        <p>Before that I received a masters in media studies at Pratt Institute, and worked as a technical editor for an anti-money laundering (AML) application at Capco and a developmental editor at Manning Publications.
+        <p> Recently I attended Recurse Center to work with other people on with functional programming.</p>
         <p class="about-contact">email:
           <a href="mailto:janaipakos@gmail.com" class="link" title="Open email window" target="_blank">janaipakos@gmail.com</a><p>
         <p class="about-contact">resume:
           <a href="./resumes/james_anaipakos_cv.pdf" class="link" title="pdf resume" target="_blank">pdf</a></p>
     <div>
-  </div>
 </div>
