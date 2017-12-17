@@ -44,6 +44,7 @@ active: projects
                     <a class="link" href="https://taiga.io" alt="Taiga" target="_blank">Taiga.io</a>
                      – Documentation for a project management web application with Scrum in mind</li>
                 </ul>
+
                 <h2>misc</h2>
                 <ul>
                 <li>
