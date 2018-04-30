@@ -36,13 +36,13 @@ active: projects
                 <ul>
                 <li>
                     <a class="link" href="https://survivejs.com/" alt="SurviveJS" target="_blank">SurviveJS</a>
-                     – Code review and documentation for the essential Webpack + React ebook</li>
+                     – Code review and documentation for Webpack + React ebook</li>
                 <li>
                     <a class="link" href="https://github.com/mongodb/node-mongodb-native" alt="MongoDB" target="_blank">MongoDB Native NodeJS Driver</a>
-                     – Documentation for the MongoDB Node driver</li>
+                     – MongoDB Node driver documentation</li>
                 <li>
                     <a class="link" href="https://taiga.io" alt="Taiga" target="_blank">Taiga.io</a>
-                     – Documentation for a project management web application with Scrum in mind</li>
+                     – Documentation for a Scrum project management web app </li>
                 </ul>
 
                 <h2>misc</h2>
@@ -52,13 +52,10 @@ active: projects
                      – An alternative currency slash art object</li>
                 <li>
                     <a class="link"  href='https://vimeo.com/120022906' target="_blank">IndieCade East</a>
-                     – A presentation at IndieCade East 2015 titled "Software and Hardware in Post-Communist Central and Eastern Europe"</li>
+                     – From IndieCade East 2015, titled "Software and Hardware in Post-Communist Central and Eastern Europe"</li>
                 <li>
                     <a class="link"  title="Letters Vimeo" href='https://www.youtube.com/watch?v=AOa1aX8Ehek' target="_blank">Emails from Home</a>
-                     – A video essay of my Grandmother's emails and Clinton Hill, Brooklyn</li>
-                <li>
-                    <a class="link"  href="https://www.youtube.com/watch?v=u0J6l82ipT0" title="Fiction YouTube" target="_blank">Video</a>
-                     – A video on advertising in video games</li>
+                     – A computer reads my grandma's emails to images of Clinton Hill, Brooklyn</li>
                 </ul>
             </div>
         </div>
