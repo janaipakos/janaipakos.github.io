@@ -138,10 +138,6 @@
     }
     /* Layout */
 
-    .container {
-        padding: 0 .5em 0;
-    }
-
     .page-section {}
 
     .tile {
@@ -192,6 +188,14 @@
         margin-bottom: .5rem;
     }
 
+    .intro-mobile {
+        display: none;
+    }
+
+    .footnotes {
+        padding: 0 0 0 1rem;
+    }
+
     @media (min-width: 640px) {
         html {
             font-size: 1.0625em;
@@ -217,6 +221,10 @@
         .main-content {
             width: 66vw;
             border-left: 1px solid black;
+        }
+
+        .intro-mobile {
+            display: block;
         }
     }
 </style>
