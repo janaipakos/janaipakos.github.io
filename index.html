@@ -3,29 +3,38 @@ layout: default
 active: blog
 ---
 
-<div class="page-section short">
-  <div class="container flex">
+<div class="page-section">
+  <div>
+    <h2 class="post-tile">projects</h2>
+    <ul>
+      <li>
+          <p><a class="link" href='https://ghibliapi.herokuapp.com/' target="_blank">Studio Ghibli API</a>
+           – GET and combine resources from the films of Studio Ghibli</p></li>
+      <li>
+          <p><a class="link" href='https://github.com/janaipakos/pux-kss-pattern-library' target='_blank'>Pux Pattern Library</a> – Generate and document components. PureScript, Pux.</p></li>
+      <li>
+          <p><a class="link" href="https://survivejs.com/" alt="SurviveJS" target="_blank">SurviveJS</a>
+           – Code review and documentation for Webpack + React ebook</p></li>
+      <li>
+          <p><a class="link" href='https://csalateral.org/issue3/ecologies/boluk' target="_blank">Scrypt</a>
+           – An alternative currency slash art object</p></li>
+      <li>
+          <p><a class="link"  href='https://vimeo.com/120022906' target="_blank">IndieCade East</a>
+           – From IndieCade East 2015, titled "Software and Hardware in Post-Communist Central and Eastern Europe"</p></li>
+      <li>
+          <p><a class="link"  title="Letters Vimeo" href='https://www.youtube.com/watch?v=AOa1aX8Ehek' target="_blank">Emails from Home</a>
+           – A computer reads my grandma's emails to images of Clinton Hill, Brooklyn</p></li>
+    </ul>
+  </div>
 
-<div class="posts-list">
-  <h2 class="post-tile">this year</h2>
-  {%for post in site.posts %}
-    {% unless post.next %}
-      <ul class="this">
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        </ul>
-        <h2>{{ post.date | date: '%Y' }}</h2>
-        <ul class="past">
-      {% endif %}
-    {% endunless %}
-      <li><time>{{ post.date | date:"%d %b" }}</time>&nbsp;-&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-</div>
-
-
-
-</div>
+  <div class="posts-list">
+    <h2 class="post-tile">things i wrote</h2>
+    {%for post in site.posts %}
+      {% unless post.next %}
+        <ul class="this">
+      {% endunless %}
+        <li><p><a href="{{ post.url }}" class="link">{{ post.title }}</a></p></li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>

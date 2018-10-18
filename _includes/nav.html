@@ -1,37 +1,5 @@
 <header>
-  <div class="navbar">
-   <h1>James Anaipakos</h1>
-    <nav role="navigation">
-        <ul class="navbar__list">
-        {% if page.active == "blog" %}
-            <li class="navbar--button"><a class="active" href="">blog</a></li>
-        {% else %}
-            <li class="navbar--button"><a href="/">blog</a></li>
-        {% endif %}
-        {% if page.active == "projects" %}
-            <li class="navbar--button"><a class="active" href="">projects</a></li>
-        {% else %}
-            <li class="navbar--button"> <a href="../projects">projects</a></li>
-        {% endif %}
-        {% if page.active == "about" %}
-            <li class="navbar--button"><a class="active"  href="">about</a></li>
-        {% else %}
-            <li class="navbar--button"><a href="../about">about</a></li>
-        {% endif %}
-        <li class="navbar--button"><a href="https://github.com/janaipakos" target="_blank">github</a></li>
-
-
-      </ul>
-      </nav>
-
-  {% if site.avatar %}
-  <div class="avatar-container">
-    <div class="avatar-img-border">
-      <a href="{{ site.url }} ">
-        <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-    </a>
-    </div>
-  </div>
-  {% endif %}
-  </div>
+   <a href="{{ site.url }} " class='link'>
+     <h1>James Anaipakos</h1>
+   </a>
 </header>
