@@ -15,11 +15,7 @@ common-ext-js:
   <body>
     <div role="sidebar" class="sidebar">
       {% include nav.html %}
-      {% if page.layout != 'post'%}
-        {% include intro.html %}
-      {% else %}
-        {% include intro-mobile.html %}
-      {% endif %}
+      {% include intro.html %}
     </div>
 
     <div role="main" class="main-content">

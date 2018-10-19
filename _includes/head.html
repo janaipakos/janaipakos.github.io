@@ -18,16 +18,19 @@
     }
 
     html {
-        height: 100%;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
+        min-height: 100%;
+        text-size-adjust: 100%;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing:  antialiased;
         font-family: Helvetica, arial, sans-serif;
         font-size: 16px;
         box-sizing: border-box;
+        color: hsla(0, 0%, 13%, 1);
+        letter-spacing: normal;
+        overflow-y: scroll;
     }
 
     body {
-        color: hsla(0, 0%, 13%, 1);
         background: hsla(0, 100%, 100%, 1);
         display: flex;
         justify-content: space-between;
